@@ -1,0 +1,86 @@
+2013.07.06 18:18:34 1: Including fhem.cfg
+2013.07.06 18:18:35 3: telnetPort: port 7072 opened
+2013.07.06 18:18:36 3: WEB: port 8083 opened
+2013.07.06 18:18:36 3: WEBphone: port 8084 opened
+2013.07.06 18:18:36 3: WEBtablet: port 8085 opened
+2013.07.06 18:18:37 1: usb create starting
+2013.07.06 18:18:40 3: Opening CUL device /dev/ttyAMA0
+2013.07.06 18:18:41 3: Can't open /dev/ttyAMA0: Permission denied
+2013.07.06 18:18:41 1: usb create end
+2013.07.06 18:18:41 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2013.07.06 18:18:41 0: Server started with 8 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 7261)
+2013.07.06 18:20:50 1: Including fhem.cfg
+2013.07.06 18:20:51 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2013.07.06 18:23:43 1: Including fhem.cfg
+2013.07.06 18:23:44 3: telnetPort: port 7072 opened
+2013.07.06 18:23:45 3: WEB: port 8083 opened
+2013.07.06 18:23:45 3: WEBphone: port 8084 opened
+2013.07.06 18:23:45 3: WEBtablet: port 8085 opened
+2013.07.06 18:23:45 1: usb create starting
+2013.07.06 18:23:47 3: Opening CUL device /dev/ttyAMA0
+2013.07.06 18:23:48 3: Can't open /dev/ttyAMA0: Permission denied
+2013.07.06 18:23:48 1: usb create end
+2013.07.06 18:23:48 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2013.07.06 18:23:48 0: Server started with 8 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 7320)
+2013.07.06 18:30:09 1: Including fhem.cfg
+2013.07.06 18:30:10 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2013.07.06 18:30:39 1: Including fhem.cfg
+2013.07.06 18:30:40 3: telnetPort: port 7072 opened
+2013.07.06 18:30:41 3: WEB: port 8083 opened
+2013.07.06 18:30:41 3: WEBphone: port 8084 opened
+2013.07.06 18:30:41 3: WEBtablet: port 8085 opened
+2013.07.06 18:30:41 1: usb create starting
+2013.07.06 18:30:43 3: Opening CUL device /dev/ttyAMA0
+2013.07.06 18:30:43 3: Can't open /dev/ttyAMA0: Permission denied
+2013.07.06 18:30:43 1: usb create end
+2013.07.06 18:30:43 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2013.07.06 18:30:43 0: Server started with 8 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 7412)
+2013.07.06 18:34:01 0: Server shutdown
+2013.07.07 11:49:24 1: Including fhem.cfg
+2013.07.07 11:49:25 3: telnetPort: port 7072 opened
+2013.07.07 11:49:25 3: WEB: port 8083 opened
+2013.07.07 11:49:25 3: WEBphone: port 8084 opened
+2013.07.07 11:49:25 3: WEBtablet: port 8085 opened
+2013.07.07 11:49:25 1: Including ./log/fhem.save
+2013.07.07 11:49:26 1: usb create starting
+2013.07.07 11:49:27 3: Opening CUL device /dev/ttyAMA0
+2013.07.07 11:49:27 3: Can't open /dev/ttyAMA0: Permission denied
+2013.07.07 11:49:27 1: usb create end
+2013.07.07 11:49:27 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2013.07.07 11:49:27 0: Server started with 8 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 2285)
+2013.07.07 11:49:45 1: Including fhem.cfg
+2013.07.07 11:49:46 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2013.07.07 11:52:07 1: Including fhem.cfg
+2013.07.07 11:52:08 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2013.07.07 11:54:27 1: Including fhem.cfg
+2013.07.07 11:54:28 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2013.07.07 11:57:49 0: Server shutdown
+2013.07.07 12:19:06 1: Including fhem.cfg
+2013.07.07 12:19:06 3: telnetPort: port 7072 opened
+2013.07.07 12:19:07 3: WEB: port 8083 opened
+2013.07.07 12:19:07 3: WEBphone: port 8084 opened
+2013.07.07 12:19:07 3: WEBtablet: port 8085 opened
+2013.07.07 12:19:08 1: Including ./log/fhem.save
+2013.07.07 12:19:08 1: usb create starting
+2013.07.07 12:19:09 3: Opening CUL device /dev/ttyAMA0
+2013.07.07 12:19:09 3: Can't open /dev/ttyAMA0: Permission denied
+2013.07.07 12:19:10 1: usb create end
+2013.07.07 12:19:10 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2013.07.07 12:19:10 0: Server started with 8 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 2416)
+2013.07.07 12:53:45 1: Including fhem.cfg
+2013.07.07 12:53:46 3: telnetPort: port 7072 opened
+2013.07.07 12:53:47 3: WEB: port 8083 opened
+2013.07.07 12:53:47 3: WEBphone: port 8084 opened
+2013.07.07 12:53:47 3: WEBtablet: port 8085 opened
+2013.07.07 12:53:48 1: Including ./log/fhem.save
+2013.07.07 12:53:48 1: usb create starting
+2013.07.07 12:53:49 3: Opening CUL device /dev/ttyAMA0
+2013.07.07 12:53:50 3: Can't open /dev/ttyAMA0: Permission denied
+2013.07.07 12:53:50 1: usb create end
+2013.07.07 12:53:50 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2013.07.07 12:53:50 0: Server started with 8 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 2474)
+2013.07.07 12:57:47 1: Including fhem.cfg
+2013.07.07 12:57:48 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2013.07.07 14:08:09 1: Including fhem.cfg
+2013.07.07 14:08:11 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2013.07.07 16:51:50 0: Server shutdown

@@ -1,0 +1,34 @@
+############################
+# Display the measured temp and the actuator.
+# Corresponding FileLog definition: 
+# define <filelogname> FileLog /var/log/fhem/HM_CC_TC-%Y.log <HM_CC_TC-name>
+
+set terminal png transparent size <SIZE> crop
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+set xlabel " "
+set ytics nomirror
+set y2tics
+#set ytics
+set title '<L1>'
+set grid xtics y2tics
+
+set y2label "Temperature in C"
+set ylabel "Actuator (%)"
+
+#FileLog 4:temperature:0:
+#FileLog 4:desired:0:
+#FileLog 4:humidity:0:
+#FileLog 4:actuator:0:int
+
+plot \
+  "< awk '/temperature/{print $1, $4}' <IN>"\
+     using 1:2 axes x1y2 title 'Measured temperature' with lines lw 2,\
+  "< awk '/desired/{print $1, $4}' <IN>"\
+     using 1:2 axes x1y2 title 'Desired temperature' with steps,\
+  "< awk '/humidity/ {print $1, $4+0}' <IN>"\
+     using 1:2 axes x1y1 title 'Humidity (%)' with lines,\
+  "< awk '/actuator/ {print $1, $4+0}' <IN>"\
+     using 1:2 axes x1y1 title 'Actuator (%)' with lines\
+	 

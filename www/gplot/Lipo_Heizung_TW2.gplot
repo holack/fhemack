@@ -1,0 +1,75 @@
+## Anzeige Zustand Heizungs-TW2 Simulator
+##
+## Logfile record example:
+## 2014-10-18_07:30:00 HA_Heizung_TW2 scene aus
+## 2014-10-17_23:30:00 HA_Heizung_TW2 scene Frostschutz
+## 2014-10-17_23:30:00 HA_Heizung_TW2 scene Nacht_min
+## 2014-10-17_23:30:00 HA_Heizung_TW2 scene Tag_min
+## 2014-10-17_23:30:00 HA_Heizung_TW2 scene Tag_mittel
+## 2014-10-17_23:30:00 HA_Heizung_TW2 scene Tag_max
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics  ("aus" 1, "Frost." 3, "N_min" 5, "T_min" 6, "T_mit." 7, "T_max" 9)
+set y2tics ("aus" 1, "Frost." 3, "N_min" 5, "T_min" 6, "T_mit." 7, "T_max" 9)
+set grid xtics y2tics
+
+set xlabel  ""
+set ylabel  ""
+set y2label ""
+
+set yrange  [0:10]
+set y2range [0:10]
+
+##get HM_Heizung_FLog ?
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\saus::1
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\sFrostschutz::3
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\sNacht_min::5
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2.Tag_min.*::6
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\sTag_mittel::7
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\sTag_max::9
+
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\s(aus|Frostschutz|((Nacht|Tag)_(min|mittel|max)))::1
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\s(aus|Frostschutz|((Nacht|Tag)_(min|mittel|max)))::$fld[2]=~"aus"?1:$fld[2]=~"Frostschutz"?3:$fld[2]=~"Nacht_min"?5:$fld[2]=~"Tag_min"?6:$fld[2]=~"Tag_mittel"?7:$fld[2]=~"Tag_max"?9:0
+
+##get HM_Heizung_FLog - - 2014-10-27 2014-10-28 3:HA_Heizung_TW2\s::$fld[2]=~"aus"?1:$fld[2]=~"Frostschutz"?3:$fld[2]=~"Nacht_min"?5:$fld[2]=~"Tag_min"?6:$fld[2]=~"Tag_mittel"?7:$fld[2]=~"Tag_max"?9:0
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 3:<SPEC1>\s(aus|Frostschutz|((Nacht|Tag)_(min|mittel|max)))::$fld[2]=~"aus"?1:$fld[2]=~"Frostschutz"?3:$fld[2]=~"Nacht_min"?5:$fld[2]=~"Tag_min"?6:$fld[2]=~"Tag_mittel"?7:$fld[2]=~"Tag_max"?9:0
+
+##	Plotten der Datenreihen
+plot \
+     title '<L1>' ls l2 lw 2 axes x1y2 with steps
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

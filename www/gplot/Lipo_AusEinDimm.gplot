@@ -1,0 +1,67 @@
+## Anzeige Ein/Aus Zeiten fuer Dimmer
+##
+## Logfile record example:
+## 2014-01-19_15:22:25 HA_Dimmer_03 pct: aus
+## 2014-01-19_15:22:18 HA_Dimmer_03 pct: ein
+## 2014-01-19_10:30:07 HA_Dimmer_03 pct: hell
+## 2014-01-19_16:44:51 HA_Dimmer_03 pct: halb
+## 2014-01-19_16:44:50 HA_Dimmer_03 pct: 44.5
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics  ("aus" 0, "dunkel" 25, "halb" 50, "hell" 75, "ein" 100)
+set y2tics ("aus" 0, "dunkel" 25, "halb" 50, "hell" 75, "ein" 100)
+set grid xtics y2tics
+
+set xlabel  ""
+set ylabel  ""
+set y2label ""
+
+set yrange  [-5:105]
+set y2range [-5:105]
+
+##                                                 off:aus 25:dunkel 50:halb 75:hell on:ein
+##get HM_Steckdosen_FLog - - 2014-08-18 2014-01-20 3:HA_Dimmer_03::1
+##get HM_Steckdosen_FLog - - 2014-01-18 2014-01-20 3:HA_Dimmer_03\spct.*::1
+##get HM_Steckdosen_FLog - - 2014-01-18 2014-01-20 3:HA_Dimmer_03\spct.*::$fld[3]=~"aus"?0:$fld[3]=~"dunkel"?25:$fld[3]=~"halb"?50:$fld[3]=~"hell"?75:$fld[3]=~"on"?100:int($fld[3])
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 3:<SPEC1>\spct.*::$fld[3]=~"aus"?0:$fld[3]=~"dunkel"?25:$fld[3]=~"halb"?50:$fld[3]=~"hell"?75:$fld[3]=~"on"?100:int($fld[3])
+
+##	Plotten der Datenreihen
+plot \
+     title '<L1>' ls l2 lw 2 axes x1y2 with steps
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

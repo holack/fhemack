@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id='SVGPLOT_KU_PCA301_01_plot'  width="800px" height="160px">
+<style type="text/css"><![CDATA[
+.background { fill:#FFFFE7; }
+
+text       { font-family:Times; font-size:12px; }
+text.title { font-size:16px; }
+text.legend { cursor:pointer; }
+circle#svgmarker { color:#278727; opacity:0.5; }
+
+path.SVGplot     { stroke:black; fill:none; }
+rect.SVGplot     { stroke:black; fill:none; }
+polyline.SVGplot { stroke:black; fill:none; }
+.border  { stroke:black; fill:url(#gr_bg); }
+.vgrid   { stroke:gray;  stroke-dasharray:2,6; }
+.hgrid   { stroke:gray;  stroke-dasharray:2,6; }
+.pasted  { stroke:black; stroke-dasharray:1,1; }
+
+.SVGplot.l0     { stroke:red;     }
+.SVGplot.l1     { stroke:green;   }
+.SVGplot.l2     { stroke:blue;    }
+.SVGplot.l3     { stroke:magenta; }
+.SVGplot.l4     { stroke:brown;   }
+.SVGplot.l5     { stroke:black;   }
+.SVGplot.l6     { stroke:olive;   }
+.SVGplot.l7     { stroke:gray;    }
+.SVGplot.l8     { stroke:yellow;  }
+.SVGplot.l0fill { stroke:#f00; fill:url(#gr_0); }
+.SVGplot.l1fill { stroke:#291; fill:url(#gr_1); }
+.SVGplot.l2fill { stroke:#00f; fill:url(#gr_2); }
+.SVGplot.l3fill { stroke:#f0f; fill:url(#gr_3); }
+.SVGplot.l4fill { stroke:#ff0; fill:url(#gr_4); }
+.SVGplot.l5fill { stroke:#0ff; fill:url(#gr_5); }
+.SVGplot.l6fill { stroke:#000; fill:url(#gr_6); }
+.SVGplot.l0dot  { stroke:red;   stroke-dasharray:2,4; }
+.SVGplot.l1dot  { stroke:green; stroke-dasharray:2,4; }
+.SVGplot.l0fill_stripe { stroke:red; fill:url(#gr0_stripe);}
+.SVGplot.l1fill_stripe { stroke:green; fill:url(#gr1_stripe);}
+.SVGplot.l0fill_gyr    { stroke:red; fill:url(#gr0_gyr);}
+
+text.SVGplot.l0     { stroke:none; fill:red;     } 
+text.SVGplot.l1     { stroke:none; fill:green;   } 
+text.SVGplot.l2     { stroke:none; fill:blue;    }
+text.SVGplot.l3     { stroke:none; fill:magenta; }
+text.SVGplot.l4     { stroke:none; fill:brown;   }
+text.SVGplot.l5     { stroke:none; fill:black;   }
+text.SVGplot.l6     { stroke:none; fill:olive;   }
+text.SVGplot.l7     { stroke:none; fill:gray;    }
+text.SVGplot.l8     { stroke:none; fill:yellow;  }
+text.SVGplot.l0fill { stroke:none; fill:#f00;    }
+text.SVGplot.l1fill { stroke:none; fill:#291;    }
+text.SVGplot.l2fill { stroke:none; fill:#00f;    }
+text.SVGplot.l3fill { stroke:none; fill:#f0f;    }
+text.SVGplot.l4fill { stroke:none; fill:#ff0;    }
+text.SVGplot.l5fill { stroke:none; fill:#0ff;    }
+text.SVGplot.l6fill { stroke:none; fill:#000;    }
+text.SVGplot.l0dot  { stroke:none; fill:red;     } 
+text.SVGplot.l1dot  { stroke:none; fill:green;   } 
+text.SVGplot.l0fill_stripe {stroke:none; fill:red;  }
+text.SVGplot.l1fill_stripe {stroke:none; fill:green;}
+text.SVGplot.l0fill_gyr    {stroke:none; fill:red;  }
+
+]]></style>
+<!-- will be included in each svg plot -->
+<defs>
+  <linearGradient id="gr_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#FFFFF7; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FFFFC7; stop-opacity:1"/>
+  </linearGradient>
+
+  <linearGradient id="gr_0" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#f00; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#f88; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_1" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#291; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#8f7; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#00f; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#88f; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_3" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#f0f; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#f8f; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_4" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#ff0; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#ff8; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_5" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#0ff; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#8ff; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_6" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#000; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#ccc; stop-opacity:.4"/>
+  </linearGradient>
+
+  <pattern id="gr0_stripe" width="4" height="4"
+           patternUnits="userSpaceOnUse" patternTransform="rotate(-45 2 2)">
+      <path d="M -1,2 l 6,0" stroke="#f00" stroke-width="0.5"/>
+  </pattern>
+
+  <pattern id="gr1_stripe" width="4" height="4"
+           patternUnits="userSpaceOnUse" patternTransform="rotate(45 2 2)">
+      <path d="M -1,2 l 6,0" stroke="green" stroke-width="0.5"/>
+  </pattern>
+
+  <linearGradient id="gr0_gyr" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset=  "0%" style="stop-color:#f00; stop-opacity:.6"/>
+    <stop offset= "50%" style="stop-color:#ff0; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#0f0; stop-opacity:.6"/>
+  </linearGradient>
+
+
+</defs>
+
+<rect x="48" y="19.2" width ="704" height ="121.6" rx="8" ry="8" fill="none" class="border"/>
+<text id="svg_title" x="400" y="14.4" class="title" text-anchor="middle">Geschirrspueler: 0W Spitze: 1066W, Verbrauch: 1.4kWh</text>
+<text x="12" y="80" text-anchor="middle" class="ylabel" transform="rotate(270,12,80)">Verbrauch in kWh</text>
+<text x="796" y="80" text-anchor="middle" class="y2label" transform="rotate(270,796,80)">Leistung in W</text>
+<polyline class='SVGplot' points='77,19.2 77,23.2'/>
+<polyline class='SVGplot' points='77,136.8 77,140.8'/>
+<polyline class='SVGplot' points='106,19.2 106,23.2'/>
+<polyline class='SVGplot' points='106,136.8 106,140.8'/>
+<polyline class='SVGplot' points='135,19.2 135,23.2'/>
+<polyline class='SVGplot' points='135,136.8 135,140.8'/>
+<polyline class='SVGplot' points='165,19.2 165,23.2'/>
+<polyline class='SVGplot' points='165,136.8 165,140.8'/>
+<polyline class='SVGplot' points='194,19.2 194,23.2'/>
+<polyline class='SVGplot' points='194,136.8 194,140.8'/>
+<polyline class='SVGplot' points='223,19.2 223,23.2'/>
+<polyline class='SVGplot' points='223,136.8 223,140.8'/>
+<polyline class='SVGplot' points='253,19.2 253,23.2'/>
+<polyline class='SVGplot' points='253,136.8 253,140.8'/>
+<polyline class='SVGplot' points='282,19.2 282,23.2'/>
+<polyline class='SVGplot' points='282,136.8 282,140.8'/>
+<polyline class='SVGplot' points='311,19.2 311,23.2'/>
+<polyline class='SVGplot' points='311,136.8 311,140.8'/>
+<polyline class='SVGplot' points='341,19.2 341,23.2'/>
+<polyline class='SVGplot' points='341,136.8 341,140.8'/>
+<polyline class='SVGplot' points='370,19.2 370,23.2'/>
+<polyline class='SVGplot' points='370,136.8 370,140.8'/>
+<polyline class='SVGplot' points='399,19.2 399,23.2'/>
+<polyline class='SVGplot' points='399,136.8 399,140.8'/>
+<polyline class='SVGplot' points='429,19.2 429,23.2'/>
+<polyline class='SVGplot' points='429,136.8 429,140.8'/>
+<polyline class='SVGplot' points='458,19.2 458,23.2'/>
+<polyline class='SVGplot' points='458,136.8 458,140.8'/>
+<polyline class='SVGplot' points='487,19.2 487,23.2'/>
+<polyline class='SVGplot' points='487,136.8 487,140.8'/>
+<polyline class='SVGplot' points='517,19.2 517,23.2'/>
+<polyline class='SVGplot' points='517,136.8 517,140.8'/>
+<polyline class='SVGplot' points='546,19.2 546,23.2'/>
+<polyline class='SVGplot' points='546,136.8 546,140.8'/>
+<polyline class='SVGplot' points='575,19.2 575,23.2'/>
+<polyline class='SVGplot' points='575,136.8 575,140.8'/>
+<polyline class='SVGplot' points='605,19.2 605,23.2'/>
+<polyline class='SVGplot' points='605,136.8 605,140.8'/>
+<polyline class='SVGplot' points='634,19.2 634,23.2'/>
+<polyline class='SVGplot' points='634,136.8 634,140.8'/>
+<polyline class='SVGplot' points='663,19.2 663,23.2'/>
+<polyline class='SVGplot' points='663,136.8 663,140.8'/>
+<polyline class='SVGplot' points='693,19.2 693,23.2'/>
+<polyline class='SVGplot' points='693,136.8 693,140.8'/>
+<polyline class='SVGplot' points='722,19.2 722,23.2'/>
+<polyline class='SVGplot' points='722,136.8 722,140.8'/>
+<polyline class='SVGplot' points='751,19.2 751,23.2'/>
+<polyline class='SVGplot' points='751,136.8 751,140.8'/>
+<text x="0" y="156.8" class="ylabel">19.May</text>
+<text x="165" y="156.8" class="ylabel" text-anchor="middle">00:45</text>
+  <polyline points="165,19.2 165,140.8" class="hgrid"/>
+<text x="282" y="156.8" class="ylabel" text-anchor="middle">01:45</text>
+  <polyline points="282,19.2 282,140.8" class="hgrid"/>
+<text x="399" y="156.8" class="ylabel" text-anchor="middle">02:45</text>
+  <polyline points="399,19.2 399,140.8" class="hgrid"/>
+<text x="517" y="156.8" class="ylabel" text-anchor="middle">03:45</text>
+  <polyline points="517,19.2 517,140.8" class="hgrid"/>
+<text x="634" y="156.8" class="ylabel" text-anchor="middle">04:45</text>
+  <polyline points="634,19.2 634,140.8" class="hgrid"/>
+<text x="751" y="156.8" class="ylabel" text-anchor="middle">05:45</text>
+  <polyline points="751,19.2 751,140.8" class="hgrid"/>
+<g>
+  <polyline points="44,140 49,140" />
+<text x="39.2" y="144" class="ylabel" text-anchor="end">0</text>
+  <polyline points="44,123 49,123" />
+<text x="39.2" y="127" class="ylabel" text-anchor="end">0.2</text>
+  <polyline points="44,106 49,106" />
+<text x="39.2" y="110" class="ylabel" text-anchor="end">0.4</text>
+  <polyline points="44,88 49,88" />
+<text x="39.2" y="92" class="ylabel" text-anchor="end">0.6</text>
+  <polyline points="44,71 49,71" />
+<text x="39.2" y="75" class="ylabel" text-anchor="end">0.8</text>
+  <polyline points="44,53 49,53" />
+<text x="39.2" y="57" class="ylabel" text-anchor="end">1</text>
+  <polyline points="44,36 49,36" />
+<text x="39.2" y="40" class="ylabel" text-anchor="end">1.2</text>
+  <polyline points="44,19 49,19" />
+<text x="39.2" y="23" class="ylabel" text-anchor="end">1.4</text>
+</g>
+<g>
+  <polyline points="751,140 756,140" />
+<text x="760.8" y="144" class="ylabel">0</text>
+  <polyline points="751,117 756,117" />
+  <polyline points="48,117 752,117" class="vgrid"/>
+<text x="760.8" y="121" class="ylabel">200</text>
+  <polyline points="751,95 756,95" />
+  <polyline points="48,95 752,95" class="vgrid"/>
+<text x="760.8" y="99" class="ylabel">400</text>
+  <polyline points="751,72 756,72" />
+  <polyline points="48,72 752,72" class="vgrid"/>
+<text x="760.8" y="76" class="ylabel">600</text>
+  <polyline points="751,49 756,49" />
+  <polyline points="48,49 752,49" class="vgrid"/>
+<text x="760.8" y="53" class="ylabel">800</text>
+  <polyline points="751,26 756,26" />
+  <polyline points="48,26 752,26" class="vgrid"/>
+<text x="760.8" y="30" class="ylabel">1000</text>
+</g>
+<path id="line_1" decimals="2" x_off="1432071900" x_min="48" x_mul="0.0325910837461229" y_h="140.8" y_min="0" y_mul="86.8571428571429" title="kWh" onclick="parent.svg_click(evt)" style="stroke-width:1" class="SVGplot l2" d="M 175,29 L 190,28 204,27 341,27 355,26 369,25 514,24 526,23 541,22 679,21 691,20 707,20 721,19"/>
+<path id="line_0" decimals="0" x_off="1432071900" x_min="48" x_mul="0.0325910837461229" y_h="140.8" y_min="0" y_mul="0.114071294559099" title="Geschirrspueler" onclick="parent.svg_click(evt)" style="stroke-width:2" class="SVGplot l0" d="M 48,140 L 56,140 57,140 60,140 61,140 62,140 63,140 66,140 67,140 94,140 95,140 96,140 97,140 98,140 99,140 104,140 105,140 126,140 127,140 138,140 139,140 141,140 142,140 143,140 145,140 161,140 162,140 166,140 167,19 168,129 169,129 170,129 171,129 172,130 173,130 174,130 175,130 176,130 177,130 179,130 180,130 181,130 182,130 183,130 184,130 185,130 186,130 187,130 188,131 189,131 190,131 191,131 192,131 193,131 194,131 195,131 196,131 197,131 198,131 200,131 201,131 202,131 204,131 206,132 207,132 208,132 209,132 210,140 219,140 220,140 228,140 229,140 240,140 241,140 246,140 247,140 254,140 255,140 263,140 264,140 278,140 279,140 297,140 298,140 305,140 307,140 310,140 312,140 314,140 315,140 324,140 325,140 332,140 333,129 334,129 335,129 336,129 337,130 338,130 340,130 341,130 342,130 343,130 344,130 346,130 347,130 348,130 349,130 350,130 351,130 352,130 353,131 354,131 355,131 356,131 357,131 358,131 359,131 360,131 362,131 363,131 365,131 366,131 367,132 368,132 369,132 370,132 371,132 372,132 373,132 376,132 377,132 378,132 380,140 389,140 390,140 398,140 400,140 402,140 403,140 413,140 414,140 415,140 417,140 422,140 423,140 425,140 426,140 437,140 438,140 440,140 441,140 443,140 444,140 454,140 455,140 460,140 462,140 466,140 467,140 469,140 470,140 475,140 476,140 481,140 483,140 495,140 496,140 497,140 500,140 501,140 505,140 506,140 509,129 510,129 512,129 513,129 514,130 515,130 516,130 517,130 518,130 519,130 520,130 522,130 523,130 524,130 525,130 526,130 527,130 528,130 529,131 530,131 531,131 532,131 533,131 535,131 536,131 538,131 539,131 540,131 541,131 544,131 545,131 546,132 547,132 548,132 549,132 550,132 551,140 572,140 573,140 587,140 588,140 594,140 595,140 603,140 604,140 616,140 617,140 620,140 621,140 629,140 630,140 636,140 637,140 642,140 643,140 654,140 655,140 656,140 657,140 670,140 671,140 675,129 676,129 677,129 678,129 679,129 680,130 681,130 682,130 683,130 684,130 685,130 686,130 687,129 688,130 689,130 690,129 691,130 692,130 693,130 694,130 695,131 696,131 697,131 698,131 699,131 700,131 702,131 703,131 704,131 705,132 706,132 707,132 708,132 709,132 711,132 713,132 714,132 715,132 717,132 718,132 719,132 720,132 721,132 722,132 723,132 724,140 746,140 747,140"/>
+<text title="Geschirrspueler: Min:0 Max:1066 Last:0" line_id="line_0" x="736" y="35.2" text-anchor="end" class="legend SVGplot l0">Geschirrspueler</text>
+<text title="kWh: Min:1.28 Max:1.4 Last:1.4" line_id="line_1" x="736" y="51.2" text-anchor="end" class="legend SVGplot l2">kWh</text>
+<script type='text/javascript'>if(typeof parent.window.svg_init == 'function') parent.window.svg_init('SVGPLOT_KU_PCA301_01_plot')</script>
+</svg>

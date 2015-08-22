@@ -1,0 +1,63 @@
+## Anzeige von zwei beliebigen Temperaturwerten aus einem FileLog
+##
+## Logfile record example:
+## 2013-11-09_23:48:52 HR_TempDiff_1_HeizVor T: 22.5
+## 2013-11-09_23:48:52 HR_TempDiff_1_HeizRueck T: 21.4
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics
+set y2tics
+set grid xtics y2tics
+
+set xlabel  " "
+set ylabel  "Temperature in C"
+set y2label "Temperature in C"
+
+##get HM_Temperaturen_FLog ?
+##get HM_Temperaturen_FLog - - 2013-11-09 2013-11-10 4:HR_TempDiff_1_HeizVor.T\x3a:
+##get HM_Temperaturen_FLog - - 2013-11-09 2013-11-10 4:HR_TempDiff_1_HeizRueck.T\x3a:
+##get HM_Temperaturen_FLog - - 2013-11-09 2013-11-10 4:HR_TempDiff_1_HeizDiff.T\x3a:
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog <SPEC1>
+#FileLog <SPEC2>
+
+##	Plotten der Datenreihen
+plot \
+     title '<L1>' ls l0 lw 2 axes x1y2 with lines,\
+	 title '<L2>' ls l2 lw 1 axes x1y2 with lines,\
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

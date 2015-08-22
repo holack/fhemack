@@ -1,0 +1,64 @@
+## Anzeige Ping Zeiten
+##
+## Logfile record example:
+## 2014-01-08_14:27:05 Ping_Medion_NAS1 aus
+## 2014-01-08_14:43:57 Ping_Medion_NAS1 erreichbar
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics  ("aus" 0.1, "erreichbar" 0.9)
+set y2tics ("aus" 0.1, "erreichbar" 0.9)
+set grid xtics y2tics
+
+set xlabel  " "
+set ylabel  "Ping"
+set y2label "Ping"
+
+set yrange  [0:1]
+set y2range [0:1]
+
+##get HA_Ping_FLog ?
+##get HA_Ping_FLog - - 2014-01-08 2014-01-11 3:Ping_Medion_NAS1::1
+##get HA_Ping_FLog - - 2014-01-08 2014-01-11 3:Ping_Medion_NAS1\s(aus|erreichbar)::1
+##get HA_Ping_FLog - - 2014-01-08 2014-01-11 3:Ping_Medion_NAS1\s(aus|erreichbar)::$fld[2]=~"aus"?.1:0.9
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 3:<SPEC1>\s(aus|erreichbar)::$fld[2]=~"aus"?.1:0.9
+
+##	Plotten der Datenreihen
+plot \
+     title '<L1>' ls l2 lw 2 axes x1y2 with steps
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

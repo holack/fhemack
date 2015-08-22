@@ -1,0 +1,42 @@
+2014.11.07 16:50:18 1: Including fhem.cfg
+2014.11.07 16:50:20 3: telnetPort: port 7072 opened
+2014.11.07 16:50:21 3: WEB: port 8083 opened
+2014.11.07 16:50:21 3: WEBphone: port 8084 opened
+2014.11.07 16:50:21 3: WEBtablet: port 8085 opened
+2014.11.07 16:50:22 3: Opening CUL_0 device /dev/ttyACM0
+2014.11.07 16:50:23 3: Setting CUL_0 baudrate to 9600
+2014.11.07 16:50:23 3: CUL_0 device opened
+2014.11.07 16:50:23 3: CUL_0: Possible commands: BCFiAZEGMRTVWXefmltux
+2014.11.07 16:50:23 3: Opening CUL_1 device /dev/ttyACM1
+2014.11.07 16:50:23 3: Can't open /dev/ttyACM1: No such file or directory
+2014.11.07 16:50:23 1: Including ./log/fhem.save
+2014.11.07 16:50:24 1: usb create starting
+2014.11.07 16:50:28 3: Opening CUL device /dev/ttyAMA0
+2014.11.07 16:50:28 3: Can't open /dev/ttyAMA0: Permission denied
+2014.11.07 16:50:28 1: usb create end
+2014.11.07 16:50:28 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2014.11.07 16:50:28 0: Server started with 19 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 2310)
+2014.11.07 17:07:17 1: Including fhem.cfg
+2014.11.07 17:07:19 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2014.11.07 18:30:10 0: Server shutdown
+2014.11.30 13:24:04 1: Including fhem.cfg
+2014.11.30 13:24:06 3: telnetPort: port 7072 opened
+2014.11.30 13:24:07 3: WEB: port 8083 opened
+2014.11.30 13:24:07 3: WEBphone: port 8084 opened
+2014.11.30 13:24:07 3: WEBtablet: port 8085 opened
+2014.11.30 13:24:08 3: Opening CUL_0 device /dev/ttyACM0
+2014.11.30 13:24:09 3: Setting CUL_0 baudrate to 9600
+2014.11.30 13:24:09 3: CUL_0 device opened
+2014.11.30 13:24:09 3: CUL_0: Possible commands: BCFiAZEGMRTVWXefmltux
+2014.11.30 13:24:09 3: Opening CUL_1 device /dev/ttyACM1
+2014.11.30 13:24:09 3: Can't open /dev/ttyACM1: No such file or directory
+2014.11.30 13:24:10 1: Including ./log/fhem.save
+2014.11.30 13:24:10 1: usb create starting
+2014.11.30 13:24:14 3: Opening CUL device /dev/ttyAMA0
+2014.11.30 13:24:14 3: Can't open /dev/ttyAMA0: Permission denied
+2014.11.30 13:24:14 1: usb create end
+2014.11.30 13:24:14 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2014.11.30 13:24:14 0: Server started with 20 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 2320)
+2014.11.30 21:58:03 1: Including fhem.cfg
+2014.11.30 21:58:05 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2014.11.30 21:58:53 0: Server shutdown

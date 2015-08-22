@@ -1,0 +1,989 @@
+2015.05.01 09:48:05 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN308> line 25.
+2015.05.01 09:48:05 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN308> line 25.
+2015.05.01 09:48:09 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN310> line 25.
+2015.05.01 09:48:09 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN310> line 25.
+2015.05.01 09:48:14 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN313> line 25.
+2015.05.01 09:48:18 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN317> line 25.
+2015.05.01 09:48:18 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN317> line 25.
+2015.05.02 08:06:53 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN343> line 28.
+2015.05.02 08:06:53 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN343> line 28.
+2015.05.03 09:58:51 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN468> line 30.
+2015.05.03 09:58:51 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN468> line 30.
+2015.05.03 18:38:05 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN685> line 32.
+2015.05.03 18:38:05 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN685> line 32.
+2015.05.03 18:39:50 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN696> line 31.
+2015.05.03 18:39:50 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN696> line 31.
+2015.05.03 23:18:23 0: Server shutdown
+2015.05.04 08:04:40 1: Including fhem.cfg
+2015.05.04 08:04:41 3: telnetPort: port 7072 opened
+2015.05.04 08:04:43 3: WEB: port 8083 opened
+2015.05.04 08:04:43 3: WEBphone: port 8084 opened
+2015.05.04 08:04:43 3: WEBtablet: port 8085 opened
+2015.05.04 08:04:44 3: Opening CUL433 device /dev/ttyACM0
+2015.05.04 08:04:45 3: Setting CUL433 baudrate to 9600
+2015.05.04 08:04:45 3: CUL433 device opened
+2015.05.04 08:04:45 3: CUL433: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.04 08:04:45 3: Opening CUL868 device /dev/ttyACM1
+2015.05.04 08:04:45 3: Setting CUL868 baudrate to 9600
+2015.05.04 08:04:45 3: CUL868 device opened
+2015.05.04 08:04:45 3: CUL868: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.04 08:04:46 1: Converting weblink weblink_CUL_FHTTK_6eb19a (fileplot) to SVG
+2015.05.04 08:04:48 1: Converting weblink weblink_HMS100TF_0000 (fileplot) to SVG
+2015.05.04 08:04:48 1: Converting weblink weblink_CUL_WS_8 (fileplot) to SVG
+2015.05.04 08:04:48 1: Converting weblink wl_0 (fileplot) to SVG
+2015.05.04 08:04:49 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.04 08:04:49 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.04 08:04:49 3: HA_Modbus_1 device opened
+2015.05.04 08:04:49 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.04 08:04:49 1: Including ./log/fhem.save
+2015.05.04 08:04:50 1: usb create starting
+2015.05.04 08:04:56 3: Probing CUL device /dev/ttyAMA0
+2015.05.04 08:04:56 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.04 08:04:56 1: usb create end
+2015.05.04 08:04:56 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart FHEM for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2015.05.04 08:04:56 0: Server started with 27 defined entities (version $Id: fhem.pl 8486 2015-04-26 14:16:32Z rudolfkoenig $, os linux, user pi, pid 2373)
+2015.05.04 08:04:57 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.04 08:04:57 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.04 08:04:57 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.04 08:05:02 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.04 08:05:02 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.04 08:05:08 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN34> line 30.
+2015.05.04 08:05:08 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN34> line 30.
+2015.05.04 08:05:08 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.04 08:05:09 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.04 08:05:09 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.04 08:05:50 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN58> line 30.
+2015.05.04 08:05:50 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN58> line 30.
+2015.05.04 09:11:50 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN104> line 34.
+2015.05.04 09:11:50 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN104> line 34.
+2015.05.04 09:12:10 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.04 09:12:10 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.04 18:05:36 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN193> line 32.
+2015.05.04 18:05:36 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN193> line 32.
+2015.05.05 06:30:37 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN227> line 32.
+2015.05.05 06:30:37 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN227> line 32.
+2015.05.05 10:38:55 0: Server shutdown
+2015.05.05 18:08:08 1: Including fhem.cfg
+2015.05.05 18:08:08 3: telnetPort: port 7072 opened
+2015.05.05 18:08:11 3: WEB: port 8083 opened
+2015.05.05 18:08:11 3: WEBphone: port 8084 opened
+2015.05.05 18:08:11 3: WEBtablet: port 8085 opened
+2015.05.05 18:08:12 3: Opening CUL433 device /dev/ttyACM0
+2015.05.05 18:08:13 3: Setting CUL433 baudrate to 9600
+2015.05.05 18:08:13 3: CUL433 device opened
+2015.05.05 18:08:13 3: CUL433: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.05 18:08:13 3: Opening CUL868 device /dev/ttyACM1
+2015.05.05 18:08:13 3: Setting CUL868 baudrate to 9600
+2015.05.05 18:08:13 3: CUL868 device opened
+2015.05.05 18:08:13 3: CUL868: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.05 18:08:14 1: Converting weblink weblink_CUL_FHTTK_6eb19a (fileplot) to SVG
+2015.05.05 18:08:16 1: Converting weblink weblink_HMS100TF_0000 (fileplot) to SVG
+2015.05.05 18:08:16 1: Converting weblink weblink_CUL_WS_8 (fileplot) to SVG
+2015.05.05 18:08:16 1: Converting weblink wl_0 (fileplot) to SVG
+2015.05.05 18:08:17 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.05 18:08:17 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.05 18:08:17 3: HA_Modbus_1 device opened
+2015.05.05 18:08:17 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.05 18:08:17 1: Including ./log/fhem.save
+2015.05.05 18:08:18 1: usb create starting
+2015.05.05 18:08:23 3: Probing CUL device /dev/ttyAMA0
+2015.05.05 18:08:23 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.05 18:08:24 1: usb create end
+2015.05.05 18:08:24 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart FHEM for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2015.05.05 18:08:24 0: Server started with 27 defined entities (version $Id: fhem.pl 8486 2015-04-26 14:16:32Z rudolfkoenig $, os linux, user pi, pid 2375)
+2015.05.05 18:08:25 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.05 18:08:25 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.05 18:08:25 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.05 18:08:31 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.05 18:08:31 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.05 18:08:37 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN36> line 32.
+2015.05.05 18:08:37 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN36> line 32.
+2015.05.05 18:08:37 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.05 18:08:37 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.05 18:08:37 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.05 18:41:54 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN66> line 31.
+2015.05.05 18:41:54 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN66> line 31.
+2015.05.05 21:09:15 3: removing IO device for HA_SDM630M_1
+2015.05.05 21:09:15 1: Including fhem.cfg
+2015.05.05 21:09:15 3: telnetPort: port 7072 opened
+2015.05.05 21:09:15 3: WEB: port 8083 opened
+2015.05.05 21:09:15 3: WEBphone: port 8084 opened
+2015.05.05 21:09:15 3: WEBtablet: port 8085 opened
+2015.05.05 21:09:15 3: Opening CUL433 device /dev/ttyACM0
+2015.05.05 21:09:15 3: Setting CUL433 baudrate to 9600
+2015.05.05 21:09:15 3: CUL433 device opened
+2015.05.05 21:09:15 3: CUL433: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.05 21:09:15 3: Opening CUL868 device /dev/ttyACM1
+2015.05.05 21:09:15 3: Setting CUL868 baudrate to 9600
+2015.05.05 21:09:15 3: CUL868 device opened
+2015.05.05 21:09:15 3: CUL868: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.05 21:09:15 1: Converting weblink weblink_CUL_FHTTK_6eb19a (fileplot) to SVG
+2015.05.05 21:09:15 1: Converting weblink weblink_HMS100TF_0000 (fileplot) to SVG
+2015.05.05 21:09:15 1: Converting weblink weblink_CUL_WS_8 (fileplot) to SVG
+2015.05.05 21:09:15 1: Converting weblink wl_0 (fileplot) to SVG
+2015.05.05 21:09:15 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.05 21:09:15 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.05 21:09:16 3: HA_Modbus_1 device opened
+2015.05.05 21:09:16 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.05 21:09:16 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.05 21:09:16 1: Including ./log/fhem.save
+2015.05.05 21:09:39 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN281> line 32.
+2015.05.05 21:09:39 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN281> line 32.
+2015.05.05 21:09:39 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN281> line 32.
+2015.05.05 21:09:39 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN281> line 32.
+2015.05.05 21:09:39 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN281> line 32.
+2015.05.05 21:09:42 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.05 21:09:42 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.05 21:09:42 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 16:24:33 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN433> line 33.
+2015.05.06 16:24:33 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN433> line 33.
+2015.05.06 16:24:43 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.06 16:30:18 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN467> line 30.
+2015.05.06 16:39:22 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN538> line 32.
+2015.05.06 16:39:22 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN538> line 32.
+2015.05.06 17:00:29 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN737> line 29.
+2015.05.06 17:00:29 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN737> line 29.
+2015.05.06 18:12:18 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN825> line 32.
+2015.05.06 18:12:18 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN825> line 32.
+2015.05.06 18:14:01 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN883> line 34.
+2015.05.06 18:14:01 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN883> line 34.
+2015.05.06 18:14:15 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN903> line 34.
+2015.05.06 18:14:15 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN903> line 34.
+2015.05.06 18:14:35 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN923> line 34.
+2015.05.06 18:14:35 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN923> line 34.
+2015.05.06 21:05:49 0: Server shutdown
+2015.05.06 21:05:54 1: Including fhem.cfg
+2015.05.06 21:05:54 3: telnetPort: port 7072 opened
+2015.05.06 21:05:55 3: WEB: port 8083 opened
+2015.05.06 21:05:55 3: WEBphone: port 8084 opened
+2015.05.06 21:05:55 3: WEBtablet: port 8085 opened
+2015.05.06 21:05:55 1: Including ./Holger/IODev_CUL.cfg
+2015.05.06 21:05:56 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.06 21:05:56 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.06 21:05:56 3: HA_CUL433_1 device opened
+2015.05.06 21:05:56 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.06 21:05:56 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.06 21:05:56 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.06 21:05:56 3: HA_CUL868_HM_1 device opened
+2015.05.06 21:05:56 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.06 21:05:56 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.06 21:05:57 1: Converting weblink weblink_CUL_FHTTK_6eb19a (fileplot) to SVG
+2015.05.06 21:05:57 1: Converting weblink weblink_HMS100TF_0000 (fileplot) to SVG
+2015.05.06 21:05:57 1: Converting weblink weblink_CUL_WS_8 (fileplot) to SVG
+2015.05.06 21:05:57 1: Converting weblink wl_0 (fileplot) to SVG
+2015.05.06 21:05:57 1: Including ./Holger/ModBus.cfg
+2015.05.06 21:05:58 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.06 21:05:58 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.06 21:05:58 3: HA_Modbus_1 device opened
+2015.05.06 21:05:58 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.06 21:05:58 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.06 21:05:58 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.06 21:05:58 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.06 21:05:58 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.06 21:05:58 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.06 21:05:58 1: Including ./log/fhem.save
+2015.05.06 21:05:59 1: statefile: Please define CUL433 first
+Please define CUL433 first
+Please define CUL868 first
+Please define CUL868 first
+2015.05.06 21:05:59 1: usb create starting
+2015.05.06 21:06:01 3: Probing CUL device /dev/ttyAMA0
+2015.05.06 21:06:01 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.06 21:06:01 1: usb create end
+2015.05.06 21:06:01 2: Error messages while initializing FHEM: statefile: Please define CUL433 first Please define CUL433 first Please define CUL868 first Please define CUL868 first
+2015.05.06 21:06:01 0: Server started with 32 defined entities (version $Id: fhem.pl 8486 2015-04-26 14:16:32Z rudolfkoenig $, os linux, user pi, pid 3608)
+2015.05.06 21:06:02 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.06 21:06:02 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.06 21:06:02 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.06 21:06:04 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.06 21:06:04 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.06 21:06:04 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN29> line 32.
+2015.05.06 21:06:04 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN29> line 32.
+2015.05.06 21:06:15 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.06 21:06:16 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:06:16 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:06:16 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:06:16 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:06:16 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:07:30 1: UPD ./CHANGED
+2015.05.06 21:07:30 1: UPD ./fhem.pl
+2015.05.06 21:07:30 1: UPD FHEM/00_CUL.pm
+2015.05.06 21:07:30 1: UPD FHEM/00_SONOS.pm
+2015.05.06 21:07:31 1: UPD FHEM/00_THZ.pm
+2015.05.06 21:07:31 1: UPD FHEM/10_ZWave.pm
+2015.05.06 21:07:31 1: UPD FHEM/10_pilight_ctrl.pm
+2015.05.06 21:07:31 1: UPD FHEM/14_CUL_WS.pm
+2015.05.06 21:07:31 1: UPD FHEM/21_OWAD.pm
+2015.05.06 21:07:31 1: UPD FHEM/21_OWCOUNT.pm
+2015.05.06 21:07:32 1: UPD FHEM/21_OWMULTI.pm
+2015.05.06 21:07:32 1: UPD FHEM/21_OWSWITCH.pm
+2015.05.06 21:07:32 1: UPD FHEM/30_MilightBridge.pm
+2015.05.06 21:07:32 1: UPD FHEM/31_MilightDevice.pm
+2015.05.06 21:07:32 1: UPD FHEM/42_SYSMON.pm
+2015.05.06 21:07:32 1: UPD FHEM/51_I2C_TSL2561.pm
+2015.05.06 21:07:32 1: UPD FHEM/70_XBMC.pm
+2015.05.06 21:07:33 1: UPD FHEM/75_MSG.pm
+2015.05.06 21:07:33 1: UPD FHEM/76_MSGFile.pm
+2015.05.06 21:07:33 1: UPD FHEM/76_MSGMail.pm
+2015.05.06 21:07:33 1: UPD FHEM/91_eventTypes.pm
+2015.05.06 21:07:33 1: UPD FHEM/98_Heating_Control.pm
+2015.05.06 21:07:33 1: UPD FHEM/98_JsonList2.pm
+2015.05.06 21:07:33 1: UPD FHEM/98_SVG.pm
+2015.05.06 21:07:33 1: UPD FHEM/98_THRESHOLD.pm
+2015.05.06 21:07:33 1: UPD FHEM/98_UbiquitiMP.pm
+2015.05.06 21:07:34 1: UPD FHEM/98_WeekdayTimer.pm
+2015.05.06 21:07:34 1: UPD FHEM/98_update.pm
+2015.05.06 21:07:34 1: 
+2015.05.06 21:07:34 1: New entries in the CHANGED file:
+2015.05.06 21:07:34 1:   - change: MilightDevice/MilightBridge: Fixes, features, changes (by MarkusM)
+2015.05.06 21:07:34 1:   - bugfix: SYSMON: network speed
+2015.05.06 21:07:34 1:   - improved: I2C_TSL2561: asynchronous measurements, new readings (by jensb), 
+2015.05.06 21:07:34 1:               new set update command, removed get command
+2015.05.06 21:07:34 1:   - feature: SYSMON: method to create html bar chart (thanks to snx)
+2015.05.06 21:07:34 1:   - added: SYSMON: new statistic readings for RAM and SWAP
+2015.05.06 21:07:34 1:   - change: pilight_ctrl: rename attribut ignore to ignoreProtocol
+2015.05.06 21:07:34 1: Calling /usr/bin/perl ./contrib/commandref_join.pl, this may take a while
+2015.05.06 21:09:42 1: *** EN FHEM/23_WEBTHERM.pm: No document text found
+
+2015.05.06 21:09:42 1: 
+2015.05.06 21:09:42 1: update finished, "shutdown restart" is needed to activate the changes.
+2015.05.06 21:09:42 1: 
+2015.05.06 21:09:42 1: fheminfo Missing perl module 'HTTP::Request::Common'. Please install this module first.
+2015.05.06 21:09:42 1: fheminfo Missing perl module 'HTTP::Request::Common'. Please install this module first.
+2015.05.06 21:10:05 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.06 21:13:48 3: HA_CUL868_HM_1: Unknown code A0C0084412D29B30000000101C8::-46:HA_CUL868_HM_1, help me!
+2015.05.06 21:13:48 3: HA_CUL868_HM_1: Unknown code A0D0186102D29B30000000601C80E::-48.5:HA_CUL868_HM_1, help me!
+2015.05.06 21:15:23 3: HA_CUL868_HM_1: Unknown code A0C0284412D29B3000000010264::-39.5:HA_CUL868_HM_1, help me!
+2015.05.06 21:19:03 1: CUL_HM correct hmId for assigned IO HA_IODev_HM_1
+2015.05.06 21:19:28 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN172> line 30.
+2015.05.06 21:19:29 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN172> line 30.
+2015.05.06 21:27:08 0: Server shutdown
+2015.05.06 21:27:13 1: Including fhem.cfg
+2015.05.06 21:27:13 3: telnetPort: port 7072 opened
+2015.05.06 21:27:14 3: WEB: port 8083 opened
+2015.05.06 21:27:14 3: WEBphone: port 8084 opened
+2015.05.06 21:27:14 3: WEBtablet: port 8085 opened
+2015.05.06 21:27:15 1: Including ./Holger/IODev_CUL.cfg
+2015.05.06 21:27:15 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.06 21:27:16 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.06 21:27:16 3: HA_CUL433_1 device opened
+2015.05.06 21:27:16 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.06 21:27:16 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.06 21:27:16 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.06 21:27:16 3: HA_CUL868_HM_1 device opened
+2015.05.06 21:27:16 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.06 21:27:16 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.06 21:27:16 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.05.06 21:27:20 1: Converting weblink weblink_CUL_FHTTK_6eb19a (fileplot) to SVG
+2015.05.06 21:27:21 1: Converting weblink weblink_HMS100TF_0000 (fileplot) to SVG
+2015.05.06 21:27:21 1: Converting weblink weblink_CUL_WS_8 (fileplot) to SVG
+2015.05.06 21:27:21 1: Converting weblink wl_0 (fileplot) to SVG
+2015.05.06 21:27:21 1: Including ./Holger/ModBus.cfg
+2015.05.06 21:27:21 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.06 21:27:21 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.06 21:27:21 3: HA_Modbus_1 device opened
+2015.05.06 21:27:21 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.06 21:27:22 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.06 21:27:22 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.06 21:27:22 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.06 21:27:22 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.06 21:27:22 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.06 21:27:22 1: Including ./log/fhem.save
+2015.05.06 21:27:23 1: usb create starting
+2015.05.06 21:27:25 3: Probing CUL device /dev/ttyAMA0
+2015.05.06 21:27:25 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.06 21:27:25 1: usb create end
+2015.05.06 21:27:25 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart FHEM for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2015.05.06 21:27:25 0: Server started with 44 defined entities (version $Id: fhem.pl 8499 2015-04-30 09:49:39Z rudolfkoenig $, os linux, user pi, pid 3624)
+2015.05.06 21:27:26 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.06 21:27:26 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.06 21:27:26 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.06 21:27:28 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.06 21:27:28 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.06 21:27:29 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.06 21:28:28 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.06 21:28:48 2: CUL_HM Unknown device HM_2D29B3 is now defined
+2015.05.06 21:28:48 2: autocreate: define HM_2D29B3 CUL_HM 2D29B3
+2015.05.06 21:28:48 2: autocreate: define FileLog_HM_2D29B3 FileLog ./log/HM_2D29B3-%Y.log HM_2D29B3
+2015.05.06 21:28:48 3: Device HM_2D29B3 added to ActionDetector with 028:00 time
+2015.05.06 21:28:48 3: CUL_HM pair: HM_2D29B3 threeStateSensor, model HM-SEC-RHS serialNr 
+2015.05.06 21:28:48 3: CUL_HM set HM_2D29B3 getConfig
+2015.05.06 21:28:53 3: Device HM_2D29B3 added to ActionDetector with 028:00 time
+2015.05.06 21:31:25 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN54> line 32.
+2015.05.06 21:31:25 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN54> line 32.
+2015.05.06 21:31:26 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.06 21:31:27 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:31:27 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:31:31 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:31:31 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:31:31 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622.
+2015.05.06 21:38:53 3: Device KU_Tuer_T removed from ActionDetector
+2015.05.06 21:41:11 1: No Logdevice logProxy
+2015.05.06 21:41:21 1: No Logdevice logProxy
+2015.05.06 21:41:32 1: No Logdevice logProxy
+2015.05.06 21:42:06 1: No Logdevice logProxy
+2015.05.06 21:44:35 1: No Logdevice logProxy
+2015.05.06 21:52:39 1: No Logdevice logProxy
+2015.05.06 21:54:55 1: No Logdevice logProxy
+2015.05.06 21:55:01 1: No Logdevice logProxy
+2015.05.06 21:58:45 3: CUL_HM set HM_vCCU_1_Btn01 press long
+2015.05.06 21:58:53 1: No Logdevice logProxy
+2015.05.06 21:59:14 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN349> line 30.
+2015.05.06 21:59:14 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN349> line 30.
+2015.05.06 21:59:14 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN349> line 30.
+2015.05.06 21:59:14 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN349> line 30.
+2015.05.06 21:59:14 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN349> line 30.
+2015.05.07 11:07:54 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN429> line 34.
+2015.05.07 11:07:54 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN429> line 34.
+2015.05.07 11:07:54 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN429> line 34.
+2015.05.07 11:07:54 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN429> line 34.
+2015.05.07 11:07:54 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN429> line 34.
+2015.05.07 11:09:33 1: No Logdevice logProxy
+2015.05.07 11:14:21 1: No Logdevice logProxy
+2015.05.07 12:51:10 1: No Logdevice logProxy
+2015.05.07 12:57:04 1: No Logdevice logProxy
+2015.05.07 13:01:37 1: No Logdevice logProxy
+2015.05.07 16:41:33 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN656> line 31.
+2015.05.07 16:41:33 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN656> line 31.
+2015.05.07 16:41:33 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN656> line 31.
+2015.05.07 16:41:33 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN656> line 31.
+2015.05.07 16:41:33 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN656> line 31.
+2015.05.07 16:42:07 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN674> line 32.
+2015.05.07 16:42:07 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN674> line 32.
+2015.05.07 16:42:07 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN674> line 32.
+2015.05.07 16:42:07 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN674> line 32.
+2015.05.07 16:42:07 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN674> line 32.
+2015.05.07 16:45:05 1: No Logdevice logProxy
+2015.05.07 18:58:32 1: No Logdevice logProxy
+2015.05.07 19:20:52 1: RMDIR: ./restoreDir/2015-04-26
+2015.05.07 19:20:52 1: UPD FHEM/42_SYSMON.pm
+2015.05.07 19:20:53 1: UPD FHEM/75_MSG.pm
+2015.05.07 19:20:53 1: UPD FHEM/76_MSGFile.pm
+2015.05.07 19:20:53 1: UPD FHEM/76_MSGMail.pm
+2015.05.07 19:20:53 1: UPD FHEM/98_WeekdayTimer.pm
+2015.05.07 19:20:53 1: Calling /usr/bin/perl ./contrib/commandref_join.pl, this may take a while
+2015.05.07 19:24:07 1: *** EN FHEM/23_WEBTHERM.pm: No document text found
+2015.05.07 19:24:07 1: 
+2015.05.07 19:24:07 1: update finished, "shutdown restart" is needed to activate the changes.
+2015.05.07 19:24:07 1: 
+2015.05.07 19:24:07 1: fheminfo Missing perl module 'HTTP::Request::Common'. Please install this module first.
+2015.05.07 19:24:07 1: fheminfo Missing perl module 'HTTP::Request::Common'. Please install this module first.
+2015.05.07 19:45:53 1: No Logdevice logProxy
+2015.05.07 19:52:21 1: No Logdevice logProxy
+2015.05.07 19:52:29 1: No Logdevice logProxy
+2015.05.07 19:52:35 1: No Logdevice logProxy
+2015.05.07 19:55:56 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN779> line 36.
+2015.05.07 19:55:56 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN779> line 36.
+2015.05.07 19:57:12 1: No Logdevice logProxy
+2015.05.07 19:58:49 0: Server shutdown
+2015.05.07 19:59:00 1: Including fhem.cfg
+2015.05.07 19:59:01 1: Including ./Holger/connect.cfg
+2015.05.07 19:59:01 3: Telnet_1: port 7072 opened
+2015.05.07 19:59:04 3: WEB_1: port 8083 opened
+2015.05.07 19:59:04 3: WEB_Handy_2: port 8084 opened
+2015.05.07 19:59:04 3: WEB_Tablett_3: port 8085 opened
+2015.05.07 19:59:04 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2015.05.07 20:22:36 1: Including fhem.cfg
+2015.05.07 20:22:36 1: Including ./Holger/connect.cfg
+2015.05.07 20:22:36 3: Telnet_1: port 7072 opened
+2015.05.07 20:22:37 3: WEB_1: port 8083 opened
+2015.05.07 20:22:37 3: WEB_Handy_2: port 8084 opened
+2015.05.07 20:22:37 3: WEB_Tablett_3: port 8085 opened
+2015.05.07 20:22:37 1: Including ./Holger/AutoCreate.cfg
+2015.05.07 20:22:37 1: Including ./Holger/LogProxy.cfg
+2015.05.07 20:22:38 1: Including ./Holger/IODev_CUL.cfg
+2015.05.07 20:22:38 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.07 20:22:39 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.07 20:22:39 3: HA_CUL433_1 device opened
+2015.05.07 20:22:39 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:22:39 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.07 20:22:39 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.07 20:22:39 3: HA_CUL868_HM_1 device opened
+2015.05.07 20:22:39 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:22:39 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.07 20:22:39 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.05.07 20:22:43 1: Including ./Holger/Fenster_HM.cfg
+2015.05.07 20:22:43 1: Including ./Holger/Tuer_HM.cfg
+2015.05.07 20:22:43 3: KU_Tuer_T: unknown IODev specified
+2015.05.07 20:22:43 1: Including ./Holger/Tuer_HM_Grafik.cfg
+2015.05.07 20:22:44 1: Including ./Holger/Heizung_HM.cfg
+2015.05.07 20:22:44 3: LZ_Heizung_S: unknown IODev specified
+2015.05.07 20:22:44 3: LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+2015.05.07 20:22:44 3: LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:22:44 1: Including ./Holger/Heizung_HM_Grafik.cfg
+2015.05.07 20:22:44 1: Including ./Holger/ModBus.cfg
+2015.05.07 20:22:44 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.07 20:22:44 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.07 20:22:44 3: HA_Modbus_1 device opened
+2015.05.07 20:22:44 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.07 20:22:45 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:22:45 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.07 20:22:45 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.07 20:22:45 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:22:45 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.07 20:22:45 1: Including ./log/fhem.save
+2015.05.07 20:22:46 1: configfile: KU_Tuer_T: unknown IODev specified
+LZ_Heizung_S: unknown IODev specified
+LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.statefile: Please define ActionDetector first
+Please define ActionDetector first
+Please define CUL_FHTTK_6eb19a first
+Please define CUL_FHTTK_6eb19a first
+Please define CUL_FHTTK_6eb19a first
+Please define CUL_FHTTK_6eb19a first
+Please define CUL_FHTTK_6eb19a first
+Please define CUL_FHTTK_6eb19a first
+Please define CUL_FHTTK_6eb19a first
+Please define FileLog_CUL_FHTTK_6eb19a first
+Please define FileLog_CUL_WS_8 first
+Please define FileLog_HMS100TF_0000 first
+Please define FileLog_HM_2D29B3 first
+Please define HMS100TF_0000 first
+Please define HMS100TF_0000 first
+Please define HMS100TF_0000 first
+Please define HMS100TF_0000 first
+Please define HMS100TF_0000 first
+Please define HMS100TF_0000 first
+Please define SVG_HA_IODev_FLog_1 first
+Please define weblink_CUL_FHTTK_6eb19a first
+Please define weblink_CUL_WS_8 first
+Please define weblink_HMS100TF_0000 first
+Please define wl_0 first
+2015.05.07 20:22:46 1: usb create starting
+2015.05.07 20:22:48 3: Probing CUL device /dev/ttyAMA0
+2015.05.07 20:22:48 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.07 20:22:49 1: usb create end
+2015.05.07 20:22:49 2: Error messages while initializing FHEM: configfile: KU_Tuer_T: unknown IODev specified LZ_Heizung_S: unknown IODev specified LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list. LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.statefile: Please define ActionDetector first Please define ActionDetector first Please define CUL_FHTTK_6eb19a first Please define CUL_FHTTK_6eb19a first Please define CUL_FHTTK_6eb19a first Please define CUL_FHTTK_6eb19a first Please define CUL_FHTTK_6eb19a first Please define CUL_FHTTK_6eb19a first Please define CUL_FHTTK_6eb19a first Please define FileLog_CUL_FHTTK_6eb19a first Please define FileLog_CUL_WS_8 first Please define FileLog_HMS100TF_0000 first Please define FileLog_HM_2D29B3 first Please define HMS100TF_0000 first Please define HMS100TF_0000 first Please define HMS100TF_0000 first Please define HMS100TF_0000 first Please define HMS100TF_0000 first Please define HMS100TF_0000 first Please define SVG_HA_IODev_FLog_1 first Please define weblink_CUL_FHTTK_6eb19a first Please define weblink_CUL_WS_8 first Please define weblink_HMS100TF_0000 first Please define wl_0 first
+2015.05.07 20:22:49 0: Server started with 47 defined entities (version $Id: fhem.pl 8499 2015-04-30 09:49:39Z rudolfkoenig $, os linux, user pi, pid 2446)
+2015.05.07 20:22:49 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:22:49 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:22:49 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:22:52 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:22:52 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:22:53 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:24:02 0: Server shutdown
+2015.05.07 20:24:07 1: Including fhem.cfg
+2015.05.07 20:24:07 1: Including ./Holger/connect.cfg
+2015.05.07 20:24:07 3: Telnet_1: port 7072 opened
+2015.05.07 20:24:08 3: WEB_1: port 8083 opened
+2015.05.07 20:24:08 3: WEB_Handy_2: port 8084 opened
+2015.05.07 20:24:08 3: WEB_Tablett_3: port 8085 opened
+2015.05.07 20:24:08 1: Including ./Holger/AutoCreate.cfg
+2015.05.07 20:24:08 1: Including ./Holger/LogProxy.cfg
+2015.05.07 20:24:09 1: Including ./Holger/IODev_CUL.cfg
+2015.05.07 20:24:09 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.07 20:24:09 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.07 20:24:09 3: HA_CUL433_1 device opened
+2015.05.07 20:24:09 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:24:10 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.07 20:24:10 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.07 20:24:10 3: HA_CUL868_HM_1 device opened
+2015.05.07 20:24:10 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:24:10 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.07 20:24:10 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.05.07 20:24:14 1: Including ./Holger/Fenster_HM.cfg
+2015.05.07 20:24:14 1: Including ./Holger/Tuer_HM.cfg
+2015.05.07 20:24:14 3: KU_Tuer_T: unknown IODev specified
+2015.05.07 20:24:14 1: Including ./Holger/Tuer_HM_Grafik.cfg
+2015.05.07 20:24:15 1: Including ./Holger/Heizung_HM.cfg
+2015.05.07 20:24:15 3: LZ_Heizung_S: unknown IODev specified
+2015.05.07 20:24:15 3: LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+2015.05.07 20:24:15 3: LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:24:15 1: Including ./Holger/Heizung_HM_Grafik.cfg
+2015.05.07 20:24:15 1: Including ./Holger/ModBus.cfg
+2015.05.07 20:24:15 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.07 20:24:15 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.07 20:24:15 3: HA_Modbus_1 device opened
+2015.05.07 20:24:15 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.07 20:24:15 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:24:15 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.07 20:24:16 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.07 20:24:16 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:24:16 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.07 20:24:16 1: Including ./log/fhem.save
+2015.05.07 20:24:16 1: configfile: KU_Tuer_T: unknown IODev specified
+LZ_Heizung_S: unknown IODev specified
+LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:24:16 1: usb create starting
+2015.05.07 20:24:19 3: Probing CUL device /dev/ttyAMA0
+2015.05.07 20:24:19 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.07 20:24:19 1: usb create end
+2015.05.07 20:24:19 2: Error messages while initializing FHEM: configfile: KU_Tuer_T: unknown IODev specified LZ_Heizung_S: unknown IODev specified LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list. LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:24:19 0: Server started with 47 defined entities (version $Id: fhem.pl 8499 2015-04-30 09:49:39Z rudolfkoenig $, os linux, user pi, pid 2455)
+2015.05.07 20:24:19 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:24:19 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:24:19 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:24:22 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:24:22 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:24:23 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:27:18 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN45> line 32.
+2015.05.07 20:27:18 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN45> line 32.
+2015.05.07 20:27:18 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN46> line 32.
+2015.05.07 20:27:18 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN46> line 32.
+2015.05.07 20:27:18 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN47> line 32.
+2015.05.07 20:27:18 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN49> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN49> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN49> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN49> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN49> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN49> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN49> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN50> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN50> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN50> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN50> line 32.
+2015.05.07 20:27:19 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN50> line 32.
+2015.05.07 20:28:18 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 20:28:18 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 20:28:50 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 20:28:58 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 20:28:59 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 20:29:02 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 20:31:25 0: Server shutdown
+2015.05.07 20:39:13 1: Including /opt/fhem-5.4/fhem.cfg
+2015.05.07 20:39:13 1: Including ./Holger/connect.cfg
+2015.05.07 20:39:13 3: Telnet_1: port 7072 opened
+2015.05.07 20:39:14 3: WEB_1: port 8083 opened
+2015.05.07 20:39:14 3: WEB_Handy_2: port 8084 opened
+2015.05.07 20:39:14 3: WEB_Tablett_3: port 8085 opened
+2015.05.07 20:39:14 1: Including ./Holger/AutoCreate.cfg
+2015.05.07 20:39:14 1: Including ./Holger/LogProxy.cfg
+2015.05.07 20:39:14 1: Including ./Holger/IODev_CUL.cfg
+2015.05.07 20:39:15 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.07 20:39:15 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.07 20:39:15 3: HA_CUL433_1 device opened
+2015.05.07 20:39:15 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:39:15 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.07 20:39:15 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.07 20:39:15 3: HA_CUL868_HM_1 device opened
+2015.05.07 20:39:15 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:39:15 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.07 20:39:15 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.05.07 20:39:19 1: Including ./Holger/Fenster_HM.cfg
+2015.05.07 20:39:19 1: Including ./Holger/Tuer_HM.cfg
+2015.05.07 20:39:19 3: KU_Tuer_T: unknown IODev specified
+2015.05.07 20:39:19 1: Including ./Holger/Tuer_HM_Grafik.cfg
+2015.05.07 20:39:20 1: Including ./Holger/Heizung_HM.cfg
+2015.05.07 20:39:20 3: LZ_Heizung_S: unknown IODev specified
+2015.05.07 20:39:20 3: LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+2015.05.07 20:39:20 3: LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:39:20 1: Including ./Holger/Heizung_HM_Grafik.cfg
+2015.05.07 20:39:20 1: Including ./Holger/ModBus.cfg
+2015.05.07 20:39:20 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.07 20:39:20 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.07 20:39:20 3: HA_Modbus_1 device opened
+2015.05.07 20:39:20 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.07 20:39:20 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:39:20 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.07 20:39:21 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.07 20:39:21 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:39:21 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.07 20:39:21 1: Including ./log/fhem.save
+2015.05.07 20:39:21 1: configfile: KU_Tuer_T: unknown IODev specified
+LZ_Heizung_S: unknown IODev specified
+LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:39:21 1: usb create starting
+2015.05.07 20:39:23 3: Probing CUL device /dev/ttyAMA0
+2015.05.07 20:39:23 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.07 20:39:23 1: usb create end
+2015.05.07 20:39:23 2: Error messages while initializing FHEM: configfile: KU_Tuer_T: unknown IODev specified LZ_Heizung_S: unknown IODev specified LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list. LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:39:23 0: Server started with 47 defined entities (version $Id: fhem.pl 8499 2015-04-30 09:49:39Z rudolfkoenig $, os linux, user pi, pid 2518)
+2015.05.07 20:39:24 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:39:24 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:39:24 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:39:26 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:39:26 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:39:27 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:40:51 0: Server shutdown
+2015.05.07 20:42:25 1: Including /opt/fhem-5.4/fhem.cfg
+2015.05.07 20:42:26 1: Including ./Holger/connect.cfg
+2015.05.07 20:42:26 3: Telnet_1: port 7072 opened
+2015.05.07 20:42:28 3: WEB_1: port 8083 opened
+2015.05.07 20:42:28 3: WEB_Handy_2: port 8084 opened
+2015.05.07 20:42:28 3: WEB_Tablett_3: port 8085 opened
+2015.05.07 20:42:28 1: Including ./Holger/AutoCreate.cfg
+2015.05.07 20:42:28 1: Including ./Holger/LogProxy.cfg
+2015.05.07 20:42:51 1: Including ./Holger/IODev_CUL.cfg
+2015.05.07 20:42:52 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.07 20:42:53 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.07 20:42:53 3: HA_CUL433_1 device opened
+2015.05.07 20:42:53 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:42:53 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.07 20:42:53 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.07 20:42:53 3: HA_CUL868_HM_1 device opened
+2015.05.07 20:42:53 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:42:53 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.07 20:42:54 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.05.07 20:43:05 1: Including ./Holger/Fenster_HM.cfg
+2015.05.07 20:43:06 1: Including ./Holger/Tuer_HM.cfg
+2015.05.07 20:43:06 3: KU_Tuer_T: unknown IODev specified
+2015.05.07 20:43:06 1: Including ./Holger/Tuer_HM_Grafik.cfg
+2015.05.07 20:43:08 1: Including ./Holger/Heizung_HM.cfg
+2015.05.07 20:43:08 3: LZ_Heizung_S: unknown IODev specified
+2015.05.07 20:43:08 3: LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+2015.05.07 20:43:08 3: LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:43:08 1: Including ./Holger/Heizung_HM_Grafik.cfg
+2015.05.07 20:43:08 1: Including ./Holger/ModBus.cfg
+2015.05.07 20:43:09 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.07 20:43:09 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.07 20:43:09 3: HA_Modbus_1 device opened
+2015.05.07 20:43:09 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.07 20:43:09 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:43:09 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.07 20:43:10 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.07 20:43:10 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:43:11 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.07 20:43:11 1: Including ./log/fhem.save
+2015.05.07 20:43:11 1: configfile: KU_Tuer_T: unknown IODev specified
+LZ_Heizung_S: unknown IODev specified
+LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list.
+LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:43:11 1: usb create starting
+2015.05.07 20:43:14 3: Probing CUL device /dev/ttyAMA0
+2015.05.07 20:43:14 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.07 20:43:14 1: usb create end
+2015.05.07 20:43:14 2: Error messages while initializing FHEM: configfile: KU_Tuer_T: unknown IODev specified LZ_Heizung_S: unknown IODev specified LZ_Heizung_S: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S ?' for a detailed list. LZ_Heizung_S_Weather: unknown attribute Lipo_Eig. Type 'attr LZ_Heizung_S_Weather ?' for a detailed list.
+2015.05.07 20:43:14 0: Server started with 47 defined entities (version $Id: fhem.pl 8499 2015-04-30 09:49:39Z rudolfkoenig $, os linux, user pi, pid 2237)
+2015.05.07 20:43:15 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:43:15 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:43:15 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:43:17 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:43:17 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:43:18 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:48:37 0: Server shutdown
+2015.05.07 20:48:42 1: Including /opt/fhem-5.4/fhem.cfg
+2015.05.07 20:48:42 1: Including ./Holger/connect.cfg
+2015.05.07 20:48:42 3: Telnet_1: port 7072 opened
+2015.05.07 20:48:43 3: WEB_1: port 8083 opened
+2015.05.07 20:48:43 3: WEB_Handy_2: port 8084 opened
+2015.05.07 20:48:43 3: WEB_Tablett_3: port 8085 opened
+2015.05.07 20:48:43 1: Including ./Holger/AutoCreate.cfg
+2015.05.07 20:48:43 1: Including ./Holger/LogProxy.cfg
+2015.05.07 20:48:44 1: Including ./Holger/IODev_CUL.cfg
+2015.05.07 20:48:44 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.07 20:48:45 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.07 20:48:45 3: HA_CUL433_1 device opened
+2015.05.07 20:48:45 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:48:45 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.07 20:48:45 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.07 20:48:45 3: HA_CUL868_HM_1 device opened
+2015.05.07 20:48:45 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 20:48:45 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.07 20:48:45 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.05.07 20:48:49 1: Including ./Holger/Fenster_HM.cfg
+2015.05.07 20:48:49 1: Including ./Holger/Tuer_HM.cfg
+2015.05.07 20:48:49 1: Including ./Holger/Tuer_HM_Grafik.cfg
+2015.05.07 20:48:50 1: Including ./Holger/Heizung_HM.cfg
+2015.05.07 20:48:50 1: Including ./Holger/Heizung_HM_Grafik.cfg
+2015.05.07 20:48:50 1: Including ./Holger/ModBus.cfg
+2015.05.07 20:48:50 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.07 20:48:50 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.07 20:48:50 3: HA_Modbus_1 device opened
+2015.05.07 20:48:50 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.07 20:48:50 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:48:51 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.07 20:48:51 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.07 20:48:51 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 20:48:51 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.07 20:48:51 1: Including ./log/fhem.save
+2015.05.07 20:48:52 1: usb create starting
+2015.05.07 20:48:54 3: Probing CUL device /dev/ttyAMA0
+2015.05.07 20:48:54 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.07 20:48:54 1: usb create end
+2015.05.07 20:48:54 2: SecurityCheck:  Telnet_1 has no password/globalpassword attribute. WEB_1,WEB_Handy_2,WEB_Tablett_3 has no basicAuth attribute.  Restart FHEM for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2015.05.07 20:48:54 0: Server started with 47 defined entities (version $Id: fhem.pl 8499 2015-04-30 09:49:39Z rudolfkoenig $, os linux, user pi, pid 2446)
+2015.05.07 20:48:55 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:48:55 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:48:55 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 20:48:57 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:48:57 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 20:48:58 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 21:22:29 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:24:46 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:25:46 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:26:40 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN110> line 36.
+2015.05.07 21:28:00 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN133> line 34.
+2015.05.07 21:28:00 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN133> line 34.
+2015.05.07 21:28:01 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN134> line 34.
+2015.05.07 21:28:01 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN134> line 34.
+2015.05.07 21:28:01 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN134> line 34.
+2015.05.07 21:28:02 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN136> line 32.
+2015.05.07 21:28:02 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN136> line 32.
+2015.05.07 21:28:03 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:03 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:03 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:03 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:04 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:04 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:04 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:04 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:04 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:04 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN137> line 32.
+2015.05.07 21:28:07 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:08 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:09 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:12 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:13 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:17 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:17 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:19 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:19 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:23 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN138> line 35.
+2015.05.07 21:28:23 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN138> line 35.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN139> line 35.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN139> line 35.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN141> line 33.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN141> line 33.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN141> line 33.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN141> line 33.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN141> line 33.
+2015.05.07 21:28:24 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN142> line 33.
+2015.05.07 21:28:25 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN142> line 33.
+2015.05.07 21:28:25 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN142> line 33.
+2015.05.07 21:28:25 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN142> line 33.
+2015.05.07 21:28:25 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN142> line 33.
+2015.05.07 21:28:32 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:28:32 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:29:09 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:29:15 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:29:17 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN151> line 36.
+2015.05.07 21:29:17 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN151> line 36.
+2015.05.07 21:29:17 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN151> line 36.
+2015.05.07 21:29:17 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN151> line 36.
+2015.05.07 21:29:17 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN151> line 36.
+2015.05.07 21:29:38 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:29:45 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:29:47 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:31:08 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:31:14 2: CUL_HM Unknown device HM_3578C0 is now defined
+2015.05.07 21:31:14 2: autocreate: define HM_3578C0 CUL_HM 3578C0
+2015.05.07 21:31:14 3: Device HM_3578C0 added to ActionDetector with 000:10 time
+2015.05.07 21:31:14 3: CUL_HM pair: HM_3578C0 thermostat, model HM-CC-RT-DN serialNr 
+2015.05.07 21:31:14 3: CUL_HM set HM_3578C0 getConfig
+2015.05.07 21:31:19 3: Device HM_3578C0 added to ActionDetector with 000:10 time
+2015.05.07 21:31:38 3: Device HM_3578C0 added to ActionDetector with 000:10 time
+2015.05.07 21:31:38 3: CUL_HM set HM_3578C0 getConfig
+2015.05.07 21:31:55 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:55 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:55 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:55 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:55 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:56 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 36.
+2015.05.07 21:31:58 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 34.
+2015.05.07 21:31:58 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 34.
+2015.05.07 21:31:58 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 34.
+2015.05.07 21:31:58 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 34.
+2015.05.07 21:31:58 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN159> line 34.
+2015.05.07 21:33:12 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:33:13 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:33:13 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:33:16 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:33:31 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:33:34 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 825.
+2015.05.07 21:37:04 0: Server shutdown
+2015.05.07 21:37:09 1: Including /opt/fhem-5.4/fhem.cfg
+2015.05.07 21:37:09 1: Including ./Holger/connect.cfg
+2015.05.07 21:37:09 3: Telnet_1: port 7072 opened
+2015.05.07 21:37:10 3: WEB_1: port 8083 opened
+2015.05.07 21:37:10 3: WEB_Handy_2: port 8084 opened
+2015.05.07 21:37:10 3: WEB_Tablett_3: port 8085 opened
+2015.05.07 21:37:10 1: Including ./Holger/AutoCreate.cfg
+2015.05.07 21:37:10 1: Including ./Holger/LogProxy.cfg
+2015.05.07 21:37:11 1: Including ./Holger/IODev_CUL.cfg
+2015.05.07 21:37:11 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.05.07 21:37:11 3: Setting HA_CUL433_1 baudrate to 38400
+2015.05.07 21:37:11 3: HA_CUL433_1 device opened
+2015.05.07 21:37:12 3: HA_CUL433_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 21:37:12 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.05.07 21:37:12 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.05.07 21:37:12 3: HA_CUL868_HM_1 device opened
+2015.05.07 21:37:12 3: HA_CUL868_HM_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2015.05.07 21:37:12 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.05.07 21:37:12 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.05.07 21:37:16 1: Including ./Holger/Fenster_HM.cfg
+2015.05.07 21:37:16 1: Including ./Holger/Tuer_HM.cfg
+2015.05.07 21:37:16 1: Including ./Holger/Tuer_HM_Grafik.cfg
+2015.05.07 21:37:16 1: Including ./Holger/Heizung_HM.cfg
+2015.05.07 21:37:17 1: Including ./Holger/Heizung_HM_Grafik.cfg
+2015.05.07 21:37:17 1: Including ./Holger/ModBus.cfg
+2015.05.07 21:37:17 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.05.07 21:37:17 3: Setting HA_Modbus_1 baudrate to 9600
+2015.05.07 21:37:17 3: HA_Modbus_1 device opened
+2015.05.07 21:37:17 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.05.07 21:37:17 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 21:37:17 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.05.07 21:37:17 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.05.07 21:37:17 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.05.07 21:37:18 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.05.07 21:37:18 1: define HM_3578C0 HM_3578C0 CUL_HM 3578C0: HMid DEF already used by FL_Heizung_S
+2015.05.07 21:37:18 1: Including ./log/fhem.save
+2015.05.07 21:37:19 1: configfile: HMid DEF already used by FL_Heizung_Sstatefile: Please define ActionDetector first
+Please define ActionDetector first
+Please define ActionDetector first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0 first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_Clima first
+Please define HM_3578C0_ClimaTeam first
+Please define HM_3578C0_ClimaTeam first
+Please define HM_3578C0_ClimaTeam first
+Please define HM_3578C0_ClimaTeam first
+Please define HM_3578C0_Climate first
+Please define HM_3578C0_Climate first
+Please define HM_3578C0_Climate first
+Please define HM_3578C0_Climate first
+Please define HM_3578C0_Weather first
+Please define HM_3578C0_Weather first
+Please define HM_3578C0_Weather first
+Please define HM_3578C0_Weather first
+Please define HM_3578C0_Weather first
+Please define HM_3578C0_WindowRec first
+Please define HM_3578C0_WindowRec first
+Please define HM_3578C0_WindowRec first
+Please define HM_3578C0_WindowRec first
+Please define HM_3578C0_remote first
+Please define HM_3578C0_remote first
+Please define HM_3578C0_remote first
+Please define HM_3578C0_remote first
+Please define LZ_Heizung_S first
+Please define LZ_Heizung_S first
+Please define LZ_Heizung_S first
+Please define LZ_Heizung_S_Clima first
+Please define LZ_Heizung_S_Clima first
+Please define LZ_Heizung_S_ClimaTeam first
+Please define LZ_Heizung_S_ClimaTeam first
+Please define LZ_Heizung_S_Climate first
+Please define LZ_Heizung_S_Climate first
+Please define LZ_Heizung_S_Weather first
+Please define LZ_Heizung_S_WindowRec first
+Please define LZ_Heizung_S_WindowRec first
+Please define LZ_Heizung_S_WindowRec first
+Please define LZ_Heizung_S_remote first
+Please define LZ_Heizung_S_remote first
+2015.05.07 21:37:19 1: usb create starting
+2015.05.07 21:37:21 3: Probing CUL device /dev/ttyAMA0
+2015.05.07 21:37:21 3: Can't open /dev/ttyAMA0: Permission denied
+2015.05.07 21:37:22 1: usb create end
+2015.05.07 21:37:22 2: Error messages while initializing FHEM: configfile: HMid DEF already used by FL_Heizung_Sstatefile: Please define ActionDetector first Please define ActionDetector first Please define ActionDetector first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0 first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_Clima first Please define HM_3578C0_ClimaTeam first Please define HM_3578C0_ClimaTeam first Please define HM_3578C0_ClimaTeam first Please define HM_3578C0_ClimaTeam first Please define HM_3578C0_Climate first Please define HM_3578C0_Climate first Please define HM_3578C0_Climate first Please define HM_3578C0_Climate first Please define HM_3578C0_Weather first Please define HM_3578C0_Weather first Please define HM_3578C0_Weather first Please define HM_3578C0_Weather first Please define HM_3578C0_Weather first Please define HM_3578C0_WindowRec first Please define HM_3578C0_WindowRec first Please define HM_3578C0_WindowRec first Please define HM_3578C0_WindowRec first Please define HM_3578C0_remote first Please define HM_3578C0_remote first Please define HM_3578C0_remote first Please define HM_3578C0_remote first Please define LZ_Heizung_S first Please define LZ_Heizung_S first Please define LZ_Heizung_S first Please define LZ_Heizung_S_Clima first Please define LZ_Heizung_S_Clima first Please define LZ_Heizung_S_ClimaTeam first Please define LZ_Heizung_S_ClimaTeam first Please define LZ_Heizung_S_Climate first Please define LZ_Heizung_S_Climate first Please define LZ_Heizung_S_Weather first Please define LZ_Heizung_S_WindowRec first Please define LZ_Heizung_S_WindowRec first Please define LZ_Heizung_S_WindowRec first Please define LZ_Heizung_S_remote first Please define LZ_Heizung_S_remote first
+2015.05.07 21:37:22 0: Server started with 47 defined entities (version $Id: fhem.pl 8499 2015-04-30 09:49:39Z rudolfkoenig $, os linux, user pi, pid 2538)
+2015.05.07 21:37:22 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 21:37:22 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 21:37:22 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.05.07 21:37:24 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 21:37:24 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 21:37:25 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.05.07 21:45:06 1: PERL WARNING: Use of uninitialized value in string eq at ./FHEM/10_CUL_HM.pm line 7355.
+2015.05.07 21:45:06 3: CUL_HM set FL_Heizung_S getConfig
+2015.05.07 21:50:03 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:50:43 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:51:21 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:52:38 3: CUL_HM set HM_vCCU_1 hmPairForSec 60
+2015.05.07 21:53:00 3: CUL_HM set HM_vCCU_1 update
+2015.05.07 21:56:15 0: Server shutdown

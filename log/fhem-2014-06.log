@@ -1,0 +1,43 @@
+2014.06.29 19:31:36 1: Including fhem.cfg
+2014.06.29 19:31:37 3: telnetPort: port 7072 opened
+2014.06.29 19:31:39 3: WEB: port 8083 opened
+2014.06.29 19:31:39 3: WEBphone: port 8084 opened
+2014.06.29 19:31:39 3: WEBtablet: port 8085 opened
+2014.06.29 19:31:41 3: Opening CUL_0 device /dev/ttyACM0
+2014.06.29 19:31:41 1: Including fhem.cfg
+2014.06.29 19:31:42 3: Setting CUL_0 baudrate to 9600
+2014.06.29 19:31:42 3: CUL_0 device opened
+2014.06.29 19:31:42 3: CUL_0: Possible commands: BCFiAZEGMRTVWXefmltux
+2014.06.29 19:31:42 3: Opening CUL_1 device /dev/ttyACM1
+2014.06.29 19:31:42 3: Setting CUL_1 baudrate to 9600
+2014.06.29 19:31:42 3: CUL_1 device opened
+2014.06.29 19:31:43 3: CUL_1: Possible commands: BCFiAZEGMRTVWXefmltux
+2014.06.29 19:31:43 1: Including ./log/fhem.save
+2014.06.29 19:31:44 1: usb create starting
+2014.06.29 19:31:44 1: telnetPort: Can't open server port at 7072: Address already in use. Exiting.
+2014.06.29 19:31:48 3: Opening CUL device /dev/ttyAMA0
+2014.06.29 19:31:48 3: Can't open /dev/ttyAMA0: Permission denied
+2014.06.29 19:31:48 1: usb create end
+2014.06.29 19:31:48 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2014.06.29 19:31:48 0: Server started with 19 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 2316)
+2014.06.29 19:39:23 0: Server shutdown
+2014.06.29 19:40:55 1: Including fhem.cfg
+2014.06.29 19:40:56 3: telnetPort: port 7072 opened
+2014.06.29 19:40:57 3: WEB: port 8083 opened
+2014.06.29 19:40:57 3: WEBphone: port 8084 opened
+2014.06.29 19:40:57 3: WEBtablet: port 8085 opened
+2014.06.29 19:40:58 3: Opening CUL_0 device /dev/ttyACM0
+2014.06.29 19:40:59 3: Setting CUL_0 baudrate to 9600
+2014.06.29 19:40:59 3: CUL_0 device opened
+2014.06.29 19:40:59 3: CUL_0: Possible commands: BCFiAZEGMRTVWXefmltux
+2014.06.29 19:40:59 2: Setting CUL fhtid from 1134 to 1034
+2014.06.29 19:40:59 3: Opening CUL_1 device /dev/ttyACM1
+2014.06.29 19:40:59 3: Can't open /dev/ttyACM1: No such file or directory
+2014.06.29 19:41:00 1: Including ./log/fhem.save
+2014.06.29 19:41:00 1: usb create starting
+2014.06.29 19:41:04 3: Opening CUL device /dev/ttyAMA0
+2014.06.29 19:41:04 3: Can't open /dev/ttyAMA0: Permission denied
+2014.06.29 19:41:04 1: usb create end
+2014.06.29 19:41:04 2: SecurityCheck:  WEB,WEBphone,WEBtablet has no basicAuth attribute. telnetPort has no password/globalpassword attribute.  Restart fhem for a new check if the problem is fixed, or set the global attribute motd to none to supress this message. 
+2014.06.29 19:41:04 0: Server started with 19 defined entities (version Fhem 5.4 (DEVELOPMENT), $Id: fhem.pl 3008 2013-04-01 11:19:27Z rudolfkoenig $, pid 2315)
+2014.06.29 19:51:18 0: Server shutdown

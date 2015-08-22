@@ -1,0 +1,64 @@
+## Anzeige Regen vom Regensensor
+##
+## Logfile record example:
+## 2013-11-15_14:23:28 GA_Regensensor_Regen dry
+## 2013-10-06_05:09:43 GA_Regensensor_Regen rain
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics  ("dry" 0.1, "rain" 0.9)
+set y2tics ("dry" 0.1, "rain" 0.9)
+set grid xtics y2tics
+
+set xlabel  " "
+set ylabel  "Regen"
+set y2label "Regen"
+
+set yrange  [0:1]
+set y2range [0:1]
+
+##get HM_Wetter_FLog ?
+##get HM_Wetter_FLog - - 2014-01-09 2014-01-11 3:GA_Regensensor_Regen::1
+##get HM_Wetter_FLog - - 2014-01-09 2014-01-11 3:GA_Regensensor_Regen\s(rain|dry)::1
+##get HM_Wetter_FLog - - 2014-01-01 2014-01-11 3:GA_Regensensor_Regen\s(rain|dry)::$fld[2]=~"dry"?.1:1
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 3:GA_Regensensor_Regen\s(rain|dry)::$fld[2]=~"dry"?.1:1
+
+##	Plotten der Datenreihen
+plot \
+     title '<L1>' ls l2 lw 2 axes x1y2 with steps
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

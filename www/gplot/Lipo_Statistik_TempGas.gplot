@@ -1,0 +1,65 @@
+############################
+##	Anzeige Temperaturen zum Gasverbrauch
+
+set terminal png transparent size <SIZE> crop
+set output '<OUT>.png'
+##set xdata time
+set timefmt "%Y-%m-%d"
+##set xlabel "Datum"
+
+set title '<TL>'
+set ylabel   qm Gas
+set y2label  Temperatur
+##set grid
+##set format y  "%.01f"
+##set format y2 "%.01f"
+##set ytics ("Sz" 0.8, "FlO" 0.6, "FlU" 0.4, "Wz1" 0.2, "Wz2" 0.0)
+##set y2tics ("Sz" 0.8, "FlO" 0.6, "FlU" 0.4, "Wz1" 0.2, "Wz2" 0.0)
+
+##get FHEM_Statistik_FLog ?
+##get FHEM_Statistik_FLog - - 2014-01-01 2014-01-30
+##get FHEM_Statistik_FLog - - 2014-01-01 2014-01-30  11:Aussen-Temperatur::
+##get FHEM_Statistik_FLog - - 2014-01-01 2014-01-30  11:Temperatur_Wohnzimmer::
+##get FHEM_Statistik_FLog - - 2014-01-01 2014-01-30  11:Temperatur_Katrin::
+##get FHEM_Statistik_FLog - - 2014-01-01 2014-01-30  11:Heizung_Vorlauf::
+##get FHEM_Statistik_FLog - - 2014-01-01 2014-01-30  11:Heizung_Ruecklauf::
+##get FHEM_Statistik_FLog - - 2014-01-01 2014-01-30  09:Gas_Tagesverbrauch::
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 11:Aussen-Temperatur::
+#FileLog 11:Temperatur_Wohnzimmer::
+#FileLog 11:Temperatur_Katrin::
+#FileLog 09:Gas_Tagesverbrauch::
+
+##	Plotten der Datenreihen
+plot \
+     title 'Aussen Temp.' ls l1     lw 3 axes x1y2 with lines,\
+	 title 'Temp Wohnen'  ls l0     lw 2 axes x1y2 with lines,\
+     title 'Temp Katrin'  ls l3     lw 2 axes x1y2 with lines,\
+     title 'Gasverbrauch' ls l5fill lw 1 axes x1y1 with lines,\
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

@@ -1,0 +1,58 @@
+############################
+## Display the measured temp
+## Corresponding FileLog definition: 
+## define <filelogname> FileLog /var/log/fhem/HMS100T-%Y.log <HMS100T>
+
+set terminal png transparent size <SIZE> crop
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+set xlabel " "
+set ytics nomirror
+##set y2tics
+##set ytics
+set title '<TL>'
+set grid xtics y2tics
+
+set y2label "Temperatur in C"
+set ylabel  "Temperatur in C"
+
+##set y2range [15:24]
+##set yrange  [15:24]
+
+##get HA_Temperaturen_FS20_FLog ?
+##get HA_Temperaturen_FS20_FLog - - 2014-01-02 2014-01-03 4:HZ_Temp_1.temperature:0:
+##get HA_Temperaturen_FS20_FLog - - 2014-01-02 2014-01-03 4:BA_TemH_2.temperature:0:
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 4:<SPEC1>.temperature:0:
+
+##	Plotten der Datenreihen
+plot \
+	 title '<L1>'  ls l0 lw 2 axes x1y2 with steps
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

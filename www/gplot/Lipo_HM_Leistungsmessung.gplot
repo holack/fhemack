@@ -1,0 +1,73 @@
+## Anzeige Verbrauchswerte einer HM Steckdosen mit Leistungsmessung HM-ES-PMSw1-Pl 
+##
+## Logfile record example:
+## 2014-02-12_17:57:59 HA_Leistung_1_Pwr frequency: 50.01
+## 2014-02-12_17:57:59 HA_Leistung_1_Pwr voltage: 233.5
+## 2014-02-12_17:57:59 HA_Leistung_1_Pwr current: 23
+## 2014-02-12_17:57:59 HA_Leistung_1_Pwr power: 1.62
+## 2014-02-12_17:57:59 HA_Leistung_1_Pwr energy: 1.1
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics
+set y2tics
+set grid xtics y2tics
+
+set xlabel  " "
+set ylabel  "Spannung in V"
+set y2label "Leistung in W"
+
+set yrange  [220:240]
+set y2range [0:]
+set y3range [0:]
+
+##get HM_Steckdosen_FLog ?
+##get HM_Steckdosen_FLog - - 2014-02-12 2014-02-13 4:HA_Leistung_1_Pwr.power
+##get HM_Steckdosen_FLog - - 2014-02-12 2014-02-13 4:HA_Leistung_1_Pwr.energy
+##get HM_Steckdosen_FLog - - 2014-02-12 2014-02-13 4:HA_Leistung_1_Pwr.voltage
+##get HM_Steckdosen_FLog - - 2014-02-12 2014-02-13 4:HA_Leistung_1_Pwr.frequency
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 4:<SPEC1>.power::int($fld[3])
+#FileLog 4:<SPEC1>.energy
+#FileLog 4:<SPEC1>.voltage
+###FileLog 4:<SPEC1>.frequency
+
+##	Plotten der Datenreihen
+plot \
+     title 'Power    <L1>'  ls l0 lw 2 axes x1y2 with lines,\
+	 title 'Leistung <L1>'  ls l2 lw 1 axes x1y3 with lines,\
+	 title 'Spannung <L1>'  ls l1 lw 1 axes x1y1 with lines,\
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

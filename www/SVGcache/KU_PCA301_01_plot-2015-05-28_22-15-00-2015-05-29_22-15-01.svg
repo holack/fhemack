@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id='SVGPLOT_KU_PCA301_01_plot'  width="800px" height="160px">
+<style type="text/css"><![CDATA[
+.background { fill:#FFFFE7; }
+
+text       { font-family:Times; font-size:12px; }
+text.title { font-size:16px; }
+text.legend { cursor:pointer; }
+circle#svgmarker { color:#278727; opacity:0.5; }
+
+path.SVGplot     { stroke:black; fill:none; }
+rect.SVGplot     { stroke:black; fill:none; }
+polyline.SVGplot { stroke:black; fill:none; }
+.border  { stroke:black; fill:url(#gr_bg); }
+.vgrid   { stroke:gray;  stroke-dasharray:2,6; }
+.hgrid   { stroke:gray;  stroke-dasharray:2,6; }
+.pasted  { stroke:black; stroke-dasharray:1,1; }
+
+.SVGplot.l0     { stroke:red;     }
+.SVGplot.l1     { stroke:green;   }
+.SVGplot.l2     { stroke:blue;    }
+.SVGplot.l3     { stroke:magenta; }
+.SVGplot.l4     { stroke:brown;   }
+.SVGplot.l5     { stroke:black;   }
+.SVGplot.l6     { stroke:olive;   }
+.SVGplot.l7     { stroke:gray;    }
+.SVGplot.l8     { stroke:yellow;  }
+.SVGplot.l0fill { stroke:#f00; fill:url(#gr_0); }
+.SVGplot.l1fill { stroke:#291; fill:url(#gr_1); }
+.SVGplot.l2fill { stroke:#00f; fill:url(#gr_2); }
+.SVGplot.l3fill { stroke:#f0f; fill:url(#gr_3); }
+.SVGplot.l4fill { stroke:#ff0; fill:url(#gr_4); }
+.SVGplot.l5fill { stroke:#0ff; fill:url(#gr_5); }
+.SVGplot.l6fill { stroke:#000; fill:url(#gr_6); }
+.SVGplot.l0dot  { stroke:red;   stroke-dasharray:2,4; }
+.SVGplot.l1dot  { stroke:green; stroke-dasharray:2,4; }
+.SVGplot.l0fill_stripe { stroke:red; fill:url(#gr0_stripe);}
+.SVGplot.l1fill_stripe { stroke:green; fill:url(#gr1_stripe);}
+.SVGplot.l0fill_gyr    { stroke:red; fill:url(#gr0_gyr);}
+
+text.SVGplot.l0     { stroke:none; fill:red;     } 
+text.SVGplot.l1     { stroke:none; fill:green;   } 
+text.SVGplot.l2     { stroke:none; fill:blue;    }
+text.SVGplot.l3     { stroke:none; fill:magenta; }
+text.SVGplot.l4     { stroke:none; fill:brown;   }
+text.SVGplot.l5     { stroke:none; fill:black;   }
+text.SVGplot.l6     { stroke:none; fill:olive;   }
+text.SVGplot.l7     { stroke:none; fill:gray;    }
+text.SVGplot.l8     { stroke:none; fill:yellow;  }
+text.SVGplot.l0fill { stroke:none; fill:#f00;    }
+text.SVGplot.l1fill { stroke:none; fill:#291;    }
+text.SVGplot.l2fill { stroke:none; fill:#00f;    }
+text.SVGplot.l3fill { stroke:none; fill:#f0f;    }
+text.SVGplot.l4fill { stroke:none; fill:#ff0;    }
+text.SVGplot.l5fill { stroke:none; fill:#0ff;    }
+text.SVGplot.l6fill { stroke:none; fill:#000;    }
+text.SVGplot.l0dot  { stroke:none; fill:red;     } 
+text.SVGplot.l1dot  { stroke:none; fill:green;   } 
+text.SVGplot.l0fill_stripe {stroke:none; fill:red;  }
+text.SVGplot.l1fill_stripe {stroke:none; fill:green;}
+text.SVGplot.l0fill_gyr    {stroke:none; fill:red;  }
+
+]]></style>
+<!-- will be included in each svg plot -->
+<defs>
+  <linearGradient id="gr_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#FFFFF7; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FFFFC7; stop-opacity:1"/>
+  </linearGradient>
+
+  <linearGradient id="gr_0" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#f00; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#f88; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_1" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#291; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#8f7; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#00f; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#88f; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_3" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#f0f; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#f8f; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_4" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#ff0; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#ff8; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_5" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#0ff; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#8ff; stop-opacity:.4"/>
+  </linearGradient>
+
+  <linearGradient id="gr_6" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#000; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#ccc; stop-opacity:.4"/>
+  </linearGradient>
+
+  <pattern id="gr0_stripe" width="4" height="4"
+           patternUnits="userSpaceOnUse" patternTransform="rotate(-45 2 2)">
+      <path d="M -1,2 l 6,0" stroke="#f00" stroke-width="0.5"/>
+  </pattern>
+
+  <pattern id="gr1_stripe" width="4" height="4"
+           patternUnits="userSpaceOnUse" patternTransform="rotate(45 2 2)">
+      <path d="M -1,2 l 6,0" stroke="green" stroke-width="0.5"/>
+  </pattern>
+
+  <linearGradient id="gr0_gyr" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset=  "0%" style="stop-color:#f00; stop-opacity:.6"/>
+    <stop offset= "50%" style="stop-color:#ff0; stop-opacity:.6"/>
+    <stop offset="100%" style="stop-color:#0f0; stop-opacity:.6"/>
+  </linearGradient>
+
+
+</defs>
+
+<rect x="48" y="19.2" width ="704" height ="121.6" rx="8" ry="8" fill="none" class="border"/>
+<text id="svg_title" x="400" y="14.4" class="title" text-anchor="middle">Kuehlschrank: 100W Spitze: 2303W, Verbrauch: 0.53kWh</text>
+<text x="12" y="80" text-anchor="middle" class="ylabel" transform="rotate(270,12,80)">Verbrauch in kWh</text>
+<text x="796" y="80" text-anchor="middle" class="y2label" transform="rotate(270,796,80)">Leistung in W</text>
+<polyline class='SVGplot' points='77,19.2 77,23.2'/>
+<polyline class='SVGplot' points='77,136.8 77,140.8'/>
+<polyline class='SVGplot' points='106,19.2 106,23.2'/>
+<polyline class='SVGplot' points='106,136.8 106,140.8'/>
+<polyline class='SVGplot' points='135,19.2 135,23.2'/>
+<polyline class='SVGplot' points='135,136.8 135,140.8'/>
+<polyline class='SVGplot' points='165,19.2 165,23.2'/>
+<polyline class='SVGplot' points='165,136.8 165,140.8'/>
+<polyline class='SVGplot' points='194,19.2 194,23.2'/>
+<polyline class='SVGplot' points='194,136.8 194,140.8'/>
+<polyline class='SVGplot' points='223,19.2 223,23.2'/>
+<polyline class='SVGplot' points='223,136.8 223,140.8'/>
+<polyline class='SVGplot' points='253,19.2 253,23.2'/>
+<polyline class='SVGplot' points='253,136.8 253,140.8'/>
+<polyline class='SVGplot' points='282,19.2 282,23.2'/>
+<polyline class='SVGplot' points='282,136.8 282,140.8'/>
+<polyline class='SVGplot' points='311,19.2 311,23.2'/>
+<polyline class='SVGplot' points='311,136.8 311,140.8'/>
+<polyline class='SVGplot' points='341,19.2 341,23.2'/>
+<polyline class='SVGplot' points='341,136.8 341,140.8'/>
+<polyline class='SVGplot' points='370,19.2 370,23.2'/>
+<polyline class='SVGplot' points='370,136.8 370,140.8'/>
+<polyline class='SVGplot' points='399,19.2 399,23.2'/>
+<polyline class='SVGplot' points='399,136.8 399,140.8'/>
+<polyline class='SVGplot' points='429,19.2 429,23.2'/>
+<polyline class='SVGplot' points='429,136.8 429,140.8'/>
+<polyline class='SVGplot' points='458,19.2 458,23.2'/>
+<polyline class='SVGplot' points='458,136.8 458,140.8'/>
+<polyline class='SVGplot' points='487,19.2 487,23.2'/>
+<polyline class='SVGplot' points='487,136.8 487,140.8'/>
+<polyline class='SVGplot' points='517,19.2 517,23.2'/>
+<polyline class='SVGplot' points='517,136.8 517,140.8'/>
+<polyline class='SVGplot' points='546,19.2 546,23.2'/>
+<polyline class='SVGplot' points='546,136.8 546,140.8'/>
+<polyline class='SVGplot' points='575,19.2 575,23.2'/>
+<polyline class='SVGplot' points='575,136.8 575,140.8'/>
+<polyline class='SVGplot' points='605,19.2 605,23.2'/>
+<polyline class='SVGplot' points='605,136.8 605,140.8'/>
+<polyline class='SVGplot' points='634,19.2 634,23.2'/>
+<polyline class='SVGplot' points='634,136.8 634,140.8'/>
+<polyline class='SVGplot' points='663,19.2 663,23.2'/>
+<polyline class='SVGplot' points='663,136.8 663,140.8'/>
+<polyline class='SVGplot' points='693,19.2 693,23.2'/>
+<polyline class='SVGplot' points='693,136.8 693,140.8'/>
+<polyline class='SVGplot' points='722,19.2 722,23.2'/>
+<polyline class='SVGplot' points='722,136.8 722,140.8'/>
+<polyline class='SVGplot' points='751,19.2 751,23.2'/>
+<polyline class='SVGplot' points='751,136.8 751,140.8'/>
+<text x="0" y="156.8" class="ylabel">28.May</text>
+<text x="165" y="156.8" class="ylabel" text-anchor="middle">02:15</text>
+  <polyline points="165,19.2 165,140.8" class="hgrid"/>
+<text x="282" y="156.8" class="ylabel" text-anchor="middle">06:15</text>
+  <polyline points="282,19.2 282,140.8" class="hgrid"/>
+<text x="399" y="156.8" class="ylabel" text-anchor="middle">10:15</text>
+  <polyline points="399,19.2 399,140.8" class="hgrid"/>
+<text x="517" y="156.8" class="ylabel" text-anchor="middle">14:15</text>
+  <polyline points="517,19.2 517,140.8" class="hgrid"/>
+<text x="634" y="156.8" class="ylabel" text-anchor="middle">18:15</text>
+  <polyline points="634,19.2 634,140.8" class="hgrid"/>
+<text x="751" y="156.8" class="ylabel" text-anchor="middle">22:15</text>
+  <polyline points="751,19.2 751,140.8" class="hgrid"/>
+<g>
+  <polyline points="44,140 49,140" />
+<text x="39.2" y="144" class="ylabel" text-anchor="end">0</text>
+  <polyline points="44,117 49,117" />
+<text x="39.2" y="121" class="ylabel" text-anchor="end">0.1</text>
+  <polyline points="44,94 49,94" />
+<text x="39.2" y="98" class="ylabel" text-anchor="end">0.2</text>
+  <polyline points="44,71 49,71" />
+<text x="39.2" y="75" class="ylabel" text-anchor="end">0.3</text>
+  <polyline points="44,49 49,49" />
+<text x="39.2" y="53" class="ylabel" text-anchor="end">0.4</text>
+  <polyline points="44,26 49,26" />
+<text x="39.2" y="30" class="ylabel" text-anchor="end">0.5</text>
+</g>
+<g>
+  <polyline points="751,140 756,140" />
+<text x="760.8" y="144" class="ylabel">0</text>
+  <polyline points="751,114 756,114" />
+  <polyline points="48,114 752,114" class="vgrid"/>
+<text x="760.8" y="118" class="ylabel">500</text>
+  <polyline points="751,87 756,87" />
+  <polyline points="48,87 752,87" class="vgrid"/>
+<text x="760.8" y="91" class="ylabel">1000</text>
+  <polyline points="751,61 756,61" />
+  <polyline points="48,61 752,61" class="vgrid"/>
+<text x="760.8" y="65" class="ylabel">1500</text>
+  <polyline points="751,35 756,35" />
+  <polyline points="48,35 752,35" class="vgrid"/>
+<text x="760.8" y="39" class="ylabel">2000</text>
+</g>
+<path id="line_1" decimals="2" x_off="1432844100" x_min="48" x_mul="0.00814805384196942" y_h="140.8" y_min="0" y_mul="229.433962264151" title="kWh" onclick="parent.svg_click(evt)" style="stroke-width:1" class="SVGplot l2" d="M 48,101 L 48,97 48,99 48,97 49,94 49,92 49,92 49,92 50,90 50,140 50,140 50,140 66,138 69,136 73,133 101,140 101,133 101,133 101,133 108,131 111,129 116,127 150,124 154,122 157,120 194,117 197,115 201,113 237,110 241,108 244,106 280,104 284,101 287,99 291,97 329,94 333,92 337,90 369,88 373,85 376,83 380,81 413,78 417,76 420,74 424,71 456,69 460,67 463,65 496,62 499,60 503,58 538,55 541,53 545,51 548,49 583,46 587,44 590,42 625,39 629,37 632,35 666,32 670,30 673,28 677,26 713,23 717,21 720,19"/>
+<path id="line_0" decimals="0" x_off="1432844100" x_min="48" x_mul="0.00814805384196942" y_h="140.8" y_min="0" y_mul="0.0528006947459835" title="Kuehlschrank" onclick="parent.svg_click(evt)" style="stroke-width:2" class="SVGplot l0" d="M 48,19 L 48,140 48,140 48,140 49,20 49,19 49,140 49,140 52,140 55,140 58,140 59,140 60,140 62,140 62,135 62,135 62,135 63,135 64,135 64,136 64,136 64,136 65,136 66,136 67,136 68,136 69,136 70,136 71,136 72,136 73,136 74,136 74,140 74,140 74,140 76,140 79,140 80,140 81,140 82,140 83,140 84,140 85,140 86,140 87,140 88,140 91,140 92,140 93,140 97,140 99,140 101,140 102,140 103,140 104,140 106,135 107,135 108,136 109,136 110,136 111,136 112,136 113,136 114,136 115,136 116,136 117,140 119,140 121,140 122,140 127,140 128,140 130,140 131,140 136,140 137,140 139,140 143,140 144,140 146,140 148,135 149,135 149,136 149,136 149,136 150,136 151,136 152,136 153,136 154,136 155,136 156,136 157,136 158,136 159,136 160,140 161,140 165,140 167,140 168,140 169,140 178,140 179,140 185,140 186,140 188,140 189,140 192,140 193,135 194,135 194,136 194,136 194,136 195,136 196,136 197,136 198,136 199,136 200,136 201,136 202,136 203,136 203,137 203,137 203,137 204,140 207,140 208,140 210,140 212,140 215,140 216,140 217,140 218,140 222,140 224,140 226,140 227,140 228,140 229,140 232,140 235,140 236,140 236,135 236,135 236,135 237,135 238,135 238,136 238,136 238,136 239,136 240,136 241,136 242,136 243,136 244,136 245,136 246,136 247,140 248,140 249,140 250,140 251,140 252,140 253,140 254,140 255,140 256,140 258,140 259,140 267,140 269,140 270,140 272,140 273,140 274,140 276,140 278,140 279,140 279,135 279,135 279,135 280,135 281,135 281,136 281,136 281,136 282,136 283,136 284,136 285,136 286,136 287,136 288,136 289,136 290,136 291,136 292,140 293,140 294,140 295,140 296,140 298,140 299,140 300,140 301,140 303,140 304,140 306,140 307,140 309,140 313,140 314,140 317,140 318,140 319,140 320,140 321,140 323,140 324,140 325,140 326,135 327,135 328,135 328,136 328,136 328,136 329,136 330,136 331,136 332,136 333,136 334,136 335,136 336,136 337,136 338,136 339,136 339,140 339,140 339,140 340,140 343,140 344,140 347,140 348,140 351,140 353,139 354,139 354,140 354,140 354,140 357,140 359,140 360,140 368,140 368,135 368,135 368,135 369,135 370,135 370,136 370,136 370,136 371,136 372,136 373,136 374,136 374,135 374,136 374,136 375,136 376,136 377,136 378,136 379,136 380,136 381,136 382,140 383,140 384,140 385,140 387,140 389,140 391,140 393,140 396,140 397,140 398,140 402,140 403,140 404,140 405,140 406,140 407,140 410,140 411,140 411,135 411,135 411,135 412,135 413,136 414,136 415,136 416,136 417,136 418,136 419,136 420,136 421,136 422,136 422,135 422,136 422,136 423,136 424,136 424,140 424,140 424,140 426,140 427,140 429,140 431,140 432,140 433,140 435,140 436,140 439,140 442,140 443,140 446,140 447,140 450,140 451,139 451,140 451,140 451,140 452,140 453,135 454,135 455,136 456,136 457,136 458,136 459,136 460,136 461,136 462,136 463,136 464,136 465,136 465,140 465,140 465,140 471,140 473,140 483,140 484,140 487,140 488,140 489,140 490,140 491,140 493,140 494,135 495,135 495,136 495,136 495,136 496,136 497,136 498,136 499,136 500,136 501,136 502,136 503,136 504,136 505,136 506,136 506,140 506,140 506,140 507,140 508,140 510,140 511,140 514,140 515,140 517,140 523,140 524,140 525,140 527,140 529,140 534,140 538,135 539,135 539,136 539,136 539,136 540,136 541,136 542,136 543,136 544,136 545,136 546,136 547,136 548,136 549,136 550,136 550,140 550,140 550,140 554,140 556,140 557,140 558,140 560,140 568,140 569,140 570,140 571,140 576,140 581,135 582,135 582,136 582,136 582,136 583,136 584,136 585,136 586,136 587,136 588,136 589,136 590,136 591,136 592,136 593,136 593,140 593,140 593,140 595,140 596,140 597,140 598,140 600,140 601,140 602,140 604,140 605,140 607,140 608,140 610,140 611,140 612,140 615,140 616,140 618,140 620,140 621,140 622,140 623,140 625,135 626,135 627,136 628,136 629,136 630,136 631,136 632,136 633,136 634,136 635,136 635,140 635,140 635,140 639,140 642,140 643,140 644,140 645,140 647,140 649,140 651,140 652,140 653,140 654,140 655,140 659,140 661,140 666,135 667,135 667,136 667,136 667,136 668,136 669,136 670,136 671,136 672,136 673,136 674,136 675,136 676,136 677,136 678,136 678,140 678,140 678,140 679,140 683,140 684,140 685,140 686,140 687,140 689,140 691,140 693,140 694,140 695,140 697,140 698,140 699,140 705,140 706,140 710,140 711,140 711,132 711,135 711,135 712,135 713,135 713,136 713,136 713,136 714,136 715,136 716,136 717,136 718,136 719,136 720,136 721,136 722,140 723,140 724,140 727,140 728,140 731,140 734,140 735,140 737,140 738,140 741,140 742,140 744,140 746,140 747,140 748,140 749,140 751,140"/>
+<text title="Kuehlschrank: Min:0 Max:2303 Last:100" line_id="line_0" x="736" y="35.2" text-anchor="end" class="legend SVGplot l0">Kuehlschrank</text>
+<text title="kWh: Min:0 Max:0.53 Last:0.53" line_id="line_1" x="736" y="51.2" text-anchor="end" class="legend SVGplot l2">kWh</text>
+<script type='text/javascript'>if(typeof parent.window.svg_init == 'function') parent.window.svg_init('SVGPLOT_KU_PCA301_01_plot')</script>
+</svg>

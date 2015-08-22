@@ -1,0 +1,914 @@
+2015.06.03 00:05:00 3: at_newday_0005: Tageswechsel PCA301 Steckdosen, consumption=0
+2015.06.03 05:05:00 2: at_Status_send_0505_etc: 05:00 eMail FHEM Statusreport
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger clear
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add <pre><span style='font-size:150%'><font color='Maroon'><b><u>Hausautomation Status vom</u>: 03.06.2015</b></font>
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add __Sonnenaufgang: <b>04:15:13</b>
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add Sonnenuntergang: <b>22:01:29</b>
+2015.06.03 05:05:00 2: HA_Macro_eMail: Sysmon Werte zu eMail hinzufuegen
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add <font color='Maroon'><u>Sysmon Report__</u>: <b>raspberrypi</b></font>
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add Host Laufzeit__: <b>9 days, 13 hours, 50 minutes</b>
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add FHEM Laufzeit__: <b>1 days, 06 hours, 40 minutes</b>
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add CPU Auslastung_: <b>user: 19.80 %, nice: 0.00 %, sys: 2.11 %, idle: 75.58 %, io: 0.08 %, irq: 0.02 %, sirq: 2.41 %</b>
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add CPU Temperatur_: <b><font color='red'>48.0</font></b>°C
+2015.06.03 05:05:00 3: HA_Macro_eMail return value: Undefined subroutine &main::Sysmon_FS_use called at (eval 82795) line 15.
+
+2015.06.03 05:05:00 2: HA_Macro_eMail: Photovoltaik Werte zu eMail hinzufuegen
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add <font color='Maroon'><u>Photovoltaik</u>: <b>Zaehlerstaende</b></font>
+2015.06.03 05:05:00 2: messenger set HA_eMail_Holger add Erzeugung__: n/a
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add Einspeisung: n/a
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add Bezug______: n/a
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add <font color='Maroon'><u>Photovoltaik</u>: <b>Gestern</b></font>
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add Erzeugung_____: <b>21.1 kWh</b>
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add Einspeisung___: <b>20.5 kWh</b>
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add Eigenverbrauch: <b>0.6 kWh</b>
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add Bezug_________: <b>5.9 kWh</b>
+2015.06.03 05:05:01 2: HA_Macro_eMail: Werte von PCA301 Steckdosen zu eMail hinzufuegen
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add <font color='Maroon'><u>Verbrauch Steckdosen</u>: <b>PCA301</b></font>
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add Steckdose 01: Kuehlschrank, Verbrauch: <b>1.07 kWh</b>
+2015.06.03 05:05:01 2: messenger set HA_eMail_Holger add </span></pre>
+2015.06.03 05:05:01 3: HA_Macro_eMail: FHEM Status-eMail senden
+2015.06.03 05:05:01 3: HA_eMail_Holger: try to connect with Net::SMTP::SSL
+2015.06.03 05:05:04 1: HA_eMail_Holger: successfully sent email w/ subject 'FHEM Status report'
+2015.06.03 05:05:04 2: messenger set HA_eMail_Holger send HA_eMail_Holger
+2015.06.03 05:05:04 2: HA_Macro_eMail: FHEM Status-eMail senden
+2015.06.03 05:05:04 2: messenger set HA_eMail_Holger clear
+2015.06.03 05:05:04 2: at_Status_send_0505_etc: 05:00 eMail FHEM Statusreport senden
+2015.06.03 07:33:47 1: PERL WARNING: Argument "<b><font color='green'>-6.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:34:53 1: PERL WARNING: Argument "<b><font color='green'>-4.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:35:46 1: PERL WARNING: Argument "<b><font color='green'>-7.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:37:46 1: PERL WARNING: Argument "<b><font color='green'>-8.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:39:46 1: PERL WARNING: Argument "<b><font color='green'>-9.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:40:53 1: PERL WARNING: Argument "<b><font color='green'>-11.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:41:46 1: PERL WARNING: Argument "<b><font color='green'>-17.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:45:46 1: PERL WARNING: Argument "<b><font color='green'>-20.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:46:51 1: PERL WARNING: Argument "<b><font color='green'>-17.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:47:46 1: PERL WARNING: Argument "<b><font color='green'>-21.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:48:54 1: PERL WARNING: Argument "<b><font color='green'>-18.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:50:52 1: PERL WARNING: Argument "<b><font color='green'>-23.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:51:46 1: PERL WARNING: Argument "<b><font color='green'>-27.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:52:52 1: PERL WARNING: Argument "<b><font color='green'>-27.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:53:46 1: PERL WARNING: Argument "<b><font color='green'>-30.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:54:51 1: PERL WARNING: Argument "<b><font color='green'>-27.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:55:47 1: PERL WARNING: Argument "<b><font color='green'>-30.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:56:52 1: PERL WARNING: Argument "<b><font color='green'>-32.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:57:46 1: PERL WARNING: Argument "<b><font color='green'>-28.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:58:52 1: PERL WARNING: Argument "<b><font color='green'>-41.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 07:59:47 1: PERL WARNING: Argument "<b><font color='green'>-35.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:00:53 1: PERL WARNING: Argument "<b><font color='green'>-41.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:02:52 1: PERL WARNING: Argument "<b><font color='green'>-43.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:04:52 1: PERL WARNING: Argument "<b><font color='green'>-69.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:05:47 1: PERL WARNING: Argument "<b><font color='green'>-151.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:06:52 1: PERL WARNING: Argument "<b><font color='green'>-298.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:07:47 1: PERL WARNING: Argument "<b><font color='green'>-406.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:09:46 1: PERL WARNING: Argument "<b><font color='green'>-514.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:10:52 1: PERL WARNING: Argument "<b><font color='green'>-526.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:11:46 1: PERL WARNING: Argument "<b><font color='green'>-533.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:12:53 1: PERL WARNING: Argument "<b><font color='green'>-547.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:13:46 1: PERL WARNING: Argument "<b><font color='green'>-555.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:14:52 1: PERL WARNING: Argument "<b><font color='green'>-567.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:15:47 1: PERL WARNING: Argument "<b><font color='green'>-575.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:16:52 1: PERL WARNING: Argument "<b><font color='green'>-581.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:17:47 1: PERL WARNING: Argument "<b><font color='green'>-593.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:18:52 1: PERL WARNING: Argument "<b><font color='green'>-508.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:19:47 1: PERL WARNING: Argument "<b><font color='green'>-510.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:20:53 1: PERL WARNING: Argument "<b><font color='green'>-529.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:21:47 1: PERL WARNING: Argument "<b><font color='green'>-540.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:22:52 1: PERL WARNING: Argument "<b><font color='green'>-553.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:23:47 1: PERL WARNING: Argument "<b><font color='green'>-561.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:24:53 1: PERL WARNING: Argument "<b><font color='green'>-573.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:25:47 1: PERL WARNING: Argument "<b><font color='green'>-583.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:26:52 1: PERL WARNING: Argument "<b><font color='green'>-593.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:27:47 1: PERL WARNING: Argument "<b><font color='green'>-601.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:28:53 1: PERL WARNING: Argument "<b><font color='green'>-612.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:29:47 1: PERL WARNING: Argument "<b><font color='green'>-621.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:30:52 1: PERL WARNING: Argument "<b><font color='green'>-637.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:31:48 1: PERL WARNING: Argument "<b><font color='green'>-646.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:32:54 1: PERL WARNING: Argument "<b><font color='green'>-657.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:33:47 1: PERL WARNING: Argument "<b><font color='green'>-665.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:34:53 1: PERL WARNING: Argument "<b><font color='green'>-672.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:35:47 1: PERL WARNING: Argument "<b><font color='green'>-686.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:36:52 1: PERL WARNING: Argument "<b><font color='green'>-698.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:37:48 1: PERL WARNING: Argument "<b><font color='green'>-710.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:38:53 1: PERL WARNING: Argument "<b><font color='green'>-719.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:39:47 1: PERL WARNING: Argument "<b><font color='green'>-729.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:40:53 1: PERL WARNING: Argument "<b><font color='green'>-737.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:41:48 1: PERL WARNING: Argument "<b><font color='green'>-746.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:43:49 1: PERL WARNING: Argument "<b><font color='green'>-767.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:44:53 1: PERL WARNING: Argument "<b><font color='green'>-777.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:45:47 1: PERL WARNING: Argument "<b><font color='green'>-859.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:46:52 1: PERL WARNING: Argument "<b><font color='green'>-865.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:47:47 1: PERL WARNING: Argument "<b><font color='green'>-818.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:48:53 1: PERL WARNING: Argument "<b><font color='green'>-886.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:49:48 1: PERL WARNING: Argument "<b><font color='green'>-890.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:50:53 1: PERL WARNING: Argument "<b><font color='green'>-903.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:51:47 1: PERL WARNING: Argument "<b><font color='green'>-912.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:53:48 1: PERL WARNING: Argument "<b><font color='green'>-98.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:54:54 1: PERL WARNING: Argument "<b><font color='green'>-938.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:55:48 1: PERL WARNING: Argument "<b><font color='green'>-116.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:56:52 1: PERL WARNING: Argument "<b><font color='green'>-913.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:58:53 1: PERL WARNING: Argument "<b><font color='green'>-130.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 08:59:48 1: PERL WARNING: Argument "<b><font color='green'>-971.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:00:53 1: PERL WARNING: Argument "<b><font color='green'>-983.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:01:48 1: PERL WARNING: Argument "<b><font color='green'>-1001.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:02:53 1: PERL WARNING: Argument "<b><font color='green'>-1011.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:03:48 1: PERL WARNING: Argument "<b><font color='green'>-1023.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:04:53 1: PERL WARNING: Argument "<b><font color='green'>-1031.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:05:48 1: PERL WARNING: Argument "<b><font color='green'>-1043.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:06:53 1: PERL WARNING: Argument "<b><font color='green'>-1047.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:07:48 1: PERL WARNING: Argument "<b><font color='green'>-1057.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:08:53 1: PERL WARNING: Argument "<b><font color='green'>-1045.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:09:48 1: PERL WARNING: Argument "<b><font color='green'>-1050.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:10:53 1: PERL WARNING: Argument "<b><font color='green'>-1058.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:11:48 1: PERL WARNING: Argument "<b><font color='green'>-1076.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:12:53 1: PERL WARNING: Argument "<b><font color='green'>-1079.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:13:49 1: PERL WARNING: Argument "<b><font color='green'>-1087.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:14:50 1: PERL WARNING: Argument "<b><font color='green'>-1097.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:15:56 1: PERL WARNING: Argument "<b><font color='green'>-1109.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:16:51 1: PERL WARNING: Argument "<b><font color='green'>-1119.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:17:52 1: PERL WARNING: Argument "<b><font color='green'>-1129.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:18:50 1: PERL WARNING: Argument "<b><font color='green'>-1137.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:19:53 1: PERL WARNING: Argument "<b><font color='green'>-1146.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:20:50 1: PERL WARNING: Argument "<b><font color='green'>-1152.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:21:48 1: PERL WARNING: Argument "<b><font color='green'>-1161.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:22:46 1: PERL WARNING: Argument "<b><font color='green'>-1170.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:23:52 1: PERL WARNING: Argument "<b><font color='green'>-1150.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:24:52 1: PERL WARNING: Argument "<b><font color='green'>-1172.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:25:49 1: PERL WARNING: Argument "<b><font color='green'>-1191.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:26:46 1: PERL WARNING: Argument "<b><font color='green'>-1198.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:27:50 1: PERL WARNING: Argument "<b><font color='green'>-1212.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:28:50 1: PERL WARNING: Argument "<b><font color='green'>-1221.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:30:51 1: PERL WARNING: Argument "<b><font color='green'>-1239.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:31:53 1: PERL WARNING: Argument "<b><font color='green'>-1247.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:32:50 1: PERL WARNING: Argument "<b><font color='green'>-1255.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:33:48 1: PERL WARNING: Argument "<b><font color='green'>-1262.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:34:46 1: PERL WARNING: Argument "<b><font color='green'>-1271.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:35:51 1: PERL WARNING: Argument "<b><font color='green'>-1271.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:36:51 1: PERL WARNING: Argument "<b><font color='green'>-1278.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:37:52 1: PERL WARNING: Argument "<b><font color='green'>-1274.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:38:50 1: PERL WARNING: Argument "<b><font color='green'>-1297.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:39:48 1: PERL WARNING: Argument "<b><font color='green'>-1304.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:40:46 1: PERL WARNING: Argument "<b><font color='green'>-1311.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:41:48 1: PERL WARNING: Argument "<b><font color='green'>-1323.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:42:51 1: PERL WARNING: Argument "<b><font color='green'>-1332.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:43:52 1: PERL WARNING: Argument "<b><font color='green'>-1335.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:44:50 1: PERL WARNING: Argument "<b><font color='green'>-371.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:45:48 1: PERL WARNING: Argument "<b><font color='green'>-1249.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:46:46 1: PERL WARNING: Argument "<b><font color='green'>-1260.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:47:53 1: PERL WARNING: Argument "<b><font color='green'>-1277.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:48:50 1: PERL WARNING: Argument "<b><font color='green'>-1292.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:49:52 1: PERL WARNING: Argument "<b><font color='green'>-1303.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:50:50 1: PERL WARNING: Argument "<b><font color='green'>-1321.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:51:48 1: PERL WARNING: Argument "<b><font color='green'>-1329.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:52:46 1: PERL WARNING: Argument "<b><font color='green'>-1314.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:53:52 1: PERL WARNING: Argument "<b><font color='green'>-1323.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:54:50 1: PERL WARNING: Argument "<b><font color='green'>-1342.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:55:52 1: PERL WARNING: Argument "<b><font color='green'>-1359.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:56:51 1: PERL WARNING: Argument "<b><font color='green'>-1371.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:57:49 1: PERL WARNING: Argument "<b><font color='green'>-1385.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:58:47 1: PERL WARNING: Argument "<b><font color='green'>-1351.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 09:59:52 1: PERL WARNING: Argument "<b><font color='green'>-1334.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:00:51 1: PERL WARNING: Argument "<b><font color='green'>-1339.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:01:54 1: PERL WARNING: Argument "<b><font color='green'>-1373.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:03:49 1: PERL WARNING: Argument "<b><font color='green'>-1366.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:04:47 1: PERL WARNING: Argument "<b><font color='green'>-1376.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:05:52 1: PERL WARNING: Argument "<b><font color='green'>-1315.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:06:51 1: PERL WARNING: Argument "<b><font color='green'>-1388.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:07:54 1: PERL WARNING: Argument "<b><font color='green'>-1348.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:08:51 1: PERL WARNING: Argument "<b><font color='green'>-1369.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:09:49 1: PERL WARNING: Argument "<b><font color='green'>-1432.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:10:47 1: PERL WARNING: Argument "<b><font color='green'>-1377.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:11:53 1: PERL WARNING: Argument "<b><font color='green'>-1556.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:12:51 1: PERL WARNING: Argument "<b><font color='green'>-1569.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:13:49 1: PERL WARNING: Argument "<b><font color='green'>-1562.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:14:47 1: PERL WARNING: Argument "<b><font color='green'>-1560.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:15:50 1: PERL WARNING: Argument "<b><font color='green'>-1562.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:16:51 1: PERL WARNING: Argument "<b><font color='green'>-1571.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:17:53 1: PERL WARNING: Argument "<b><font color='green'>-1586.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:18:53 1: PERL WARNING: Argument "<b><font color='green'>-1605.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:19:53 1: PERL WARNING: Argument "<b><font color='green'>-1602.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:20:51 1: PERL WARNING: Argument "<b><font color='green'>-1565.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:21:49 1: PERL WARNING: Argument "<b><font color='green'>-1604.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:22:48 1: PERL WARNING: Argument "<b><font color='green'>-1619.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:23:54 1: PERL WARNING: Argument "<b><font color='green'>-1625.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:24:52 1: PERL WARNING: Argument "<b><font color='green'>-1626.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:25:54 1: PERL WARNING: Argument "<b><font color='green'>-1593.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:26:51 1: PERL WARNING: Argument "<b><font color='green'>-1638.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:27:50 1: PERL WARNING: Argument "<b><font color='green'>-1658.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:28:48 1: PERL WARNING: Argument "<b><font color='green'>-1666.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:29:49 1: PERL WARNING: Argument "<b><font color='green'>-1666.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:30:51 1: PERL WARNING: Argument "<b><font color='green'>-1672.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:31:54 1: PERL WARNING: Argument "<b><font color='green'>-1672.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:32:52 1: PERL WARNING: Argument "<b><font color='green'>-1678.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:33:50 1: PERL WARNING: Argument "<b><font color='green'>-1678.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:35:53 1: PERL WARNING: Argument "<b><font color='green'>-1696.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:36:51 1: PERL WARNING: Argument "<b><font color='green'>-1693.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:37:54 1: PERL WARNING: Argument "<b><font color='green'>-1704.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:38:52 1: PERL WARNING: Argument "<b><font color='green'>-1716.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:39:50 1: PERL WARNING: Argument "<b><font color='green'>-1713.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:40:48 1: PERL WARNING: Argument "<b><font color='green'>-1713.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:41:54 1: PERL WARNING: Argument "<b><font color='green'>-1716.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:42:52 1: PERL WARNING: Argument "<b><font color='green'>-1717.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:43:55 1: PERL WARNING: Argument "<b><font color='green'>-1719.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:44:52 1: PERL WARNING: Argument "<b><font color='green'>-1745.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:45:50 1: PERL WARNING: Argument "<b><font color='green'>-1749.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:46:48 1: PERL WARNING: Argument "<b><font color='green'>-1761.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:47:54 1: PERL WARNING: Argument "<b><font color='green'>-1768.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:48:51 1: PERL WARNING: Argument "<b><font color='green'>-1770.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:49:53 1: PERL WARNING: Argument "<b><font color='green'>-1771.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:50:51 1: PERL WARNING: Argument "<b><font color='green'>-1785.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:51:50 1: PERL WARNING: Argument "<b><font color='green'>-1778.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:52:48 1: PERL WARNING: Argument "<b><font color='green'>-1785.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:53:53 1: PERL WARNING: Argument "<b><font color='green'>-1794.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:54:52 1: PERL WARNING: Argument "<b><font color='green'>-1803.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:55:54 1: PERL WARNING: Argument "<b><font color='green'>-1804.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:56:52 1: PERL WARNING: Argument "<b><font color='green'>-1812.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:57:50 1: PERL WARNING: Argument "<b><font color='green'>-1819.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:58:48 1: PERL WARNING: Argument "<b><font color='green'>-1829.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 10:59:53 1: PERL WARNING: Argument "<b><font color='green'>-1826.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:00:52 1: PERL WARNING: Argument "<b><font color='green'>-1833.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:01:50 1: PERL WARNING: Argument "<b><font color='green'>-1846.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:02:48 1: PERL WARNING: Argument "<b><font color='green'>-1838.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:03:52 1: PERL WARNING: Argument "<b><font color='green'>-1845.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:04:48 1: PERL WARNING: Argument "<b><font color='green'>-1854.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:05:54 1: PERL WARNING: Argument "<b><font color='green'>-1868.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:06:52 1: PERL WARNING: Argument "<b><font color='green'>-1864.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:07:54 1: PERL WARNING: Argument "<b><font color='green'>-1868.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:08:52 1: PERL WARNING: Argument "<b><font color='green'>-1875.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:09:50 1: PERL WARNING: Argument "<b><font color='green'>-1883.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:10:48 1: PERL WARNING: Argument "<b><font color='green'>-1884.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:11:53 1: PERL WARNING: Argument "<b><font color='green'>-1892.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:12:51 1: PERL WARNING: Argument "<b><font color='green'>-1892.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:13:55 1: PERL WARNING: Argument "<b><font color='green'>-1892.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:14:52 1: PERL WARNING: Argument "<b><font color='green'>-1887.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:15:50 1: PERL WARNING: Argument "<b><font color='green'>-1884.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:16:48 1: PERL WARNING: Argument "<b><font color='green'>-1891.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:17:49 1: PERL WARNING: Argument "<b><font color='green'>-1803.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:18:52 1: PERL WARNING: Argument "<b><font color='green'>-1806.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:19:54 1: PERL WARNING: Argument "<b><font color='green'>-1809.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:20:52 1: PERL WARNING: Argument "<b><font color='green'>-1820.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:21:51 1: PERL WARNING: Argument "<b><font color='green'>-1848.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:22:48 1: PERL WARNING: Argument "<b><font color='green'>-1850.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:23:53 1: PERL WARNING: Argument "<b><font color='green'>-1757.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:24:52 1: PERL WARNING: Argument "<b><font color='green'>-1754.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:25:55 1: PERL WARNING: Argument "<b><font color='green'>-1749.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:26:52 1: PERL WARNING: Argument "<b><font color='green'>-1765.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:27:50 1: PERL WARNING: Argument "<b><font color='green'>-1762.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:28:48 1: PERL WARNING: Argument "<b><font color='green'>-1775.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:29:54 1: PERL WARNING: Argument "<b><font color='green'>-1802.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:30:52 1: PERL WARNING: Argument "<b><font color='green'>-1810.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:31:54 1: PERL WARNING: Argument "<b><font color='green'>-1810.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:32:52 1: PERL WARNING: Argument "<b><font color='green'>-1864.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:33:50 1: PERL WARNING: Argument "<b><font color='green'>-1864.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:34:48 1: PERL WARNING: Argument "<b><font color='green'>-1924.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:35:54 1: PERL WARNING: Argument "<b><font color='green'>-1927.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:36:52 1: PERL WARNING: Argument "<b><font color='green'>-1942.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:37:55 1: PERL WARNING: Argument "<b><font color='green'>-1939.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:38:52 1: PERL WARNING: Argument "<b><font color='green'>-1965.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:39:51 1: PERL WARNING: Argument "<b><font color='green'>-1973.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:40:56 1: PERL WARNING: Argument "<b><font color='green'>-2048.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:41:50 1: PERL WARNING: Argument "<b><font color='green'>-2640.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:42:56 1: PERL WARNING: Argument "<b><font color='green'>-2742.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:43:50 1: PERL WARNING: Argument "<b><font color='green'>-2731.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:45:58 1: PERL WARNING: Argument "<b><font color='green'>-2767.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:46:56 1: PERL WARNING: Argument "<b><font color='green'>-2802.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:47:51 1: PERL WARNING: Argument "<b><font color='green'>-2814.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:48:56 1: PERL WARNING: Argument "<b><font color='green'>-2831.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:49:50 1: PERL WARNING: Argument "<b><font color='green'>-2854.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:50:57 1: PERL WARNING: Argument "<b><font color='green'>-2867.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:51:50 1: PERL WARNING: Argument "<b><font color='green'>-2202.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:52:56 1: PERL WARNING: Argument "<b><font color='green'>-2263.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:53:51 1: PERL WARNING: Argument "<b><font color='green'>-2863.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:54:56 1: PERL WARNING: Argument "<b><font color='green'>-2803.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:55:50 1: PERL WARNING: Argument "<b><font color='green'>-2587.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:56:55 1: PERL WARNING: Argument "<b><font color='green'>-2669.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:57:50 1: PERL WARNING: Argument "<b><font color='green'>-2853.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:58:55 1: PERL WARNING: Argument "<b><font color='green'>-2642.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 11:59:51 1: PERL WARNING: Argument "<b><font color='green'>-2852.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:00:56 1: PERL WARNING: Argument "<b><font color='green'>-2830.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:02:56 1: PERL WARNING: Argument "<b><font color='green'>-2685.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:03:50 1: PERL WARNING: Argument "<b><font color='green'>-2882.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:04:56 1: PERL WARNING: Argument "<b><font color='green'>-2905.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:05:51 1: PERL WARNING: Argument "<b><font color='green'>-2858.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:06:55 1: PERL WARNING: Argument "<b><font color='green'>-2944.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:07:50 1: PERL WARNING: Argument "<b><font color='green'>-2928.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:08:58 1: PERL WARNING: Argument "<b><font color='green'>-2907.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:09:50 1: PERL WARNING: Argument "<b><font color='green'>-2914.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:10:56 1: PERL WARNING: Argument "<b><font color='green'>-2886.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:11:50 1: PERL WARNING: Argument "<b><font color='green'>-2904.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:12:56 1: PERL WARNING: Argument "<b><font color='green'>-2917.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:13:51 1: PERL WARNING: Argument "<b><font color='green'>-2920.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:14:56 1: PERL WARNING: Argument "<b><font color='green'>-2900.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:15:51 1: PERL WARNING: Argument "<b><font color='green'>-2923.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:16:52 1: PERL WARNING: Argument "<b><font color='green'>-2931.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:17:54 1: PERL WARNING: Argument "<b><font color='green'>-2962.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:18:53 1: PERL WARNING: Argument "<b><font color='green'>-2954.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:19:56 1: PERL WARNING: Argument "<b><font color='green'>-3016.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:20:54 1: PERL WARNING: Argument "<b><font color='green'>-3041.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:21:51 1: PERL WARNING: Argument "<b><font color='green'>-3056.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:22:49 1: PERL WARNING: Argument "<b><font color='green'>-2707.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:23:55 1: PERL WARNING: Argument "<b><font color='green'>-2927.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:24:53 1: PERL WARNING: Argument "<b><font color='green'>-3088.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:25:54 1: PERL WARNING: Argument "<b><font color='green'>-3093.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:26:52 1: PERL WARNING: Argument "<b><font color='green'>-3136.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:27:50 1: PERL WARNING: Argument "<b><font color='green'>-3056.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:28:49 1: PERL WARNING: Argument "<b><font color='green'>-3120.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:29:54 1: PERL WARNING: Argument "<b><font color='green'>-3249.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:30:53 1: PERL WARNING: Argument "<b><font color='green'>-3378.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:31:55 1: PERL WARNING: Argument "<b><font color='green'>-3337.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:32:53 1: PERL WARNING: Argument "<b><font color='green'>-2760.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:33:51 1: PERL WARNING: Argument "<b><font color='green'>-981.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:34:49 1: PERL WARNING: Argument "<b><font color='green'>-670.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:35:54 1: PERL WARNING: Argument "<b><font color='green'>-681.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:36:53 1: PERL WARNING: Argument "<b><font color='green'>-2701.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:37:55 1: PERL WARNING: Argument "<b><font color='green'>-3224.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:38:53 1: PERL WARNING: Argument "<b><font color='green'>-3208.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:39:55 1: PERL WARNING: Argument "<b><font color='green'>-3129.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:40:52 1: PERL WARNING: Argument "<b><font color='green'>-3082.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:41:54 1: PERL WARNING: Argument "<b><font color='green'>-3156.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:42:52 1: PERL WARNING: Argument "<b><font color='green'>-802.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:43:55 1: PERL WARNING: Argument "<b><font color='green'>-3203.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:44:52 1: PERL WARNING: Argument "<b><font color='green'>-2085.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:45:56 1: PERL WARNING: Argument "<b><font color='green'>-3202.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:46:52 1: PERL WARNING: Argument "<b><font color='green'>-3172.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:47:55 1: PERL WARNING: Argument "<b><font color='green'>-3146.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:48:52 1: PERL WARNING: Argument "<b><font color='green'>-3064.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:49:55 1: PERL WARNING: Argument "<b><font color='green'>-3092.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:50:52 1: PERL WARNING: Argument "<b><font color='green'>-3163.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:51:54 1: PERL WARNING: Argument "<b><font color='green'>-3352.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:52:52 1: PERL WARNING: Argument "<b><font color='green'>-3339.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:53:54 1: PERL WARNING: Argument "<b><font color='green'>-557.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:54:52 1: PERL WARNING: Argument "<b><font color='green'>-3350.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:55:55 1: PERL WARNING: Argument "<b><font color='green'>-3364.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:56:52 1: PERL WARNING: Argument "<b><font color='green'>-2068.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:57:55 1: PERL WARNING: Argument "<b><font color='green'>-3283.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:58:52 1: PERL WARNING: Argument "<b><font color='green'>-3257.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 12:59:55 1: PERL WARNING: Argument "<b><font color='green'>-3270.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:00:54 1: PERL WARNING: Argument "<b><font color='green'>-3216.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:01:55 1: PERL WARNING: Argument "<b><font color='green'>-3225.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:02:52 1: PERL WARNING: Argument "<b><font color='green'>-3244.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:03:54 1: PERL WARNING: Argument "<b><font color='green'>-3296.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:04:52 1: PERL WARNING: Argument "<b><font color='green'>-3266.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:05:55 1: PERL WARNING: Argument "<b><font color='green'>-3269.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:06:52 1: PERL WARNING: Argument "<b><font color='green'>-3277.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:07:56 1: PERL WARNING: Argument "<b><font color='green'>-3239.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:08:54 1: PERL WARNING: Argument "<b><font color='green'>-3233.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:09:55 1: PERL WARNING: Argument "<b><font color='green'>-3245.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:10:52 1: PERL WARNING: Argument "<b><font color='green'>-3274.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:11:55 1: PERL WARNING: Argument "<b><font color='green'>-3307.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:12:52 1: PERL WARNING: Argument "<b><font color='green'>-3346.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:13:56 1: PERL WARNING: Argument "<b><font color='green'>-3385.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:14:52 1: PERL WARNING: Argument "<b><font color='green'>-3416.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:15:55 1: PERL WARNING: Argument "<b><font color='green'>-3456.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:16:52 1: PERL WARNING: Argument "<b><font color='green'>-3491.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:17:55 1: PERL WARNING: Argument "<b><font color='green'>-613.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:18:52 1: PERL WARNING: Argument "<b><font color='green'>-576.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:19:57 1: PERL WARNING: Argument "<b><font color='green'>-509.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:20:52 1: PERL WARNING: Argument "<b><font color='green'>-482.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:21:55 1: PERL WARNING: Argument "<b><font color='green'>-495.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:22:52 1: PERL WARNING: Argument "<b><font color='green'>-3802.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:23:55 1: PERL WARNING: Argument "<b><font color='green'>-3782.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:24:52 1: PERL WARNING: Argument "<b><font color='green'>-3743.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:25:56 1: PERL WARNING: Argument "<b><font color='green'>-3715.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:26:53 1: PERL WARNING: Argument "<b><font color='green'>-3361.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:27:55 1: PERL WARNING: Argument "<b><font color='green'>-415.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:28:52 1: PERL WARNING: Argument "<b><font color='green'>-441.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:29:56 1: PERL WARNING: Argument "<b><font color='green'>-3580.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:30:52 1: PERL WARNING: Argument "<b><font color='green'>-2370.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:31:57 1: PERL WARNING: Argument "<b><font color='green'>-3411.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:32:53 1: PERL WARNING: Argument "<b><font color='green'>-3448.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:33:55 1: PERL WARNING: Argument "<b><font color='green'>-3472.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:34:52 1: PERL WARNING: Argument "<b><font color='green'>-3443.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:35:56 1: PERL WARNING: Argument "<b><font color='green'>-3447.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:36:53 1: PERL WARNING: Argument "<b><font color='green'>-2985.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:37:58 1: PERL WARNING: Argument "<b><font color='green'>-3630.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:38:52 1: PERL WARNING: Argument "<b><font color='green'>-945.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:39:55 1: PERL WARNING: Argument "<b><font color='green'>-631.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:40:53 1: PERL WARNING: Argument "<b><font color='green'>-664.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:41:55 1: PERL WARNING: Argument "<b><font color='green'>-673.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:42:53 1: PERL WARNING: Argument "<b><font color='green'>-674.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:43:56 1: PERL WARNING: Argument "<b><font color='green'>-3871.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:44:52 1: PERL WARNING: Argument "<b><font color='green'>-2077.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:45:55 1: PERL WARNING: Argument "<b><font color='green'>-1986.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:46:52 1: PERL WARNING: Argument "<b><font color='green'>-2679.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:47:55 1: PERL WARNING: Argument "<b><font color='green'>-3629.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:48:52 1: PERL WARNING: Argument "<b><font color='green'>-972.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:49:56 1: PERL WARNING: Argument "<b><font color='green'>-2221.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:50:52 1: PERL WARNING: Argument "<b><font color='green'>-3529.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:51:56 1: PERL WARNING: Argument "<b><font color='green'>-3429.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:52:52 1: PERL WARNING: Argument "<b><font color='green'>-3416.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:53:58 1: PERL WARNING: Argument "<b><font color='green'>-3355.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:54:53 1: PERL WARNING: Argument "<b><font color='green'>-3353.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:55:56 1: PERL WARNING: Argument "<b><font color='green'>-3355.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:56:53 1: PERL WARNING: Argument "<b><font color='green'>-3346.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:57:56 1: PERL WARNING: Argument "<b><font color='green'>-3259.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:58:53 1: PERL WARNING: Argument "<b><font color='green'>-3257.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 13:59:56 1: PERL WARNING: Argument "<b><font color='green'>-3269.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:00:53 1: PERL WARNING: Argument "<b><font color='green'>-3236.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:01:56 1: PERL WARNING: Argument "<b><font color='green'>-1014.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:02:53 1: PERL WARNING: Argument "<b><font color='green'>-3268.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:03:55 1: PERL WARNING: Argument "<b><font color='green'>-3299.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:04:53 1: PERL WARNING: Argument "<b><font color='green'>-3294.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:05:57 1: PERL WARNING: Argument "<b><font color='green'>-3259.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:06:53 1: PERL WARNING: Argument "<b><font color='green'>-3284.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:07:57 1: PERL WARNING: Argument "<b><font color='green'>-3265.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:08:53 1: PERL WARNING: Argument "<b><font color='green'>-3313.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:09:56 1: PERL WARNING: Argument "<b><font color='green'>-3258.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:10:53 1: PERL WARNING: Argument "<b><font color='green'>-3278.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:11:56 1: PERL WARNING: Argument "<b><font color='green'>-3169.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:12:53 1: PERL WARNING: Argument "<b><font color='green'>-3173.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:13:56 1: PERL WARNING: Argument "<b><font color='green'>-3191.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:14:53 1: PERL WARNING: Argument "<b><font color='green'>-3229.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:15:57 1: PERL WARNING: Argument "<b><font color='green'>-3229.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:16:53 1: PERL WARNING: Argument "<b><font color='green'>-3229.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:17:56 1: PERL WARNING: Argument "<b><font color='green'>-3195.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:18:54 1: PERL WARNING: Argument "<b><font color='green'>-3197.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:19:57 1: PERL WARNING: Argument "<b><font color='green'>-3211.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:20:54 1: PERL WARNING: Argument "<b><font color='green'>-3207.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:21:56 1: PERL WARNING: Argument "<b><font color='green'>-3159.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:22:53 1: PERL WARNING: Argument "<b><font color='green'>-3193.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:23:56 1: PERL WARNING: Argument "<b><font color='green'>-3232.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:24:55 1: PERL WARNING: Argument "<b><font color='green'>-3270.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:25:56 1: PERL WARNING: Argument "<b><font color='green'>-3279.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:26:54 1: PERL WARNING: Argument "<b><font color='green'>-3285.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:27:56 1: PERL WARNING: Argument "<b><font color='green'>-3300.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:28:54 1: PERL WARNING: Argument "<b><font color='green'>-762.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:29:56 1: PERL WARNING: Argument "<b><font color='green'>-3343.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:30:53 1: PERL WARNING: Argument "<b><font color='green'>-3283.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:31:57 1: PERL WARNING: Argument "<b><font color='green'>-3333.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:32:54 1: PERL WARNING: Argument "<b><font color='green'>-3223.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:33:57 1: PERL WARNING: Argument "<b><font color='green'>-2142.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:34:53 1: PERL WARNING: Argument "<b><font color='green'>-1092.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:35:57 1: PERL WARNING: Argument "<b><font color='green'>-2743.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:36:53 1: PERL WARNING: Argument "<b><font color='green'>-3320.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:37:57 1: PERL WARNING: Argument "<b><font color='green'>-3277.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:38:54 1: PERL WARNING: Argument "<b><font color='green'>-3257.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:39:56 1: PERL WARNING: Argument "<b><font color='green'>-3265.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:41:57 1: PERL WARNING: Argument "<b><font color='green'>-3241.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:42:54 1: PERL WARNING: Argument "<b><font color='green'>-3226.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:43:57 1: PERL WARNING: Argument "<b><font color='green'>-3226.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:44:54 1: PERL WARNING: Argument "<b><font color='green'>-3179.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:45:57 1: PERL WARNING: Argument "<b><font color='green'>-3186.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:46:54 1: PERL WARNING: Argument "<b><font color='green'>-3212.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:47:57 1: PERL WARNING: Argument "<b><font color='green'>-3176.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:48:54 1: PERL WARNING: Argument "<b><font color='green'>-3186.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:49:57 1: PERL WARNING: Argument "<b><font color='green'>-3186.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:50:54 1: PERL WARNING: Argument "<b><font color='green'>-1631.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:51:57 1: PERL WARNING: Argument "<b><font color='green'>-2787.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:52:55 1: PERL WARNING: Argument "<b><font color='green'>-3067.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:53:57 1: PERL WARNING: Argument "<b><font color='green'>-2424.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:54:55 1: PERL WARNING: Argument "<b><font color='green'>-3268.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:55:57 1: PERL WARNING: Argument "<b><font color='green'>-3256.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:56:56 1: PERL WARNING: Argument "<b><font color='green'>-3300.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:57:59 1: PERL WARNING: Argument "<b><font color='green'>-3254.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:58:54 1: PERL WARNING: Argument "<b><font color='green'>-914.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 14:59:57 1: PERL WARNING: Argument "<b><font color='green'>-3319.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:00:54 1: PERL WARNING: Argument "<b><font color='green'>-763.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:01:57 1: PERL WARNING: Argument "<b><font color='green'>-1706.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:02:54 1: PERL WARNING: Argument "<b><font color='green'>-889.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:03:57 1: PERL WARNING: Argument "<b><font color='green'>-3096.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:04:54 1: PERL WARNING: Argument "<b><font color='green'>-1999.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:05:57 1: PERL WARNING: Argument "<b><font color='green'>-2172.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:06:54 1: PERL WARNING: Argument "<b><font color='green'>-1170.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:07:57 1: PERL WARNING: Argument "<b><font color='green'>-3241.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:08:55 1: PERL WARNING: Argument "<b><font color='green'>-3299.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:09:57 1: PERL WARNING: Argument "<b><font color='green'>-3265.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:10:54 1: PERL WARNING: Argument "<b><font color='green'>-3227.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:11:57 1: PERL WARNING: Argument "<b><font color='green'>-3192.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:12:54 1: PERL WARNING: Argument "<b><font color='green'>-3133.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:13:57 1: PERL WARNING: Argument "<b><font color='green'>-3176.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:14:55 1: PERL WARNING: Argument "<b><font color='green'>-3158.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:15:57 1: PERL WARNING: Argument "<b><font color='green'>-3130.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:16:54 1: PERL WARNING: Argument "<b><font color='green'>-3107.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:17:57 1: PERL WARNING: Argument "<b><font color='green'>-3068.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:18:55 1: PERL WARNING: Argument "<b><font color='green'>-3052.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:19:58 1: PERL WARNING: Argument "<b><font color='green'>-3096.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:20:55 1: PERL WARNING: Argument "<b><font color='green'>-3073.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:21:58 1: PERL WARNING: Argument "<b><font color='green'>-3095.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:22:55 1: PERL WARNING: Argument "<b><font color='green'>-3005.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:23:58 1: PERL WARNING: Argument "<b><font color='green'>-2998.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:24:55 1: PERL WARNING: Argument "<b><font color='green'>-2958.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:25:57 1: PERL WARNING: Argument "<b><font color='green'>-3050.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:26:55 1: PERL WARNING: Argument "<b><font color='green'>-3039.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:27:58 1: PERL WARNING: Argument "<b><font color='green'>-2964.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:28:54 1: PERL WARNING: Argument "<b><font color='green'>-2680.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:29:58 1: PERL WARNING: Argument "<b><font color='green'>-2955.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:31:57 1: PERL WARNING: Argument "<b><font color='green'>-2935.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:32:54 1: PERL WARNING: Argument "<b><font color='green'>-2924.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:33:57 1: PERL WARNING: Argument "<b><font color='green'>-2906.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:34:54 1: PERL WARNING: Argument "<b><font color='green'>-2923.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:35:57 1: PERL WARNING: Argument "<b><font color='green'>-2925.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:36:55 1: PERL WARNING: Argument "<b><font color='green'>-2942.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:37:57 1: PERL WARNING: Argument "<b><font color='green'>-2928.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:38:55 1: PERL WARNING: Argument "<b><font color='green'>-2914.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:39:58 1: PERL WARNING: Argument "<b><font color='green'>-2988.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:40:55 1: PERL WARNING: Argument "<b><font color='green'>-2986.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:41:58 1: PERL WARNING: Argument "<b><font color='green'>-2893.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:42:55 1: PERL WARNING: Argument "<b><font color='green'>-2754.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:43:57 1: PERL WARNING: Argument "<b><font color='green'>-2869.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:44:55 1: PERL WARNING: Argument "<b><font color='green'>-2291.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:45:57 1: PERL WARNING: Argument "<b><font color='green'>-1823.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:46:55 1: PERL WARNING: Argument "<b><font color='green'>-3079.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:48:55 1: PERL WARNING: Argument "<b><font color='green'>-2959.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:49:57 1: PERL WARNING: Argument "<b><font color='green'>-2943.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:50:55 1: PERL WARNING: Argument "<b><font color='green'>-1544.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:51:57 1: PERL WARNING: Argument "<b><font color='green'>-861.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:52:55 1: PERL WARNING: Argument "<b><font color='green'>-3225.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:53:58 1: PERL WARNING: Argument "<b><font color='green'>-1590.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:54:55 1: PERL WARNING: Argument "<b><font color='green'>-908.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:55:59 1: PERL WARNING: Argument "<b><font color='green'>-2267.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:56:55 1: PERL WARNING: Argument "<b><font color='green'>-732.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:57:59 1: PERL WARNING: Argument "<b><font color='green'>-767.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:58:54 1: PERL WARNING: Argument "<b><font color='green'>-901.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 15:59:58 1: PERL WARNING: Argument "<b><font color='green'>-948.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:00:55 1: PERL WARNING: Argument "<b><font color='green'>-1220.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:01:59 1: PERL WARNING: Argument "<b><font color='green'>-1029.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:02:55 1: PERL WARNING: Argument "<b><font color='green'>-3027.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:03:59 1: PERL WARNING: Argument "<b><font color='green'>-1410.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:04:55 1: PERL WARNING: Argument "<b><font color='green'>-1279.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:05:57 1: PERL WARNING: Argument "<b><font color='green'>-2029.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:06:55 1: PERL WARNING: Argument "<b><font color='green'>-2929.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:07:59 1: PERL WARNING: Argument "<b><font color='green'>-2968.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:08:55 1: PERL WARNING: Argument "<b><font color='green'>-3022.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:09:58 1: PERL WARNING: Argument "<b><font color='green'>-935.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:10:55 1: PERL WARNING: Argument "<b><font color='green'>-981.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:11:58 1: PERL WARNING: Argument "<b><font color='green'>-893.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:12:55 1: PERL WARNING: Argument "<b><font color='green'>-790.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:13:58 1: PERL WARNING: Argument "<b><font color='green'>-739.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:14:56 1: PERL WARNING: Argument "<b><font color='green'>-961.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:15:58 1: PERL WARNING: Argument "<b><font color='green'>-2654.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:16:55 1: PERL WARNING: Argument "<b><font color='green'>-3038.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:17:58 1: PERL WARNING: Argument "<b><font color='green'>-2950.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:18:56 1: PERL WARNING: Argument "<b><font color='green'>-2934.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:19:59 1: PERL WARNING: Argument "<b><font color='green'>-2787.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:20:56 1: PERL WARNING: Argument "<b><font color='green'>-2899.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:21:58 1: PERL WARNING: Argument "<b><font color='green'>-2856.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:22:55 1: PERL WARNING: Argument "<b><font color='green'>-2570.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:23:58 1: PERL WARNING: Argument "<b><font color='green'>-683.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:24:55 1: PERL WARNING: Argument "<b><font color='green'>-467.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:26:00 1: PERL WARNING: Argument "<b><font color='green'>-435.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:37:58 1: PERL WARNING: Argument "<b><font color='green'>-780.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:38:56 1: PERL WARNING: Argument "<b><font color='green'>-2844.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:39:59 1: PERL WARNING: Argument "<b><font color='green'>-2644.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:40:56 1: PERL WARNING: Argument "<b><font color='green'>-348.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:41:59 1: PERL WARNING: Argument "<b><font color='green'>-256.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:42:57 1: PERL WARNING: Argument "<b><font color='green'>-76.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:48:57 1: PERL WARNING: Argument "<b><font color='green'>-82.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:49:59 1: PERL WARNING: Argument "<b><font color='green'>-633.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:50:57 1: PERL WARNING: Argument "<b><font color='green'>-763.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:55:59 1: PERL WARNING: Argument "<b><font color='green'>-879.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:56:56 1: PERL WARNING: Argument "<b><font color='green'>-1832.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:58:00 1: PERL WARNING: Argument "<b><font color='green'>-568.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:58:57 1: PERL WARNING: Argument "<b><font color='green'>-473.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 16:59:59 1: PERL WARNING: Argument "<b><font color='green'>-391.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:02:56 1: PERL WARNING: Argument "<b><font color='green'>-281.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:03:59 1: PERL WARNING: Argument "<b><font color='green'>-362.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:04:56 1: PERL WARNING: Argument "<b><font color='green'>-396.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:05:59 1: PERL WARNING: Argument "<b><font color='green'>-732.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:06:57 1: PERL WARNING: Argument "<b><font color='green'>-555.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:08:00 1: PERL WARNING: Argument "<b><font color='green'>-594.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:08:56 1: PERL WARNING: Argument "<b><font color='green'>-586.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:10:00 1: PERL WARNING: Argument "<b><font color='green'>-2215.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:10:58 1: PERL WARNING: Argument "<b><font color='green'>-1754.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:11:59 1: PERL WARNING: Argument "<b><font color='green'>-442.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:12:56 1: PERL WARNING: Argument "<b><font color='green'>-1965.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:14:00 1: PERL WARNING: Argument "<b><font color='green'>-1934.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:14:56 1: PERL WARNING: Argument "<b><font color='green'>-1952.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:15:59 1: PERL WARNING: Argument "<b><font color='green'>-1897.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:16:56 1: PERL WARNING: Argument "<b><font color='green'>-1891.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:17:59 1: PERL WARNING: Argument "<b><font color='green'>-1857.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:18:56 1: PERL WARNING: Argument "<b><font color='green'>-1842.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:19:59 1: PERL WARNING: Argument "<b><font color='green'>-672.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:21:59 1: PERL WARNING: Argument "<b><font color='green'>-640.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:22:56 1: PERL WARNING: Argument "<b><font color='green'>-618.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:24:00 1: PERL WARNING: Argument "<b><font color='green'>-650.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:24:57 1: PERL WARNING: Argument "<b><font color='green'>-608.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:25:59 1: PERL WARNING: Argument "<b><font color='green'>-539.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:26:57 1: PERL WARNING: Argument "<b><font color='green'>-555.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:28:00 1: PERL WARNING: Argument "<b><font color='green'>-524.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:28:57 1: PERL WARNING: Argument "<b><font color='green'>-1679.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:29:59 1: PERL WARNING: Argument "<b><font color='green'>-1698.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:30:57 1: PERL WARNING: Argument "<b><font color='green'>-1710.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:32:00 1: PERL WARNING: Argument "<b><font color='green'>-1713.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:33:59 1: PERL WARNING: Argument "<b><font color='green'>-1639.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:34:57 1: PERL WARNING: Argument "<b><font color='green'>-1687.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:35:59 1: PERL WARNING: Argument "<b><font color='green'>-1668.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:36:57 1: PERL WARNING: Argument "<b><font color='green'>-1686.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:37:59 1: PERL WARNING: Argument "<b><font color='green'>-1677.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:38:57 1: PERL WARNING: Argument "<b><font color='green'>-1666.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:40:00 1: PERL WARNING: Argument "<b><font color='green'>-1568.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:40:58 1: PERL WARNING: Argument "<b><font color='green'>-1531.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:41:59 1: PERL WARNING: Argument "<b><font color='green'>-1490.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:42:57 1: PERL WARNING: Argument "<b><font color='green'>-1546.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:44:00 1: PERL WARNING: Argument "<b><font color='green'>-917.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:44:58 1: PERL WARNING: Argument "<b><font color='green'>-1542.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:46:00 1: PERL WARNING: Argument "<b><font color='green'>-1515.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:46:57 1: PERL WARNING: Argument "<b><font color='green'>-1423.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:48:00 1: PERL WARNING: Argument "<b><font color='green'>-1190.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:48:58 1: PERL WARNING: Argument "<b><font color='green'>-1465.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:50:00 1: PERL WARNING: Argument "<b><font color='green'>-1610.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:50:57 1: PERL WARNING: Argument "<b><font color='green'>-1562.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:52:57 1: PERL WARNING: Argument "<b><font color='green'>-1633.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:54:02 1: PERL WARNING: Argument "<b><font color='green'>-1692.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:54:58 1: PERL WARNING: Argument "<b><font color='green'>-1691.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:56:00 1: PERL WARNING: Argument "<b><font color='green'>-1670.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:56:59 1: PERL WARNING: Argument "<b><font color='green'>-1641.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:58:00 1: PERL WARNING: Argument "<b><font color='green'>-1508.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 17:58:57 1: PERL WARNING: Argument "<b><font color='green'>-1489.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:00:00 1: PERL WARNING: Argument "<b><font color='green'>-1727.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:00:57 1: PERL WARNING: Argument "<b><font color='green'>-1766.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:02:00 1: PERL WARNING: Argument "<b><font color='green'>-1753.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:02:57 1: PERL WARNING: Argument "<b><font color='green'>-1725.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:04:00 1: PERL WARNING: Argument "<b><font color='green'>-1656.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:04:58 1: PERL WARNING: Argument "<b><font color='green'>-1648.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:06:00 1: PERL WARNING: Argument "<b><font color='green'>-1689.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:06:58 1: PERL WARNING: Argument "<b><font color='green'>-1576.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:08:01 1: PERL WARNING: Argument "<b><font color='green'>-1643.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:08:59 1: PERL WARNING: Argument "<b><font color='green'>-1569.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:10:02 1: PERL WARNING: Argument "<b><font color='green'>-1337.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:10:57 1: PERL WARNING: Argument "<b><font color='green'>-1300.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:12:00 1: PERL WARNING: Argument "<b><font color='green'>-1026.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:12:58 1: PERL WARNING: Argument "<b><font color='green'>-209.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:14:58 1: PERL WARNING: Argument "<b><font color='green'>-589.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:16:01 1: PERL WARNING: Argument "<b><font color='green'>-572.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:16:57 1: PERL WARNING: Argument "<b><font color='green'>-546.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:18:00 1: PERL WARNING: Argument "<b><font color='green'>-516.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:18:58 1: PERL WARNING: Argument "<b><font color='green'>-475.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:20:00 1: PERL WARNING: Argument "<b><font color='green'>-450.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:20:58 1: PERL WARNING: Argument "<b><font color='green'>-426.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:22:00 1: PERL WARNING: Argument "<b><font color='green'>-458.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:22:58 1: PERL WARNING: Argument "<b><font color='green'>-424.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:24:00 1: PERL WARNING: Argument "<b><font color='green'>-313.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:24:58 1: PERL WARNING: Argument "<b><font color='green'>-254.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:26:54 1: PERL WARNING: Argument "<b><font color='green'>-236.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:28:00 1: PERL WARNING: Argument "<b><font color='green'>-493.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:28:57 1: PERL WARNING: Argument "<b><font color='green'>-265.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:30:00 1: PERL WARNING: Argument "<b><font color='green'>-251.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:30:58 1: PERL WARNING: Argument "<b><font color='green'>-279.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:32:00 1: PERL WARNING: Argument "<b><font color='green'>-204.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:32:58 1: PERL WARNING: Argument "<b><font color='green'>-181.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:34:00 1: PERL WARNING: Argument "<b><font color='green'>-194.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:34:57 1: PERL WARNING: Argument "<b><font color='green'>-224.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:36:00 1: PERL WARNING: Argument "<b><font color='green'>-243.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:36:58 1: PERL WARNING: Argument "<b><font color='green'>-254.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:38:01 1: PERL WARNING: Argument "<b><font color='green'>-930.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:38:58 1: PERL WARNING: Argument "<b><font color='green'>-922.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:40:00 1: PERL WARNING: Argument "<b><font color='green'>-865.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:40:57 1: PERL WARNING: Argument "<b><font color='green'>-667.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:42:00 1: PERL WARNING: Argument "<b><font color='green'>-525.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:42:57 1: PERL WARNING: Argument "<b><font color='green'>-77.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:44:57 1: PERL WARNING: Argument "<b><font color='green'>-452.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:46:00 1: PERL WARNING: Argument "<b><font color='green'>-215.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:46:57 1: PERL WARNING: Argument "<b><font color='green'>-615.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 18:48:01 1: PERL WARNING: Argument "<b><font color='green'>-461.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:10:00 1: PERL WARNING: Argument "<b><font color='green'>-599.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:10:58 1: PERL WARNING: Argument "<b><font color='green'>-579.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:12:01 1: PERL WARNING: Argument "<b><font color='green'>-388.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:12:58 1: PERL WARNING: Argument "<b><font color='green'>-317.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:14:00 1: PERL WARNING: Argument "<b><font color='green'>-358.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:16:00 1: PERL WARNING: Argument "<b><font color='green'>-523.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:16:58 1: PERL WARNING: Argument "<b><font color='green'>-394.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:18:01 1: PERL WARNING: Argument "<b><font color='green'>-317.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:18:58 1: PERL WARNING: Argument "<b><font color='green'>-273.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:20:01 1: PERL WARNING: Argument "<b><font color='green'>-249.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:20:58 1: PERL WARNING: Argument "<b><font color='green'>-425.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:22:02 1: PERL WARNING: Argument "<b><font color='green'>-369.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:22:57 1: PERL WARNING: Argument "<b><font color='green'>-317.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:24:01 1: PERL WARNING: Argument "<b><font color='green'>-291.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:24:58 1: PERL WARNING: Argument "<b><font color='green'>-285.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:26:00 1: PERL WARNING: Argument "<b><font color='green'>-265.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:26:58 1: PERL WARNING: Argument "<b><font color='green'>-259.2</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:28:01 1: PERL WARNING: Argument "<b><font color='green'>-231.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:30:00 1: PERL WARNING: Argument "<b><font color='green'>-202.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:30:58 1: PERL WARNING: Argument "<b><font color='green'>-193.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:32:01 1: PERL WARNING: Argument "<b><font color='green'>-193.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:32:58 1: PERL WARNING: Argument "<b><font color='green'>-193.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:34:01 1: PERL WARNING: Argument "<b><font color='green'>-182.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:34:58 1: PERL WARNING: Argument "<b><font color='green'>-172.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:36:00 1: PERL WARNING: Argument "<b><font color='green'>-163.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:36:58 1: PERL WARNING: Argument "<b><font color='green'>-153.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:38:02 1: PERL WARNING: Argument "<b><font color='green'>-143.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:38:58 1: PERL WARNING: Argument "<b><font color='green'>-128.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:40:01 1: PERL WARNING: Argument "<b><font color='green'>-121.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:40:58 1: PERL WARNING: Argument "<b><font color='green'>-108.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:42:01 1: PERL WARNING: Argument "<b><font color='green'>-83.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:42:58 1: PERL WARNING: Argument "<b><font color='green'>-68.0</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:44:02 1: PERL WARNING: Argument "<b><font color='green'>-2.8</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:44:58 1: PERL WARNING: Argument "<b><font color='green'>-8.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:50:01 1: PERL WARNING: Argument "<b><font color='green'>-7.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:51:06 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3096> line 40.
+2015.06.03 19:53:05 1: PERL WARNING: Argument "<b><font color='green'>-4.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:54:35 1: PERL WARNING: Argument "<b><font color='green'>-13.4</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:55:10 1: PERL WARNING: Argument "<b><font color='green'>-18.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:56:25 1: PERL WARNING: Argument "<b><font color='green'>-26.6</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:56:53 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 19:56:58 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 19:58:19 1: PERL WARNING: Argument "<b><font color='green'>-29.1</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:59:10 1: PERL WARNING: Argument "<b><font color='green'>-28.3</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 19:59:40 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:00:36 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:00:41 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:01:01 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3107> line 35.
+2015.06.03 20:01:01 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3107> line 35.
+2015.06.03 20:01:01 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3107> line 35.
+2015.06.03 20:01:01 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3107> line 35.
+2015.06.03 20:01:01 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3107> line 35.
+2015.06.03 20:01:02 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:01:07 1: PERL WARNING: Argument "<b><font color='green'>-10.7</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 20:01:18 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3109> line 35.
+2015.06.03 20:01:18 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3109> line 35.
+2015.06.03 20:01:18 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3109> line 35.
+2015.06.03 20:01:18 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3109> line 35.
+2015.06.03 20:01:18 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3109> line 35.
+2015.06.03 20:01:20 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:01:21 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3116> line 35.
+2015.06.03 20:02:30 1: PERL WARNING: Argument "<b><font color='green'>-10.9</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 20:03:13 1: PERL WARNING: Argument "<b><font color='green'>-7.5</font></b>" isn't numeric in numeric gt (>) at ./FHEM/99_Lipo_email.pm line 59.
+2015.06.03 20:08:09 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:08:58 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:09:04 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:09:06 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:11:56 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:12:49 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:12:52 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:13:21 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:13:26 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3129> line 36.
+2015.06.03 20:13:26 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3129> line 36.
+2015.06.03 20:13:26 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3129> line 36.
+2015.06.03 20:13:26 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3129> line 36.
+2015.06.03 20:13:26 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3129> line 36.
+2015.06.03 20:13:26 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3131> line 36.
+2015.06.03 20:13:26 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3131> line 36.
+2015.06.03 20:13:27 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3131> line 36.
+2015.06.03 20:13:27 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3131> line 36.
+2015.06.03 20:13:27 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3131> line 36.
+2015.06.03 20:15:28 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 20:15:29 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC2>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC3>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC4>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC5>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:23 1: PERL WARNING: Argument "<SPEC6>" isn't numeric in subtraction (-) at ./FHEM/92_FileLog.pm line 622, <GEN3299> line 26.
+2015.06.03 22:22:25 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 22:22:25 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 22:22:25 1: PERL WARNING: Use of uninitialized value in concatenation (.) or string at ./FHEM/92_FileLog.pm line 833.
+2015.06.03 23:41:46 1: RMDIR: ./restoreDir/2015-05-30
+2015.06.03 23:41:46 1: UPD FHEM/00_CUL.pm
+2015.06.03 23:41:47 1: UPD FHEM/00_ZWDongle.pm
+2015.06.03 23:41:47 1: UPD FHEM/01_FHEMWEB.pm
+2015.06.03 23:41:47 1: UPD FHEM/10_MAX.pm
+2015.06.03 23:41:47 1: UPD FHEM/55_GDS.pm
+2015.06.03 23:41:47 1: UPD FHEM/55_InfoPanel.pm
+2015.06.03 23:41:48 1: Calling /usr/bin/perl ./contrib/commandref_join.pl, this may take a while
+2015.06.03 23:44:04 1: *** EN FHEM/23_WEBTHERM.pm: No document text found
+2015.06.03 23:44:04 1: 
+2015.06.03 23:44:04 1: update finished, "shutdown restart" is needed to activate the changes.
+2015.06.03 23:44:04 1: 
+2015.06.03 23:44:06 1: fheminfo server response: ==> ok
+
+2015.06.03 23:49:03 0: Server shutdown
+Prototype mismatch: sub main::Lipo_FileLog_Initialize () vs none at ./FHEM/99_Lipo_FileLog.pm line 34.
+Prototype mismatch: sub main::Lipo_State_Initialize () vs none at ./FHEM/99_Lipo_State.pm line 23.
+Prototype mismatch: sub main::average () vs none at ./FHEM/99_Lipo_State.pm line 84.
+Prototype mismatch: sub main::Summe () vs none at ./FHEM/99_Lipo_State.pm line 95.
+Prototype mismatch: sub main::Maximum () vs none at ./FHEM/99_Lipo_State.pm line 108.
+Prototype mismatch: sub main::Minimum () vs none at ./FHEM/99_Lipo_State.pm line 121.
+Prototype mismatch: sub main::Anzahl () vs none at ./FHEM/99_Lipo_State.pm line 132.
+Prototype mismatch: sub main::Lipo_Util_Initialize () vs none at ./FHEM/99_Lipo_Util.pm line 24.
+Prototype mismatch: sub main::Lipo_Zaehler_Initialize () vs none at ./FHEM/99_Lipo_Zaehler.pm line 13.
+Prototype mismatch: sub main::Lipo_Zeit_Initialize () vs none at ./FHEM/99_Lipo_Zeit.pm line 32.
+Prototype mismatch: sub main::Lipo_email_Initialize () vs none at ./FHEM/99_Lipo_email.pm line 18.
+Prototype mismatch: sub main::fb_mail () vs none at ./FHEM/99_Lipo_email.pm line 152.
+2015.06.03 23:49:08 3: [UtilsHourCounter] Init Done with Version 1.02 - 17.03.2014 (john)
+2015.06.03 23:49:08 1: Including /opt/fhem-5.4/fhem.cfg
+2015.06.03 23:49:08 1: Including ./Holger/connect.cfg
+2015.06.03 23:49:09 3: Telnet_1: port 7072 opened
+2015.06.03 23:49:10 3: WEB_1: port 8083 opened
+2015.06.03 23:49:10 3: WEB_Handy_2: port 8084 opened
+2015.06.03 23:49:10 3: WEB_Tablett_3: port 8085 opened
+2015.06.03 23:49:10 1: Including ./Holger/AutoCreate.cfg
+2015.06.03 23:49:10 1: Including ./Holger/SysMon.cfg
+Subroutine SYSMON_secsToReadable redefined at ./FHEM/42_SYSMON.pm line 4649, <> line 19.
+2015.06.03 23:49:08 2: Moving fhem-2015-05-27.log to ./archive
+2015.06.03 23:49:12 1: Including ./Holger/LogProxy.cfg
+2015.06.03 23:49:13 1: Including ./Holger/IODev_CUL.cfg
+2015.06.03 23:49:13 3: Opening HA_CUL433_1 device /dev/ttyACM0
+2015.06.03 23:49:13 3: Setting HA_CUL433_1 baudrate to 38400
+2015.06.03 23:49:13 3: HA_CUL433_1 device opened
+2015.06.03 23:49:14 3: HA_CUL433_1: Possible commands: BbCFiAZEGMKUYRTVWXefmltux
+2015.06.03 23:49:14 3: Opening HA_CUL868_HM_1 device /dev/ttyACM1
+2015.06.03 23:49:14 3: Setting HA_CUL868_HM_1 baudrate to 38400
+2015.06.03 23:49:14 3: HA_CUL868_HM_1 device opened
+2015.06.03 23:49:14 3: HA_CUL868_HM_1: Possible commands: BbCFiAZEGMKUYRTVWXefmltux
+2015.06.03 23:49:14 2: Switched HA_CUL868_HM_1 rfmode to HomeMatic
+2015.06.03 23:49:14 1: Including ./Holger/IODev_HM_CCU1.cfg
+2015.06.03 23:49:23 1: Including ./Holger/ActionDetector_HM.cfg
+2015.06.03 23:49:23 1: Including ./Holger/Fenster_HM.cfg
+2015.06.03 23:49:23 1: Including ./Holger/Fenster_HM_HCount.cfg
+2015.06.03 23:49:24 3: HourCounter HourCounter Initialize.220 Init Done with Version 1.0.1.2 - 24.12.2014
+2015.06.03 23:49:24 0: HourCounter GT_Fens_E_HCount Define.228 parameters: GT_Fens_E_HCount HourCounter GT_Fens_E:(offen|gekippt) GT_Fens_E:geschlossen
+2015.06.03 23:49:24 1: Including ./Holger/Fenster_HM_Grafik.cfg
+2015.06.03 23:49:25 1: Including ./Holger/Tuer_HM.cfg
+2015.06.03 23:49:25 1: Including ./Holger/Tuer_HM_HCount.cfg
+2015.06.03 23:49:25 0: HourCounter KU_Tuer_T_HCount Define.228 parameters: KU_Tuer_T_HCount HourCounter KU_Tuer_T:(offen|gekippt) KU_Tuer_T:geschlossen
+2015.06.03 23:49:25 1: Including ./Holger/Tuer_HM_Grafik.cfg
+2015.06.03 23:49:25 1: Including ./Holger/Heizung_HM.cfg
+2015.06.03 23:49:25 1: Including ./Holger/Heizung_HM_Grafik.cfg
+2015.06.03 23:49:25 1: Including ./Holger/ModBus.cfg
+2015.06.03 23:49:26 3: Opening HA_Modbus_1 device /dev/ttyUSB0
+2015.06.03 23:49:26 3: Setting HA_Modbus_1 baudrate to 9600
+2015.06.03 23:49:26 3: HA_Modbus_1 device opened
+2015.06.03 23:49:26 1: Including ./Holger/ModBus_SDM220M.cfg
+2015.06.03 23:49:26 3: HA_SDM220M_1: defined with id 2, interval 60, destination HA_Modbus_1, protocol RTU
+2015.06.03 23:49:26 1: Including ./Holger/ModBus_SDM630M.cfg
+2015.06.03 23:49:27 3: HA_SDM630M_1: defined with id 1, interval 60, destination HA_Modbus_1, protocol RTU
+2015.06.03 23:49:27 1: Including ./Holger/ModBus_SDM_Statistics.cfg
+2015.06.03 23:49:28 1: Including ./Holger/ModBus_SDM220M_Grafik.cfg
+2015.06.03 23:49:28 1: Including ./Holger/ModBus_SDM630M_Grafik.cfg
+2015.06.03 23:49:28 1: Including ./Holger/ModBus_Statistik_Grafik.cfg
+2015.06.03 23:49:28 1: Including ./Holger/IODev_PCA.cfg
+2015.06.03 23:49:29 3: Opening HA_JeeLink_PCA_1 device /dev/ttyUSB1
+2015.06.03 23:49:29 3: Setting HA_JeeLink_PCA_1 baudrate to 57600
+2015.06.03 23:49:29 3: HA_JeeLink_PCA_1 device opened
+2015.06.03 23:49:30 1: Including ./Holger/Steckdosen_PCA.cfg
+2015.06.03 23:49:30 3: KU_PCA301_01: I/O device is HA_JeeLink_PCA_1
+2015.06.03 23:49:30 1: Including ./Holger/Steckdosen_PCA_Grafik.cfg
+2015.06.03 23:49:30 1: Including ./Holger/Steckdosen_PCA_Statistics.cfg
+2015.06.03 23:49:31 1: Including ./Holger/Wetter_FileLog.cfg
+2015.06.03 23:49:31 1: Including ./Holger/Wetter_ProPlanta.cfg
+2015.06.03 23:49:34 1: Including ./Holger/Fotovoltaik_dummy.cfg
+2015.06.03 23:49:34 1: Including ./Holger/Fotovoltaik_Modbus_ReadingsProxy.cfg
+2015.06.03 23:49:35 1: Including ./Holger/Fotovoltaik_Zaehler_ReadingsProxy.cfg
+2015.06.03 23:49:36 1: Including ./Holger/Fotovoltaik_Vorhersage_ReadingsProxy.cfg
+2015.06.03 23:49:36 1: Including ./Holger/eMail_etc.cfg
+2015.06.03 23:49:40 0: MSGMail: SSL is available, provided by Net::SMTP::SSL
+2015.06.03 23:49:40 1: Including ./Holger/eMail_etc_Macro.cfg
+2015.06.03 23:49:40 1: Including ./Holger/at_Steuerung.cfg
+2015.06.03 23:49:41 1: Including ./log/fhem.save
+2015.06.03 23:49:50 1: usb create starting
+2015.06.03 23:49:55 3: Probing CUL device /dev/ttyAMA0
+2015.06.03 23:49:55 3: Can't open /dev/ttyAMA0: Permission denied
+2015.06.03 23:49:55 1: usb create end
+2015.06.03 23:49:56 3: NTFY return:  FL_Heizung_S:ARRAY(0x21c8e18)
+2015.06.03 23:49:56 0: Server started with 101 defined entities (version $Id: fhem.pl 8574 2015-05-14 07:59:32Z rudolfkoenig $, os linux, user pi, pid 25324)
+2015.06.03 23:49:57 0: HourCounter GT_Fens_E_HCount Run.598 first run done countsOverall:1
+2015.06.03 23:49:57 1: PERL WARNING: Use of uninitialized value $hour in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.06.03 23:49:57 1: PERL WARNING: Use of uninitialized value $year in addition (+) at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.06.03 23:49:57 1: PERL WARNING: Argument "n/a" isn't numeric in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.06.03 23:49:57 1: PERL WARNING: Use of uninitialized value in subroutine entry at ./FHEM/99_Lipo_Zeit.pm line 301.
+2015.06.03 23:49:58 0: HourCounter KU_Tuer_T_HCount Run.598 first run done countsOverall:62
+2015.06.03 23:49:59 1: PERL WARNING: Argument "15^I^I^I# Start der Berechnung der periodischen Daten, s..." isn't numeric in subtraction (-) at ./FHEM/98_statistics.pm line 302.
+2015.06.03 23:49:59 1: PERL WARNING: Argument "1^I# Ignoriert die Standardzuordnung von GerM-CM-$tewert..." isn't numeric in numeric eq (==) at ./FHEM/98_statistics.pm line 411.
+2015.06.03 23:50:00 1: PERL WARNING: Use of uninitialized value in string eq at ./FHEM/10_CUL_HM.pm line 7473.
+2015.06.03 23:50:00 3: CUL_HM set FL_Heizung_S_Weather getConfig
+2015.06.03 23:50:15 1: PERL WARNING: Missing argument in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.06.03 23:50:15 1: PERL WARNING: Invalid conversion in sprintf: end of string at ./FHEM/98_Modbus.pm line 348.
+2015.06.03 23:50:56 1: PERL WARNING: Argument "import+export.active.energy" isn't numeric in sprintf at ./FHEM/98_Modbus.pm line 348.
+2015.06.03 23:51:33 3: CUL_HM set FL_Heizung_S_Climate getConfig
+2015.06.03 23:53:34 3: CUL_HM set FL_Heizung_S_WindowRec getConfig
+2015.06.03 23:56:25 3: CUL_HM set FL_Heizung_S_Clima getConfig
+2015.06.03 23:59:01 3: CUL_HM set FL_Heizung_S_ClimaTeam getConfig

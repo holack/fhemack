@@ -1,0 +1,51 @@
+############################
+# Display the power reported by the EM1010
+# Corresponding FileLog definition:
+# define <filelogname> FileLog /var/log/fhem/em-%Y.log <emdevname>:CNT:.*
+
+set terminal png transparent size <SIZE> crop
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+set xlabel " "
+
+set title '<L1>'
+set ylabel "Gas (qm)"
+set y2label "Gas (qm)"
+set grid
+set ytics
+set y2tics
+set format y "%.01f"
+set format y2 "%.01f"
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 8::0:
+
+##	Plotten der Datenreihen
+plot "<IN>" using 1:8 title 'qm Gas' with lines
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

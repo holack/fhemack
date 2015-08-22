@@ -1,0 +1,74 @@
+#
+# Display the measured temp from two devices
+# FileLog definition: 
+# define <filelogname> FileLog /var/log/fhem/hmsname-%Y.log <hmsname>:.*
+#
+# Logfile record example:
+# 2008-07-24_02:20:57 UGHygro T: 17.2  H: 77.6  Bat: ok
+
+# Attribute 'small' is useful for gnuplot/-scroll only,
+# if plotsize is less than 800,400
+#set terminal png transparent small size <SIZE> crop
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+set xlabel " "
+set ytics nomirror
+set y2tics
+set ytics
+set title '<L1>'
+set grid xtics y2tics
+
+set ylabel "Temperature in C"
+
+#get HR_TempW_FLog ?
+#get HR_TempW_FLog - - 2012-09-28 2012-09-29 4:HR_TempW_3:
+#get HR_TempW_FLog - - 2012-09-28 2012-09-29 4:HR_TempW_4:
+#get HR_TempW_FLog - - 2012-09-28 2012-09-29 4:HR_TempW_3: 4:HR_TempW_4:
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 4:HR_TempW_3 T\x3a:0:
+#FileLog 4:HR_TempW_4 T\x3a:0:
+
+##	Plotten der Datenreihen
+plot \
+  "< egrep 'HR_TempW_3' <IN>"\
+         using 1:4 axes x1y1 ls l2 title '' with lines
+  "< egrep 'HR_TempW_4' <IN>"\
+        using 1:4 axes x1y1 ls l2 title '' with lines\
+
+plot \
+  "< egrep 'HR_TempW_4' <IN>"\
+         using 1:4 axes x1y1 ls l0 title 'TempOben' with lines,\
+  "< egrep 'HR_TempW_3' <IN>"\
+        using 1:4 axes x1y1 ls l2 title 'TempUnten' with lines\
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

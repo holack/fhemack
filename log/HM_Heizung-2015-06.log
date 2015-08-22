@@ -1,0 +1,1977 @@
+2015-06-01_00:00:04 FL_Heizung_S measured-temp: 20.3
+2015-06-01_00:00:04 FL_Heizung_S_Clima measured-temp: 20.3
+2015-06-01_00:00:04 FL_Heizung_S_Clima T: 20.3 desired: 17.0 valve: 0
+2015-06-01_00:00:04 FL_Heizung_S_Clima TempDiff: 3.3
+2015-06-01_00:00:04 FL_Heizung_S_Weather measured-temp: 20.3
+2015-06-01_00:00:04 FL_Heizung_S_Weather 20.3
+2015-06-01_00:02:45 FL_Heizung_S measured-temp: 20.2
+2015-06-01_00:02:45 FL_Heizung_S_Clima measured-temp: 20.2
+2015-06-01_00:02:45 FL_Heizung_S_Clima T: 20.2 desired: 17.0 valve: 0
+2015-06-01_00:02:45 FL_Heizung_S_Clima TempDiff: 3.2
+2015-06-01_00:02:45 FL_Heizung_S_Weather measured-temp: 20.2
+2015-06-01_00:02:45 FL_Heizung_S_Weather 20.2
+2015-06-01_01:08:00 FL_Heizung_S measured-temp: 20.0
+2015-06-01_01:08:00 FL_Heizung_S_Clima measured-temp: 20.0
+2015-06-01_01:08:00 FL_Heizung_S_Clima T: 20.0 desired: 17.0 valve: 0
+2015-06-01_01:08:00 FL_Heizung_S_Clima TempDiff: 3.0
+2015-06-01_01:08:00 FL_Heizung_S_Weather measured-temp: 20.0
+2015-06-01_01:08:00 FL_Heizung_S_Weather 20.0
+2015-06-01_02:49:56 FL_Heizung_S measured-temp: 19.9
+2015-06-01_02:49:56 FL_Heizung_S_Clima measured-temp: 19.9
+2015-06-01_02:49:56 FL_Heizung_S_Clima T: 19.9 desired: 17.0 valve: 0
+2015-06-01_02:49:56 FL_Heizung_S_Clima TempDiff: 2.9
+2015-06-01_02:49:56 FL_Heizung_S_Weather measured-temp: 19.9
+2015-06-01_02:49:56 FL_Heizung_S_Weather 19.9
+2015-06-01_04:53:46 FL_Heizung_S measured-temp: 19.8
+2015-06-01_04:53:46 FL_Heizung_S_Clima measured-temp: 19.8
+2015-06-01_04:53:46 FL_Heizung_S_Clima T: 19.8 desired: 17.0 valve: 0
+2015-06-01_04:53:46 FL_Heizung_S_Clima TempDiff: 2.8
+2015-06-01_04:53:46 FL_Heizung_S_Weather measured-temp: 19.8
+2015-06-01_04:53:46 FL_Heizung_S_Weather 19.8
+2015-06-01_04:55:58 FL_Heizung_S measured-temp: 19.9
+2015-06-01_04:55:58 FL_Heizung_S_Clima measured-temp: 19.9
+2015-06-01_04:55:58 FL_Heizung_S_Clima T: 19.9 desired: 17.0 valve: 0
+2015-06-01_04:55:58 FL_Heizung_S_Clima TempDiff: 2.9
+2015-06-01_04:55:58 FL_Heizung_S_Weather measured-temp: 19.9
+2015-06-01_04:55:58 FL_Heizung_S_Weather 19.9
+2015-06-01_05:27:04 FL_Heizung_S measured-temp: 19.8
+2015-06-01_05:27:04 FL_Heizung_S_Clima measured-temp: 19.8
+2015-06-01_05:27:04 FL_Heizung_S_Clima T: 19.8 desired: 17.0 valve: 0
+2015-06-01_05:27:04 FL_Heizung_S_Clima TempDiff: 2.8
+2015-06-01_05:27:04 FL_Heizung_S_Weather measured-temp: 19.8
+2015-06-01_05:27:04 FL_Heizung_S_Weather 19.8
+2015-06-01_05:29:20 FL_Heizung_S measured-temp: 19.9
+2015-06-01_05:29:20 FL_Heizung_S_Clima measured-temp: 19.9
+2015-06-01_05:29:20 FL_Heizung_S_Clima T: 19.9 desired: 17.0 valve: 0
+2015-06-01_05:29:20 FL_Heizung_S_Clima TempDiff: 2.9
+2015-06-01_05:29:20 FL_Heizung_S_Weather measured-temp: 19.9
+2015-06-01_05:29:20 FL_Heizung_S_Weather 19.9
+2015-06-01_06:01:33 FL_Heizung_S actuator: 88
+2015-06-01_06:01:33 FL_Heizung_S desired-temp: 21.0
+2015-06-01_06:01:33 FL_Heizung_S_Clima ValvePosition: 88
+2015-06-01_06:01:33 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-01_06:01:33 FL_Heizung_S_Clima T: 19.9 desired: 21.0 valve: 88
+2015-06-01_06:01:33 FL_Heizung_S_Clima TempDiff: -1.1
+2015-06-01_06:52:27 FL_Heizung_S measured-temp: 20.0
+2015-06-01_06:52:27 FL_Heizung_S_Clima measured-temp: 20.0
+2015-06-01_06:52:27 FL_Heizung_S_Clima T: 20.0 desired: 21.0 valve: 88
+2015-06-01_06:52:27 FL_Heizung_S_Clima TempDiff: -1.0
+2015-06-01_06:52:27 FL_Heizung_S_Weather measured-temp: 20.0
+2015-06-01_06:52:27 FL_Heizung_S_Weather 20.0
+2015-06-01_07:27:43 FL_Heizung_S measured-temp: 20.2
+2015-06-01_07:27:43 FL_Heizung_S_Clima measured-temp: 20.2
+2015-06-01_07:27:43 FL_Heizung_S_Clima T: 20.2 desired: 21.0 valve: 88
+2015-06-01_07:27:43 FL_Heizung_S_Clima TempDiff: -0.8
+2015-06-01_07:27:43 FL_Heizung_S_Weather measured-temp: 20.2
+2015-06-01_07:27:43 FL_Heizung_S_Weather 20.2
+2015-06-01_07:30:11 FL_Heizung_S measured-temp: 20.0
+2015-06-01_07:30:11 FL_Heizung_S_Clima measured-temp: 20.0
+2015-06-01_07:30:11 FL_Heizung_S_Clima T: 20.0 desired: 21.0 valve: 88
+2015-06-01_07:30:11 FL_Heizung_S_Clima TempDiff: -1.0
+2015-06-01_07:30:11 FL_Heizung_S_Weather measured-temp: 20.0
+2015-06-01_07:30:11 FL_Heizung_S_Weather 20.0
+2015-06-01_07:32:25 FL_Heizung_S measured-temp: 20.2
+2015-06-01_07:32:25 FL_Heizung_S_Clima measured-temp: 20.2
+2015-06-01_07:32:25 FL_Heizung_S_Clima T: 20.2 desired: 21.0 valve: 88
+2015-06-01_07:32:25 FL_Heizung_S_Clima TempDiff: -0.8
+2015-06-01_07:32:25 FL_Heizung_S_Weather measured-temp: 20.2
+2015-06-01_07:32:25 FL_Heizung_S_Weather 20.2
+2015-06-01_08:01:19 FL_Heizung_S measured-temp: 20.3
+2015-06-01_08:01:19 FL_Heizung_S_Clima measured-temp: 20.3
+2015-06-01_08:01:19 FL_Heizung_S_Clima T: 20.3 desired: 21.0 valve: 88
+2015-06-01_08:01:19 FL_Heizung_S_Clima TempDiff: -0.7
+2015-06-01_08:01:20 FL_Heizung_S_Weather measured-temp: 20.3
+2015-06-01_08:01:20 FL_Heizung_S_Weather 20.3
+2015-06-01_08:43:52 FL_Heizung_S measured-temp: 20.4
+2015-06-01_08:43:52 FL_Heizung_S_Clima measured-temp: 20.4
+2015-06-01_08:43:52 FL_Heizung_S_Clima T: 20.4 desired: 21.0 valve: 88
+2015-06-01_08:43:52 FL_Heizung_S_Clima TempDiff: -0.6
+2015-06-01_08:43:52 FL_Heizung_S_Weather measured-temp: 20.4
+2015-06-01_08:43:52 FL_Heizung_S_Weather 20.4
+2015-06-01_09:01:05 FL_Heizung_S actuator: 0
+2015-06-01_09:01:05 FL_Heizung_S desired-temp: 17.0
+2015-06-01_09:01:05 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-01_09:01:05 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-01_09:01:05 FL_Heizung_S_Clima T: 20.4 desired: 17.0 valve: 0
+2015-06-01_09:01:05 FL_Heizung_S_Clima TempDiff: 3.4
+2015-06-01_09:21:53 FL_Heizung_S measured-temp: 20.5
+2015-06-01_09:21:53 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-01_09:21:53 FL_Heizung_S_Clima T: 20.5 desired: 17.0 valve: 0
+2015-06-01_09:21:53 FL_Heizung_S_Clima TempDiff: 3.5
+2015-06-01_09:21:53 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-01_09:21:53 FL_Heizung_S_Weather 20.5
+2015-06-01_10:02:07 FL_Heizung_S measured-temp: 20.6
+2015-06-01_10:02:07 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_10:02:07 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_10:02:07 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_10:02:07 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_10:02:07 FL_Heizung_S_Weather 20.6
+2015-06-01_10:04:51 FL_Heizung_S measured-temp: 20.5
+2015-06-01_10:04:51 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-01_10:04:51 FL_Heizung_S_Clima T: 20.5 desired: 17.0 valve: 0
+2015-06-01_10:04:51 FL_Heizung_S_Clima TempDiff: 3.5
+2015-06-01_10:04:51 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-01_10:04:51 FL_Heizung_S_Weather 20.5
+2015-06-01_10:09:36 FL_Heizung_S measured-temp: 20.6
+2015-06-01_10:09:36 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_10:09:36 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_10:09:36 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_10:09:36 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_10:09:36 FL_Heizung_S_Weather 20.6
+2015-06-01_10:11:37 FL_Heizung_S measured-temp: 20.5
+2015-06-01_10:11:37 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-01_10:11:37 FL_Heizung_S_Clima T: 20.5 desired: 17.0 valve: 0
+2015-06-01_10:11:37 FL_Heizung_S_Clima TempDiff: 3.5
+2015-06-01_10:11:37 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-01_10:11:37 FL_Heizung_S_Weather 20.5
+2015-06-01_10:14:28 FL_Heizung_S measured-temp: 20.6
+2015-06-01_10:14:28 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_10:14:28 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_10:14:28 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_10:14:28 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_10:14:28 FL_Heizung_S_Weather 20.6
+2015-06-01_10:21:33 FL_Heizung_S measured-temp: 20.5
+2015-06-01_10:21:33 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-01_10:21:33 FL_Heizung_S_Clima T: 20.5 desired: 17.0 valve: 0
+2015-06-01_10:21:33 FL_Heizung_S_Clima TempDiff: 3.5
+2015-06-01_10:21:33 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-01_10:21:33 FL_Heizung_S_Weather 20.5
+2015-06-01_10:27:13 FL_Heizung_S measured-temp: 20.6
+2015-06-01_10:27:13 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_10:27:13 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_10:27:13 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_10:27:13 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_10:27:13 FL_Heizung_S_Weather 20.6
+2015-06-01_10:29:41 FL_Heizung_S measured-temp: 20.5
+2015-06-01_10:29:41 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-01_10:29:41 FL_Heizung_S_Clima T: 20.5 desired: 17.0 valve: 0
+2015-06-01_10:29:41 FL_Heizung_S_Clima TempDiff: 3.5
+2015-06-01_10:29:41 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-01_10:29:41 FL_Heizung_S_Weather 20.5
+2015-06-01_11:10:36 FL_Heizung_S measured-temp: 20.6
+2015-06-01_11:10:36 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_11:10:36 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_11:10:36 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_11:10:36 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_11:10:36 FL_Heizung_S_Weather 20.6
+2015-06-01_11:13:14 FL_Heizung_S measured-temp: 20.5
+2015-06-01_11:13:14 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-01_11:13:14 FL_Heizung_S_Clima T: 20.5 desired: 17.0 valve: 0
+2015-06-01_11:13:14 FL_Heizung_S_Clima TempDiff: 3.5
+2015-06-01_11:13:14 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-01_11:13:14 FL_Heizung_S_Weather 20.5
+2015-06-01_11:15:39 FL_Heizung_S measured-temp: 20.6
+2015-06-01_11:15:39 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_11:15:39 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_11:15:39 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_11:15:39 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_11:15:39 FL_Heizung_S_Weather 20.6
+2015-06-01_13:27:14 FL_Heizung_S measured-temp: 20.7
+2015-06-01_13:27:14 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-01_13:27:14 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-01_13:27:14 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-01_13:27:14 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-01_13:27:14 FL_Heizung_S_Weather 20.7
+2015-06-01_13:37:33 FL_Heizung_S measured-temp: 20.6
+2015-06-01_13:37:33 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_13:37:33 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_13:37:33 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_13:37:33 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_13:37:33 FL_Heizung_S_Weather 20.6
+2015-06-01_13:39:47 FL_Heizung_S measured-temp: 20.7
+2015-06-01_13:39:47 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-01_13:39:47 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-01_13:39:47 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-01_13:39:48 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-01_13:39:48 FL_Heizung_S_Weather 20.7
+2015-06-01_13:57:18 FL_Heizung_S measured-temp: 20.6
+2015-06-01_13:57:19 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_13:57:19 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_13:57:19 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_13:57:19 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_13:57:19 FL_Heizung_S_Weather 20.6
+2015-06-01_13:59:46 FL_Heizung_S measured-temp: 20.7
+2015-06-01_13:59:46 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-01_13:59:46 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-01_13:59:46 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-01_13:59:46 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-01_13:59:46 FL_Heizung_S_Weather 20.7
+2015-06-01_16:09:24 FL_Heizung_S measured-temp: 20.6
+2015-06-01_16:09:24 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_16:09:24 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_16:09:24 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_16:09:24 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_16:09:24 FL_Heizung_S_Weather 20.6
+2015-06-01_16:14:40 FL_Heizung_S measured-temp: 20.7
+2015-06-01_16:14:40 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-01_16:14:40 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-01_16:14:40 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-01_16:14:40 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-01_16:14:40 FL_Heizung_S_Weather 20.7
+2015-06-01_16:16:57 FL_Heizung_S measured-temp: 20.6
+2015-06-01_16:16:57 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_16:16:57 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-01_16:16:57 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-01_16:16:57 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_16:16:57 FL_Heizung_S_Weather 20.6
+2015-06-01_16:59:21 FL_Heizung_S measured-temp: 20.7
+2015-06-01_16:59:21 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-01_16:59:21 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-01_16:59:21 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-01_16:59:21 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-01_16:59:21 FL_Heizung_S_Weather 20.7
+2015-06-01_17:02:33 FL_Heizung_S actuator: 83
+2015-06-01_17:02:33 FL_Heizung_S desired-temp: 21.0
+2015-06-01_17:02:33 FL_Heizung_S measured-temp: 20.6
+2015-06-01_17:02:33 FL_Heizung_S_Clima ValvePosition: 83
+2015-06-01_17:02:33 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-01_17:02:33 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-01_17:02:33 FL_Heizung_S_Clima T: 20.6 desired: 21.0 valve: 83
+2015-06-01_17:02:33 FL_Heizung_S_Clima TempDiff: -0.4
+2015-06-01_17:02:33 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-01_17:02:33 FL_Heizung_S_Weather 20.6
+2015-06-01_19:54:22 FL_Heizung_S measured-temp: 20.5
+2015-06-01_19:54:22 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-01_19:54:22 FL_Heizung_S_Clima T: 20.5 desired: 21.0 valve: 83
+2015-06-01_19:54:22 FL_Heizung_S_Clima TempDiff: -0.5
+2015-06-01_19:54:22 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-01_19:54:22 FL_Heizung_S_Weather 20.5
+2015-06-01_20:19:49 FL_Heizung_S measured-temp: 20.4
+2015-06-01_20:19:49 FL_Heizung_S_Clima measured-temp: 20.4
+2015-06-01_20:19:49 FL_Heizung_S_Clima T: 20.4 desired: 21.0 valve: 83
+2015-06-01_20:19:49 FL_Heizung_S_Clima TempDiff: -0.6
+2015-06-01_20:19:49 FL_Heizung_S_Weather measured-temp: 20.4
+2015-06-01_20:19:49 FL_Heizung_S_Weather 20.4
+2015-06-01_20:52:54 FL_Heizung_S measured-temp: 20.3
+2015-06-01_20:52:54 FL_Heizung_S_Clima measured-temp: 20.3
+2015-06-01_20:52:54 FL_Heizung_S_Clima T: 20.3 desired: 21.0 valve: 83
+2015-06-01_20:52:54 FL_Heizung_S_Clima TempDiff: -0.7
+2015-06-01_20:52:54 FL_Heizung_S_Weather measured-temp: 20.3
+2015-06-01_20:52:54 FL_Heizung_S_Weather 20.3
+2015-06-01_20:55:10 FL_Heizung_S actuator: 93
+2015-06-01_20:55:10 FL_Heizung_S_Clima ValvePosition: 93
+2015-06-01_20:55:10 FL_Heizung_S_Clima T: 20.3 desired: 21.0 valve: 93
+2015-06-01_21:33:14 FL_Heizung_S measured-temp: 20.2
+2015-06-01_21:33:14 FL_Heizung_S_Clima measured-temp: 20.2
+2015-06-01_21:33:14 FL_Heizung_S_Clima T: 20.2 desired: 21.0 valve: 93
+2015-06-01_21:33:14 FL_Heizung_S_Clima TempDiff: -0.8
+2015-06-01_21:33:14 FL_Heizung_S_Weather measured-temp: 20.2
+2015-06-01_21:33:14 FL_Heizung_S_Weather 20.2
+2015-06-01_22:01:12 FL_Heizung_S actuator: 0
+2015-06-01_22:01:12 FL_Heizung_S desired-temp: 17.0
+2015-06-01_22:01:12 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-01_22:01:12 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-01_22:01:12 FL_Heizung_S_Clima T: 20.2 desired: 17.0 valve: 0
+2015-06-01_22:01:12 FL_Heizung_S_Clima TempDiff: 3.2
+2015-06-01_22:25:56 FL_Heizung_S measured-temp: 20.0
+2015-06-01_22:25:56 FL_Heizung_S CMDs_pending
+2015-06-01_22:25:56 FL_Heizung_S_Clima measured-temp: 20.0
+2015-06-01_22:25:56 FL_Heizung_S_Clima T: 20.0 desired: 17.0 valve: 0
+2015-06-01_22:25:56 FL_Heizung_S_Clima TempDiff: 3.0
+2015-06-01_22:25:56 FL_Heizung_S_Weather measured-temp: 20.0
+2015-06-01_22:25:56 FL_Heizung_S_Weather 20.0
+2015-06-01_22:28:53 FL_Heizung_S measured-temp: 20.2
+2015-06-01_22:28:53 FL_Heizung_S CMDs_pending
+2015-06-01_22:28:53 FL_Heizung_S_Clima measured-temp: 20.2
+2015-06-01_22:28:53 FL_Heizung_S_Clima T: 20.2 desired: 17.0 valve: 0
+2015-06-01_22:28:53 FL_Heizung_S_Clima TempDiff: 3.2
+2015-06-01_22:28:53 FL_Heizung_S_Weather measured-temp: 20.2
+2015-06-01_22:28:53 FL_Heizung_S_Weather 20.2
+2015-06-01_22:31:36 FL_Heizung_S CMDs_pending
+2015-06-01_22:34:05 FL_Heizung_S measured-temp: 20.0
+2015-06-01_22:34:05 FL_Heizung_S CMDs_pending
+2015-06-01_22:34:05 FL_Heizung_S_Clima measured-temp: 20.0
+2015-06-01_22:34:05 FL_Heizung_S_Clima T: 20.0 desired: 17.0 valve: 0
+2015-06-01_22:34:05 FL_Heizung_S_Clima TempDiff: 3.0
+2015-06-01_22:34:05 FL_Heizung_S_Weather measured-temp: 20.0
+2015-06-01_22:34:05 FL_Heizung_S_Weather 20.0
+2015-06-01_22:36:20 FL_Heizung_S CMDs_pending
+2015-06-01_22:38:20 FL_Heizung_S CMDs_pending
+2015-06-01_22:41:16 FL_Heizung_S CMDs_pending
+2015-06-01_22:43:51 FL_Heizung_S CMDs_pending
+2015-06-01_22:46:10 FL_Heizung_S CMDs_pending
+2015-06-01_22:48:15 FL_Heizung_S CMDs_pending
+2015-06-01_22:51:13 FL_Heizung_S CMDs_pending
+2015-06-01_22:51:17 FL_Heizung_S CMDs_pending
+2015-06-01_22:53:54 FL_Heizung_S CMDs_pending
+2015-06-01_22:56:20 FL_Heizung_S CMDs_pending
+2015-06-01_22:58:33 FL_Heizung_S CMDs_pending
+2015-06-01_22:58:38 FL_Heizung_S CMDs_pending
+2015-06-01_23:01:35 FL_Heizung_S CMDs_pending
+2015-06-01_23:04:23 FL_Heizung_S CMDs_pending
+2015-06-01_23:06:56 FL_Heizung_S CMDs_pending
+2015-06-01_23:09:14 FL_Heizung_S CMDs_pending
+2015-06-01_23:09:21 FL_Heizung_S CMDs_pending
+2015-06-01_23:11:19 FL_Heizung_S CMDs_pending
+2015-06-01_23:14:13 FL_Heizung_S CMDs_pending
+2015-06-01_23:16:55 FL_Heizung_S_Clima R_0_tempListSat:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-01_23:16:55 FL_Heizung_S_Clima R_1_tempListSun:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-01_23:16:55 FL_Heizung_S_Clima R_2_tempListMon:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-01_23:16:55 FL_Heizung_S_Clima R_3_tempListTue:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-01_23:16:55 FL_Heizung_S_Clima R_4_tempListWed:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-01_23:16:55 FL_Heizung_S_Clima R_5_tempListThu:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-01_23:16:55 FL_Heizung_S_Clima R_6_tempListFri:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-01_23:16:55 FL_Heizung_S CMDs_done
+2015-06-01_23:27:18 FL_Heizung_S measured-temp: 19.9
+2015-06-01_23:27:18 FL_Heizung_S_Clima measured-temp: 19.9
+2015-06-01_23:27:18 FL_Heizung_S_Clima T: 19.9 desired: 17.0 valve: 0
+2015-06-01_23:27:18 FL_Heizung_S_Clima TempDiff: 2.9
+2015-06-01_23:27:18 FL_Heizung_S_Weather measured-temp: 19.9
+2015-06-01_23:27:18 FL_Heizung_S_Weather 19.9
+2015-06-02_00:27:21 FL_Heizung_S measured-temp: 19.8
+2015-06-02_00:27:21 FL_Heizung_S_Clima measured-temp: 19.8
+2015-06-02_00:27:21 FL_Heizung_S_Clima T: 19.8 desired: 17.0 valve: 0
+2015-06-02_00:27:21 FL_Heizung_S_Clima TempDiff: 2.8
+2015-06-02_00:27:21 FL_Heizung_S_Weather measured-temp: 19.8
+2015-06-02_00:27:21 FL_Heizung_S_Weather 19.8
+2015-06-02_01:41:26 FL_Heizung_S measured-temp: 19.7
+2015-06-02_01:41:26 FL_Heizung_S_Clima measured-temp: 19.7
+2015-06-02_01:41:26 FL_Heizung_S_Clima T: 19.7 desired: 17.0 valve: 0
+2015-06-02_01:41:26 FL_Heizung_S_Clima TempDiff: 2.7
+2015-06-02_01:41:26 FL_Heizung_S_Weather measured-temp: 19.7
+2015-06-02_01:41:26 FL_Heizung_S_Weather 19.7
+2015-06-02_01:43:42 FL_Heizung_S measured-temp: 19.8
+2015-06-02_01:43:42 FL_Heizung_S_Clima measured-temp: 19.8
+2015-06-02_01:43:42 FL_Heizung_S_Clima T: 19.8 desired: 17.0 valve: 0
+2015-06-02_01:43:42 FL_Heizung_S_Clima TempDiff: 2.8
+2015-06-02_01:43:42 FL_Heizung_S_Weather measured-temp: 19.8
+2015-06-02_01:43:42 FL_Heizung_S_Weather 19.8
+2015-06-02_01:48:34 FL_Heizung_S measured-temp: 19.7
+2015-06-02_01:48:34 FL_Heizung_S_Clima measured-temp: 19.7
+2015-06-02_01:48:34 FL_Heizung_S_Clima T: 19.7 desired: 17.0 valve: 0
+2015-06-02_01:48:34 FL_Heizung_S_Clima TempDiff: 2.7
+2015-06-02_01:48:34 FL_Heizung_S_Weather measured-temp: 19.7
+2015-06-02_01:48:34 FL_Heizung_S_Weather 19.7
+2015-06-02_03:34:43 FL_Heizung_S measured-temp: 19.6
+2015-06-02_03:34:43 FL_Heizung_S_Clima measured-temp: 19.6
+2015-06-02_03:34:43 FL_Heizung_S_Clima T: 19.6 desired: 17.0 valve: 0
+2015-06-02_03:34:43 FL_Heizung_S_Clima TempDiff: 2.6
+2015-06-02_03:34:43 FL_Heizung_S_Weather measured-temp: 19.6
+2015-06-02_03:34:43 FL_Heizung_S_Weather 19.6
+2015-06-02_03:36:50 FL_Heizung_S measured-temp: 19.7
+2015-06-02_03:36:50 FL_Heizung_S_Clima measured-temp: 19.7
+2015-06-02_03:36:50 FL_Heizung_S_Clima T: 19.7 desired: 17.0 valve: 0
+2015-06-02_03:36:50 FL_Heizung_S_Clima TempDiff: 2.7
+2015-06-02_03:36:50 FL_Heizung_S_Weather measured-temp: 19.7
+2015-06-02_03:36:50 FL_Heizung_S_Weather 19.7
+2015-06-02_03:39:46 FL_Heizung_S measured-temp: 19.6
+2015-06-02_03:39:46 FL_Heizung_S_Clima measured-temp: 19.6
+2015-06-02_03:39:46 FL_Heizung_S_Clima T: 19.6 desired: 17.0 valve: 0
+2015-06-02_03:39:46 FL_Heizung_S_Clima TempDiff: 2.6
+2015-06-02_03:39:46 FL_Heizung_S_Weather measured-temp: 19.6
+2015-06-02_03:39:46 FL_Heizung_S_Weather 19.6
+2015-06-02_03:55:31 FL_Heizung_S measured-temp: 19.7
+2015-06-02_03:55:31 FL_Heizung_S_Clima measured-temp: 19.7
+2015-06-02_03:55:31 FL_Heizung_S_Clima T: 19.7 desired: 17.0 valve: 0
+2015-06-02_03:55:31 FL_Heizung_S_Clima TempDiff: 2.7
+2015-06-02_03:55:32 FL_Heizung_S_Weather measured-temp: 19.7
+2015-06-02_03:55:32 FL_Heizung_S_Weather 19.7
+2015-06-02_03:57:50 FL_Heizung_S measured-temp: 19.6
+2015-06-02_03:57:50 FL_Heizung_S_Clima measured-temp: 19.6
+2015-06-02_03:57:50 FL_Heizung_S_Clima T: 19.6 desired: 17.0 valve: 0
+2015-06-02_03:57:50 FL_Heizung_S_Clima TempDiff: 2.6
+2015-06-02_03:57:51 FL_Heizung_S_Weather measured-temp: 19.6
+2015-06-02_03:57:51 FL_Heizung_S_Weather 19.6
+2015-06-02_05:16:21 FL_Heizung_S measured-temp: 19.5
+2015-06-02_05:16:21 FL_Heizung_S_Clima measured-temp: 19.5
+2015-06-02_05:16:21 FL_Heizung_S_Clima T: 19.5 desired: 17.0 valve: 0
+2015-06-02_05:16:21 FL_Heizung_S_Clima TempDiff: 2.5
+2015-06-02_05:16:21 FL_Heizung_S_Weather measured-temp: 19.5
+2015-06-02_05:16:21 FL_Heizung_S_Weather 19.5
+2015-06-02_06:02:06 FL_Heizung_S actuator: 90
+2015-06-02_06:02:06 FL_Heizung_S desired-temp: 21.0
+2015-06-02_06:02:06 FL_Heizung_S_Clima ValvePosition: 90
+2015-06-02_06:02:06 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-02_06:02:06 FL_Heizung_S_Clima T: 19.5 desired: 21.0 valve: 90
+2015-06-02_06:02:06 FL_Heizung_S_Clima TempDiff: -1.5
+2015-06-02_06:04:05 FL_Heizung_S measured-temp: 19.6
+2015-06-02_06:04:05 FL_Heizung_S_Clima measured-temp: 19.6
+2015-06-02_06:04:05 FL_Heizung_S_Clima T: 19.6 desired: 21.0 valve: 90
+2015-06-02_06:04:05 FL_Heizung_S_Clima TempDiff: -1.4
+2015-06-02_06:04:05 FL_Heizung_S_Weather measured-temp: 19.6
+2015-06-02_06:04:05 FL_Heizung_S_Weather 19.6
+2015-06-02_06:09:34 FL_Heizung_S measured-temp: 19.5
+2015-06-02_06:09:34 FL_Heizung_S_Clima measured-temp: 19.5
+2015-06-02_06:09:34 FL_Heizung_S_Clima T: 19.5 desired: 21.0 valve: 90
+2015-06-02_06:09:34 FL_Heizung_S_Clima TempDiff: -1.5
+2015-06-02_06:09:34 FL_Heizung_S_Weather measured-temp: 19.5
+2015-06-02_06:09:34 FL_Heizung_S_Weather 19.5
+2015-06-02_06:26:29 FL_Heizung_S measured-temp: 19.6
+2015-06-02_06:26:29 FL_Heizung_S_Clima measured-temp: 19.6
+2015-06-02_06:26:29 FL_Heizung_S_Clima T: 19.6 desired: 21.0 valve: 90
+2015-06-02_06:26:29 FL_Heizung_S_Clima TempDiff: -1.4
+2015-06-02_06:26:29 FL_Heizung_S_Weather measured-temp: 19.6
+2015-06-02_06:26:29 FL_Heizung_S_Weather 19.6
+2015-06-02_07:25:07 FL_Heizung_S measured-temp: 19.5
+2015-06-02_07:25:07 FL_Heizung_S_Clima measured-temp: 19.5
+2015-06-02_07:25:07 FL_Heizung_S_Clima T: 19.5 desired: 21.0 valve: 90
+2015-06-02_07:25:07 FL_Heizung_S_Clima TempDiff: -1.5
+2015-06-02_07:25:07 FL_Heizung_S_Weather measured-temp: 19.5
+2015-06-02_07:25:07 FL_Heizung_S_Weather 19.5
+2015-06-02_07:27:45 FL_Heizung_S measured-temp: 19.6
+2015-06-02_07:27:45 FL_Heizung_S_Clima measured-temp: 19.6
+2015-06-02_07:27:45 FL_Heizung_S_Clima T: 19.6 desired: 21.0 valve: 90
+2015-06-02_07:27:45 FL_Heizung_S_Clima TempDiff: -1.4
+2015-06-02_07:27:45 FL_Heizung_S_Weather measured-temp: 19.6
+2015-06-02_07:27:45 FL_Heizung_S_Weather 19.6
+2015-06-02_08:33:58 FL_Heizung_S measured-temp: 19.7
+2015-06-02_08:33:58 FL_Heizung_S_Clima measured-temp: 19.7
+2015-06-02_08:33:58 FL_Heizung_S_Clima T: 19.7 desired: 21.0 valve: 90
+2015-06-02_08:33:58 FL_Heizung_S_Clima TempDiff: -1.3
+2015-06-02_08:33:58 FL_Heizung_S_Weather measured-temp: 19.7
+2015-06-02_08:33:58 FL_Heizung_S_Weather 19.7
+2015-06-02_08:56:43 FL_Heizung_S measured-temp: 19.8
+2015-06-02_08:56:43 FL_Heizung_S_Clima measured-temp: 19.8
+2015-06-02_08:56:43 FL_Heizung_S_Clima T: 19.8 desired: 21.0 valve: 90
+2015-06-02_08:56:43 FL_Heizung_S_Clima TempDiff: -1.2
+2015-06-02_08:56:44 FL_Heizung_S_Weather measured-temp: 19.8
+2015-06-02_08:56:44 FL_Heizung_S_Weather 19.8
+2015-06-02_09:01:31 FL_Heizung_S actuator: 0
+2015-06-02_09:01:31 FL_Heizung_S desired-temp: 17.0
+2015-06-02_09:01:31 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-02_09:01:31 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-02_09:01:31 FL_Heizung_S_Clima T: 19.8 desired: 17.0 valve: 0
+2015-06-02_09:01:31 FL_Heizung_S_Clima TempDiff: 2.8
+2015-06-02_09:35:48 FL_Heizung_S measured-temp: 19.9
+2015-06-02_09:35:49 FL_Heizung_S_Clima measured-temp: 19.9
+2015-06-02_09:35:49 FL_Heizung_S_Clima T: 19.9 desired: 17.0 valve: 0
+2015-06-02_09:35:49 FL_Heizung_S_Clima TempDiff: 2.9
+2015-06-02_09:35:49 FL_Heizung_S_Weather measured-temp: 19.9
+2015-06-02_09:35:49 FL_Heizung_S_Weather 19.9
+2015-06-02_10:12:28 FL_Heizung_S measured-temp: 20.0
+2015-06-02_10:12:28 FL_Heizung_S_Clima measured-temp: 20.0
+2015-06-02_10:12:28 FL_Heizung_S_Clima T: 20.0 desired: 17.0 valve: 0
+2015-06-02_10:12:28 FL_Heizung_S_Clima TempDiff: 3.0
+2015-06-02_10:12:28 FL_Heizung_S_Weather measured-temp: 20.0
+2015-06-02_10:12:28 FL_Heizung_S_Weather 20.0
+2015-06-02_10:14:54 FL_Heizung_S measured-temp: 19.9
+2015-06-02_10:14:55 FL_Heizung_S_Clima measured-temp: 19.9
+2015-06-02_10:14:55 FL_Heizung_S_Clima T: 19.9 desired: 17.0 valve: 0
+2015-06-02_10:14:55 FL_Heizung_S_Clima TempDiff: 2.9
+2015-06-02_10:14:55 FL_Heizung_S_Weather measured-temp: 19.9
+2015-06-02_10:14:55 FL_Heizung_S_Weather 19.9
+2015-06-02_10:17:06 FL_Heizung_S measured-temp: 20.0
+2015-06-02_10:17:07 FL_Heizung_S_Clima measured-temp: 20.0
+2015-06-02_10:17:07 FL_Heizung_S_Clima T: 20.0 desired: 17.0 valve: 0
+2015-06-02_10:17:07 FL_Heizung_S_Clima TempDiff: 3.0
+2015-06-02_10:17:07 FL_Heizung_S_Weather measured-temp: 20.0
+2015-06-02_10:17:07 FL_Heizung_S_Weather 20.0
+2015-06-02_10:39:58 FL_Heizung_S measured-temp: 20.2
+2015-06-02_10:39:58 FL_Heizung_S_Clima measured-temp: 20.2
+2015-06-02_10:39:58 FL_Heizung_S_Clima T: 20.2 desired: 17.0 valve: 0
+2015-06-02_10:39:58 FL_Heizung_S_Clima TempDiff: 3.2
+2015-06-02_10:39:58 FL_Heizung_S_Weather measured-temp: 20.2
+2015-06-02_10:39:58 FL_Heizung_S_Weather 20.2
+2015-06-02_11:00:24 FL_Heizung_S measured-temp: 20.3
+2015-06-02_11:00:24 FL_Heizung_S_Clima measured-temp: 20.3
+2015-06-02_11:00:24 FL_Heizung_S_Clima T: 20.3 desired: 17.0 valve: 0
+2015-06-02_11:00:24 FL_Heizung_S_Clima TempDiff: 3.3
+2015-06-02_11:00:24 FL_Heizung_S_Weather measured-temp: 20.3
+2015-06-02_11:00:24 FL_Heizung_S_Weather 20.3
+2015-06-02_11:05:30 FL_Heizung_S measured-temp: 20.2
+2015-06-02_11:05:30 FL_Heizung_S_Clima measured-temp: 20.2
+2015-06-02_11:05:30 FL_Heizung_S_Clima T: 20.2 desired: 17.0 valve: 0
+2015-06-02_11:05:30 FL_Heizung_S_Clima TempDiff: 3.2
+2015-06-02_11:05:31 FL_Heizung_S_Weather measured-temp: 20.2
+2015-06-02_11:05:31 FL_Heizung_S_Weather 20.2
+2015-06-02_11:08:14 FL_Heizung_S measured-temp: 20.3
+2015-06-02_11:08:14 FL_Heizung_S_Clima measured-temp: 20.3
+2015-06-02_11:08:14 FL_Heizung_S_Clima T: 20.3 desired: 17.0 valve: 0
+2015-06-02_11:08:14 FL_Heizung_S_Clima TempDiff: 3.3
+2015-06-02_11:08:14 FL_Heizung_S_Weather measured-temp: 20.3
+2015-06-02_11:08:14 FL_Heizung_S_Weather 20.3
+2015-06-02_11:24:50 FL_Heizung_S measured-temp: 20.4
+2015-06-02_11:24:50 FL_Heizung_S_Clima measured-temp: 20.4
+2015-06-02_11:24:50 FL_Heizung_S_Clima T: 20.4 desired: 17.0 valve: 0
+2015-06-02_11:24:50 FL_Heizung_S_Clima TempDiff: 3.4
+2015-06-02_11:24:50 FL_Heizung_S_Weather measured-temp: 20.4
+2015-06-02_11:24:50 FL_Heizung_S_Weather 20.4
+2015-06-02_11:50:51 FL_Heizung_S measured-temp: 20.5
+2015-06-02_11:50:51 FL_Heizung_S_Clima measured-temp: 20.5
+2015-06-02_11:50:51 FL_Heizung_S_Clima T: 20.5 desired: 17.0 valve: 0
+2015-06-02_11:50:51 FL_Heizung_S_Clima TempDiff: 3.5
+2015-06-02_11:50:51 FL_Heizung_S_Weather measured-temp: 20.5
+2015-06-02_11:50:51 FL_Heizung_S_Weather 20.5
+2015-06-02_12:29:03 FL_Heizung_S measured-temp: 20.6
+2015-06-02_12:29:03 FL_Heizung_S_Clima measured-temp: 20.6
+2015-06-02_12:29:03 FL_Heizung_S_Clima T: 20.6 desired: 17.0 valve: 0
+2015-06-02_12:29:03 FL_Heizung_S_Clima TempDiff: 3.6
+2015-06-02_12:29:03 FL_Heizung_S_Weather measured-temp: 20.6
+2015-06-02_12:29:03 FL_Heizung_S_Weather 20.6
+2015-06-02_12:59:31 FL_Heizung_S measured-temp: 20.7
+2015-06-02_12:59:31 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-02_12:59:31 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-02_12:59:31 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-02_12:59:31 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-02_12:59:31 FL_Heizung_S_Weather 20.7
+2015-06-02_13:37:25 FL_Heizung_S measured-temp: 20.8
+2015-06-02_13:37:25 FL_Heizung_S_Clima measured-temp: 20.8
+2015-06-02_13:37:25 FL_Heizung_S_Clima T: 20.8 desired: 17.0 valve: 0
+2015-06-02_13:37:25 FL_Heizung_S_Clima TempDiff: 3.8
+2015-06-02_13:37:25 FL_Heizung_S_Weather measured-temp: 20.8
+2015-06-02_13:37:25 FL_Heizung_S_Weather 20.8
+2015-06-02_13:57:37 FL_Heizung_S measured-temp: 20.9
+2015-06-02_13:57:37 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-02_13:57:37 FL_Heizung_S_Clima T: 20.9 desired: 17.0 valve: 0
+2015-06-02_13:57:37 FL_Heizung_S_Clima TempDiff: 3.9
+2015-06-02_13:57:38 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-02_13:57:38 FL_Heizung_S_Weather 20.9
+2015-06-02_14:22:20 FL_Heizung_S measured-temp: 21.0
+2015-06-02_14:22:20 FL_Heizung_S_Clima measured-temp: 21.0
+2015-06-02_14:22:20 FL_Heizung_S_Clima T: 21.0 desired: 17.0 valve: 0
+2015-06-02_14:22:20 FL_Heizung_S_Clima TempDiff: 4.0
+2015-06-02_14:22:20 FL_Heizung_S_Weather measured-temp: 21.0
+2015-06-02_14:22:20 FL_Heizung_S_Weather 21.0
+2015-06-02_14:24:26 FL_Heizung_S measured-temp: 20.9
+2015-06-02_14:24:26 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-02_14:24:26 FL_Heizung_S_Clima T: 20.9 desired: 17.0 valve: 0
+2015-06-02_14:24:26 FL_Heizung_S_Clima TempDiff: 3.9
+2015-06-02_14:24:26 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-02_14:24:26 FL_Heizung_S_Weather 20.9
+2015-06-02_14:30:04 FL_Heizung_S measured-temp: 21.0
+2015-06-02_14:30:04 FL_Heizung_S_Clima measured-temp: 21.0
+2015-06-02_14:30:04 FL_Heizung_S_Clima T: 21.0 desired: 17.0 valve: 0
+2015-06-02_14:30:04 FL_Heizung_S_Clima TempDiff: 4.0
+2015-06-02_14:30:04 FL_Heizung_S_Weather measured-temp: 21.0
+2015-06-02_14:30:04 FL_Heizung_S_Weather 21.0
+2015-06-02_14:53:06 FL_Heizung_S measured-temp: 21.1
+2015-06-02_14:53:06 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-02_14:53:06 FL_Heizung_S_Clima T: 21.1 desired: 17.0 valve: 0
+2015-06-02_14:53:06 FL_Heizung_S_Clima TempDiff: 4.1
+2015-06-02_14:53:06 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-02_14:53:06 FL_Heizung_S_Weather 21.1
+2015-06-02_15:35:45 FL_Heizung_S measured-temp: 21.2
+2015-06-02_15:35:45 FL_Heizung_S_Clima measured-temp: 21.2
+2015-06-02_15:35:45 FL_Heizung_S_Clima T: 21.2 desired: 17.0 valve: 0
+2015-06-02_15:35:45 FL_Heizung_S_Clima TempDiff: 4.2
+2015-06-02_15:35:45 FL_Heizung_S_Weather measured-temp: 21.2
+2015-06-02_15:35:45 FL_Heizung_S_Weather 21.2
+2015-06-02_15:40:43 FL_Heizung_S measured-temp: 21.1
+2015-06-02_15:40:43 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-02_15:40:43 FL_Heizung_S_Clima T: 21.1 desired: 17.0 valve: 0
+2015-06-02_15:40:43 FL_Heizung_S_Clima TempDiff: 4.1
+2015-06-02_15:40:43 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-02_15:40:43 FL_Heizung_S_Weather 21.1
+2015-06-02_15:42:50 FL_Heizung_S measured-temp: 21.2
+2015-06-02_15:42:50 FL_Heizung_S_Clima measured-temp: 21.2
+2015-06-02_15:42:50 FL_Heizung_S_Clima T: 21.2 desired: 17.0 valve: 0
+2015-06-02_15:42:50 FL_Heizung_S_Clima TempDiff: 4.2
+2015-06-02_15:42:50 FL_Heizung_S_Weather measured-temp: 21.2
+2015-06-02_15:42:50 FL_Heizung_S_Weather 21.2
+2015-06-02_15:50:03 FL_Heizung_S measured-temp: 21.1
+2015-06-02_15:50:03 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-02_15:50:03 FL_Heizung_S_Clima T: 21.1 desired: 17.0 valve: 0
+2015-06-02_15:50:03 FL_Heizung_S_Clima TempDiff: 4.1
+2015-06-02_15:50:03 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-02_15:50:03 FL_Heizung_S_Weather 21.1
+2015-06-02_15:52:16 FL_Heizung_S measured-temp: 21.2
+2015-06-02_15:52:16 FL_Heizung_S_Clima measured-temp: 21.2
+2015-06-02_15:52:16 FL_Heizung_S_Clima T: 21.2 desired: 17.0 valve: 0
+2015-06-02_15:52:16 FL_Heizung_S_Clima TempDiff: 4.2
+2015-06-02_15:52:16 FL_Heizung_S_Weather measured-temp: 21.2
+2015-06-02_15:52:16 FL_Heizung_S_Weather 21.2
+2015-06-02_16:00:43 FL_Heizung_S measured-temp: 21.1
+2015-06-02_16:00:43 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-02_16:00:43 FL_Heizung_S_Clima T: 21.1 desired: 17.0 valve: 0
+2015-06-02_16:00:43 FL_Heizung_S_Clima TempDiff: 4.1
+2015-06-02_16:00:43 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-02_16:00:43 FL_Heizung_S_Weather 21.1
+2015-06-02_16:28:05 FL_Heizung_S measured-temp: 21.2
+2015-06-02_16:28:05 FL_Heizung_S_Clima measured-temp: 21.2
+2015-06-02_16:28:05 FL_Heizung_S_Clima T: 21.2 desired: 17.0 valve: 0
+2015-06-02_16:28:05 FL_Heizung_S_Clima TempDiff: 4.2
+2015-06-02_16:28:05 FL_Heizung_S_Weather measured-temp: 21.2
+2015-06-02_16:28:05 FL_Heizung_S_Weather 21.2
+2015-06-02_16:46:28 FL_Heizung_S measured-temp: 21.3
+2015-06-02_16:46:28 FL_Heizung_S_Clima measured-temp: 21.3
+2015-06-02_16:46:28 FL_Heizung_S_Clima T: 21.3 desired: 17.0 valve: 0
+2015-06-02_16:46:28 FL_Heizung_S_Clima TempDiff: 4.3
+2015-06-02_16:46:28 FL_Heizung_S_Weather measured-temp: 21.3
+2015-06-02_16:46:28 FL_Heizung_S_Weather 21.3
+2015-06-02_16:56:15 FL_Heizung_S measured-temp: 21.4
+2015-06-02_16:56:15 FL_Heizung_S_Clima measured-temp: 21.4
+2015-06-02_16:56:15 FL_Heizung_S_Clima T: 21.4 desired: 17.0 valve: 0
+2015-06-02_16:56:15 FL_Heizung_S_Clima TempDiff: 4.4
+2015-06-02_16:56:15 FL_Heizung_S_Weather measured-temp: 21.4
+2015-06-02_16:56:15 FL_Heizung_S_Weather 21.4
+2015-06-02_17:00:46 FL_Heizung_S desired-temp: 21.0
+2015-06-02_17:00:46 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-02_17:00:46 FL_Heizung_S_Clima T: 21.4 desired: 21.0 valve: 0
+2015-06-02_17:00:46 FL_Heizung_S_Clima TempDiff: 0.4
+2015-06-02_17:03:43 FL_Heizung_S actuator: 64
+2015-06-02_17:03:43 FL_Heizung_S_Clima ValvePosition: 64
+2015-06-02_17:03:43 FL_Heizung_S_Clima T: 21.4 desired: 21.0 valve: 64
+2015-06-02_17:11:10 FL_Heizung_S measured-temp: 21.5
+2015-06-02_17:11:10 FL_Heizung_S_Clima measured-temp: 21.5
+2015-06-02_17:11:10 FL_Heizung_S_Clima T: 21.5 desired: 21.0 valve: 64
+2015-06-02_17:11:10 FL_Heizung_S_Clima TempDiff: 0.5
+2015-06-02_17:11:10 FL_Heizung_S_Weather measured-temp: 21.5
+2015-06-02_17:11:10 FL_Heizung_S_Weather 21.5
+2015-06-02_18:24:43 FL_Heizung_S measured-temp: 21.4
+2015-06-02_18:24:43 FL_Heizung_S_Clima measured-temp: 21.4
+2015-06-02_18:24:43 FL_Heizung_S_Clima T: 21.4 desired: 21.0 valve: 64
+2015-06-02_18:24:43 FL_Heizung_S_Clima TempDiff: 0.4
+2015-06-02_18:24:43 FL_Heizung_S_Weather measured-temp: 21.4
+2015-06-02_18:24:43 FL_Heizung_S_Weather 21.4
+2015-06-02_18:57:38 FL_Heizung_S measured-temp: 21.3
+2015-06-02_18:57:38 FL_Heizung_S_Clima measured-temp: 21.3
+2015-06-02_18:57:38 FL_Heizung_S_Clima T: 21.3 desired: 21.0 valve: 64
+2015-06-02_18:57:38 FL_Heizung_S_Clima TempDiff: 0.3
+2015-06-02_18:57:38 FL_Heizung_S_Weather measured-temp: 21.3
+2015-06-02_18:57:38 FL_Heizung_S_Weather 21.3
+2015-06-02_19:53:05 FL_Heizung_S measured-temp: 21.2
+2015-06-02_19:53:06 FL_Heizung_S_Clima measured-temp: 21.2
+2015-06-02_19:53:06 FL_Heizung_S_Clima T: 21.2 desired: 21.0 valve: 64
+2015-06-02_19:53:06 FL_Heizung_S_Clima TempDiff: 0.2
+2015-06-02_19:53:06 FL_Heizung_S_Weather measured-temp: 21.2
+2015-06-02_19:53:06 FL_Heizung_S_Weather 21.2
+2015-06-02_20:43:30 FL_Heizung_S measured-temp: 21.1
+2015-06-02_20:43:30 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-02_20:43:30 FL_Heizung_S_Clima T: 21.1 desired: 21.0 valve: 64
+2015-06-02_20:43:30 FL_Heizung_S_Clima TempDiff: 0.1
+2015-06-02_20:43:30 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-02_20:43:30 FL_Heizung_S_Weather 21.1
+2015-06-02_20:45:34 FL_Heizung_S measured-temp: 21.2
+2015-06-02_20:45:34 FL_Heizung_S_Clima measured-temp: 21.2
+2015-06-02_20:45:34 FL_Heizung_S_Clima T: 21.2 desired: 21.0 valve: 64
+2015-06-02_20:45:34 FL_Heizung_S_Clima TempDiff: 0.2
+2015-06-02_20:45:34 FL_Heizung_S_Weather measured-temp: 21.2
+2015-06-02_20:45:34 FL_Heizung_S_Weather 21.2
+2015-06-02_20:51:08 FL_Heizung_S measured-temp: 21.1
+2015-06-02_20:51:08 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-02_20:51:08 FL_Heizung_S_Clima T: 21.1 desired: 21.0 valve: 64
+2015-06-02_20:51:08 FL_Heizung_S_Clima TempDiff: 0.1
+2015-06-02_20:51:08 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-02_20:51:08 FL_Heizung_S_Weather 21.1
+2015-06-02_21:59:39 FL_Heizung_S actuator: 74
+2015-06-02_21:59:39 FL_Heizung_S_Clima ValvePosition: 74
+2015-06-02_21:59:39 FL_Heizung_S_Clima T: 21.1 desired: 21.0 valve: 74
+2015-06-02_22:01:39 FL_Heizung_S actuator: 0
+2015-06-02_22:01:39 FL_Heizung_S desired-temp: 17.0
+2015-06-02_22:01:39 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-02_22:01:39 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-02_22:01:39 FL_Heizung_S_Clima T: 21.1 desired: 17.0 valve: 0
+2015-06-02_22:01:39 FL_Heizung_S_Clima TempDiff: 4.1
+2015-06-02_22:34:38 FL_Heizung_S measured-temp: 21.0
+2015-06-02_22:34:38 FL_Heizung_S_Clima measured-temp: 21.0
+2015-06-02_22:34:38 FL_Heizung_S_Clima T: 21.0 desired: 17.0 valve: 0
+2015-06-02_22:34:38 FL_Heizung_S_Clima TempDiff: 4.0
+2015-06-02_22:34:38 FL_Heizung_S_Weather measured-temp: 21.0
+2015-06-02_22:34:38 FL_Heizung_S_Weather 21.0
+2015-06-02_22:44:49 FL_Heizung_S measured-temp: 21.1
+2015-06-02_22:44:49 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-02_22:44:49 FL_Heizung_S_Clima T: 21.1 desired: 17.0 valve: 0
+2015-06-02_22:44:49 FL_Heizung_S_Clima TempDiff: 4.1
+2015-06-02_22:44:49 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-02_22:44:49 FL_Heizung_S_Weather 21.1
+2015-06-02_22:47:49 FL_Heizung_S measured-temp: 21.0
+2015-06-02_22:47:49 FL_Heizung_S_Clima measured-temp: 21.0
+2015-06-02_22:47:49 FL_Heizung_S_Clima T: 21.0 desired: 17.0 valve: 0
+2015-06-02_22:47:49 FL_Heizung_S_Clima TempDiff: 4.0
+2015-06-02_22:47:49 FL_Heizung_S_Weather measured-temp: 21.0
+2015-06-02_22:47:49 FL_Heizung_S_Weather 21.0
+2015-06-03_00:03:26 FL_Heizung_S measured-temp: 20.9
+2015-06-03_00:03:26 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-03_00:03:26 FL_Heizung_S_Clima T: 20.9 desired: 17.0 valve: 0
+2015-06-03_00:03:26 FL_Heizung_S_Clima TempDiff: 3.9
+2015-06-03_00:03:26 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-03_00:03:26 FL_Heizung_S_Weather 20.9
+2015-06-03_01:24:28 FL_Heizung_S measured-temp: 20.8
+2015-06-03_01:24:28 FL_Heizung_S_Clima measured-temp: 20.8
+2015-06-03_01:24:28 FL_Heizung_S_Clima T: 20.8 desired: 17.0 valve: 0
+2015-06-03_01:24:28 FL_Heizung_S_Clima TempDiff: 3.8
+2015-06-03_01:24:28 FL_Heizung_S_Weather measured-temp: 20.8
+2015-06-03_01:24:28 FL_Heizung_S_Weather 20.8
+2015-06-03_01:27:16 FL_Heizung_S measured-temp: 20.9
+2015-06-03_01:27:16 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-03_01:27:16 FL_Heizung_S_Clima T: 20.9 desired: 17.0 valve: 0
+2015-06-03_01:27:16 FL_Heizung_S_Clima TempDiff: 3.9
+2015-06-03_01:27:16 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-03_01:27:16 FL_Heizung_S_Weather 20.9
+2015-06-03_01:37:08 FL_Heizung_S measured-temp: 20.8
+2015-06-03_01:37:08 FL_Heizung_S_Clima measured-temp: 20.8
+2015-06-03_01:37:08 FL_Heizung_S_Clima T: 20.8 desired: 17.0 valve: 0
+2015-06-03_01:37:08 FL_Heizung_S_Clima TempDiff: 3.8
+2015-06-03_01:37:08 FL_Heizung_S_Weather measured-temp: 20.8
+2015-06-03_01:37:08 FL_Heizung_S_Weather 20.8
+2015-06-03_01:39:48 FL_Heizung_S measured-temp: 20.9
+2015-06-03_01:39:48 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-03_01:39:48 FL_Heizung_S_Clima T: 20.9 desired: 17.0 valve: 0
+2015-06-03_01:39:48 FL_Heizung_S_Clima TempDiff: 3.9
+2015-06-03_01:39:48 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-03_01:39:48 FL_Heizung_S_Weather 20.9
+2015-06-03_01:44:24 FL_Heizung_S measured-temp: 20.8
+2015-06-03_01:44:24 FL_Heizung_S_Clima measured-temp: 20.8
+2015-06-03_01:44:24 FL_Heizung_S_Clima T: 20.8 desired: 17.0 valve: 0
+2015-06-03_01:44:24 FL_Heizung_S_Clima TempDiff: 3.8
+2015-06-03_01:44:24 FL_Heizung_S_Weather measured-temp: 20.8
+2015-06-03_01:44:24 FL_Heizung_S_Weather 20.8
+2015-06-03_03:18:35 FL_Heizung_S measured-temp: 20.7
+2015-06-03_03:18:35 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-03_03:18:35 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-03_03:18:35 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-03_03:18:35 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-03_03:18:35 FL_Heizung_S_Weather 20.7
+2015-06-03_03:21:14 FL_Heizung_S measured-temp: 20.8
+2015-06-03_03:21:14 FL_Heizung_S_Clima measured-temp: 20.8
+2015-06-03_03:21:14 FL_Heizung_S_Clima T: 20.8 desired: 17.0 valve: 0
+2015-06-03_03:21:14 FL_Heizung_S_Clima TempDiff: 3.8
+2015-06-03_03:21:14 FL_Heizung_S_Weather measured-temp: 20.8
+2015-06-03_03:21:14 FL_Heizung_S_Weather 20.8
+2015-06-03_03:28:49 FL_Heizung_S measured-temp: 20.7
+2015-06-03_03:28:49 FL_Heizung_S_Clima measured-temp: 20.7
+2015-06-03_03:28:49 FL_Heizung_S_Clima T: 20.7 desired: 17.0 valve: 0
+2015-06-03_03:28:49 FL_Heizung_S_Clima TempDiff: 3.7
+2015-06-03_03:28:49 FL_Heizung_S_Weather measured-temp: 20.7
+2015-06-03_03:28:49 FL_Heizung_S_Weather 20.7
+2015-06-03_06:00:16 FL_Heizung_S desired-temp: 21.0
+2015-06-03_06:00:16 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-03_06:00:16 FL_Heizung_S_Clima T: 20.7 desired: 21.0 valve: 0
+2015-06-03_06:00:16 FL_Heizung_S_Clima TempDiff: -0.3
+2015-06-03_06:02:27 FL_Heizung_S actuator: 80
+2015-06-03_06:02:28 FL_Heizung_S_Clima ValvePosition: 80
+2015-06-03_06:02:28 FL_Heizung_S_Clima T: 20.7 desired: 21.0 valve: 80
+2015-06-03_07:15:44 FL_Heizung_S measured-temp: 20.8
+2015-06-03_07:15:44 FL_Heizung_S_Clima measured-temp: 20.8
+2015-06-03_07:15:44 FL_Heizung_S_Clima T: 20.8 desired: 21.0 valve: 80
+2015-06-03_07:15:44 FL_Heizung_S_Clima TempDiff: -0.2
+2015-06-03_07:15:44 FL_Heizung_S_Weather measured-temp: 20.8
+2015-06-03_07:15:44 FL_Heizung_S_Weather 20.8
+2015-06-03_08:14:16 FL_Heizung_S measured-temp: 20.9
+2015-06-03_08:14:16 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-03_08:14:16 FL_Heizung_S_Clima T: 20.9 desired: 21.0 valve: 80
+2015-06-03_08:14:16 FL_Heizung_S_Clima TempDiff: -0.1
+2015-06-03_08:14:16 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-03_08:14:16 FL_Heizung_S_Weather 20.9
+2015-06-03_08:20:01 FL_Heizung_S measured-temp: 20.8
+2015-06-03_08:20:01 FL_Heizung_S_Clima measured-temp: 20.8
+2015-06-03_08:20:01 FL_Heizung_S_Clima T: 20.8 desired: 21.0 valve: 80
+2015-06-03_08:20:01 FL_Heizung_S_Clima TempDiff: -0.2
+2015-06-03_08:20:01 FL_Heizung_S_Weather measured-temp: 20.8
+2015-06-03_08:20:01 FL_Heizung_S_Weather 20.8
+2015-06-03_08:22:32 FL_Heizung_S measured-temp: 20.9
+2015-06-03_08:22:32 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-03_08:22:32 FL_Heizung_S_Clima T: 20.9 desired: 21.0 valve: 80
+2015-06-03_08:22:32 FL_Heizung_S_Clima TempDiff: -0.1
+2015-06-03_08:22:32 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-03_08:22:32 FL_Heizung_S_Weather 20.9
+2015-06-03_09:02:05 FL_Heizung_S actuator: 0
+2015-06-03_09:02:05 FL_Heizung_S desired-temp: 17.0
+2015-06-03_09:02:05 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-03_09:02:05 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-03_09:02:05 FL_Heizung_S_Clima T: 20.9 desired: 17.0 valve: 0
+2015-06-03_09:02:05 FL_Heizung_S_Clima TempDiff: 3.9
+2015-06-03_09:15:17 FL_Heizung_S measured-temp: 21.0
+2015-06-03_09:15:17 FL_Heizung_S_Clima measured-temp: 21.0
+2015-06-03_09:15:17 FL_Heizung_S_Clima T: 21.0 desired: 17.0 valve: 0
+2015-06-03_09:15:17 FL_Heizung_S_Clima TempDiff: 4.0
+2015-06-03_09:15:17 FL_Heizung_S_Weather measured-temp: 21.0
+2015-06-03_09:15:17 FL_Heizung_S_Weather 21.0
+2015-06-03_09:17:51 FL_Heizung_S measured-temp: 20.9
+2015-06-03_09:17:51 FL_Heizung_S_Clima measured-temp: 20.9
+2015-06-03_09:17:51 FL_Heizung_S_Clima T: 20.9 desired: 17.0 valve: 0
+2015-06-03_09:17:51 FL_Heizung_S_Clima TempDiff: 3.9
+2015-06-03_09:17:51 FL_Heizung_S_Weather measured-temp: 20.9
+2015-06-03_09:17:51 FL_Heizung_S_Weather 20.9
+2015-06-03_09:20:10 FL_Heizung_S measured-temp: 21.0
+2015-06-03_09:20:10 FL_Heizung_S_Clima measured-temp: 21.0
+2015-06-03_09:20:10 FL_Heizung_S_Clima T: 21.0 desired: 17.0 valve: 0
+2015-06-03_09:20:10 FL_Heizung_S_Clima TempDiff: 4.0
+2015-06-03_09:20:10 FL_Heizung_S_Weather measured-temp: 21.0
+2015-06-03_09:20:10 FL_Heizung_S_Weather 21.0
+2015-06-03_10:00:51 FL_Heizung_S measured-temp: 21.1
+2015-06-03_10:00:51 FL_Heizung_S_Clima measured-temp: 21.1
+2015-06-03_10:00:51 FL_Heizung_S_Clima T: 21.1 desired: 17.0 valve: 0
+2015-06-03_10:00:51 FL_Heizung_S_Clima TempDiff: 4.1
+2015-06-03_10:00:52 FL_Heizung_S_Weather measured-temp: 21.1
+2015-06-03_10:00:52 FL_Heizung_S_Weather 21.1
+2015-06-03_10:54:04 FL_Heizung_S measured-temp: 21.2
+2015-06-03_10:54:04 FL_Heizung_S_Clima measured-temp: 21.2
+2015-06-03_10:54:04 FL_Heizung_S_Clima T: 21.2 desired: 17.0 valve: 0
+2015-06-03_10:54:04 FL_Heizung_S_Clima TempDiff: 4.2
+2015-06-03_10:54:04 FL_Heizung_S_Weather measured-temp: 21.2
+2015-06-03_10:54:04 FL_Heizung_S_Weather 21.2
+2015-06-03_11:06:39 FL_Heizung_S measured-temp: 21.3
+2015-06-03_11:06:39 FL_Heizung_S_Clima measured-temp: 21.3
+2015-06-03_11:06:39 FL_Heizung_S_Clima T: 21.3 desired: 17.0 valve: 0
+2015-06-03_11:06:39 FL_Heizung_S_Clima TempDiff: 4.3
+2015-06-03_11:06:39 FL_Heizung_S_Weather measured-temp: 21.3
+2015-06-03_11:06:39 FL_Heizung_S_Weather 21.3
+2015-06-03_11:13:53 FL_Heizung_S measured-temp: 21.4
+2015-06-03_11:13:53 FL_Heizung_S_Clima measured-temp: 21.4
+2015-06-03_11:13:53 FL_Heizung_S_Clima T: 21.4 desired: 17.0 valve: 0
+2015-06-03_11:13:53 FL_Heizung_S_Clima TempDiff: 4.4
+2015-06-03_11:13:53 FL_Heizung_S_Weather measured-temp: 21.4
+2015-06-03_11:13:53 FL_Heizung_S_Weather 21.4
+2015-06-03_12:29:49 FL_Heizung_S measured-temp: 21.5
+2015-06-03_12:29:49 FL_Heizung_S_Clima measured-temp: 21.5
+2015-06-03_12:29:49 FL_Heizung_S_Clima T: 21.5 desired: 17.0 valve: 0
+2015-06-03_12:29:49 FL_Heizung_S_Clima TempDiff: 4.5
+2015-06-03_12:29:49 FL_Heizung_S_Weather measured-temp: 21.5
+2015-06-03_12:29:49 FL_Heizung_S_Weather 21.5
+2015-06-03_12:50:10 FL_Heizung_S measured-temp: 21.6
+2015-06-03_12:50:10 FL_Heizung_S_Clima measured-temp: 21.6
+2015-06-03_12:50:10 FL_Heizung_S_Clima T: 21.6 desired: 17.0 valve: 0
+2015-06-03_12:50:10 FL_Heizung_S_Clima TempDiff: 4.6
+2015-06-03_12:50:10 FL_Heizung_S_Weather measured-temp: 21.6
+2015-06-03_12:50:10 FL_Heizung_S_Weather 21.6
+2015-06-03_13:05:11 FL_Heizung_S measured-temp: 21.7
+2015-06-03_13:05:11 FL_Heizung_S_Clima measured-temp: 21.7
+2015-06-03_13:05:11 FL_Heizung_S_Clima T: 21.7 desired: 17.0 valve: 0
+2015-06-03_13:05:11 FL_Heizung_S_Clima TempDiff: 4.7
+2015-06-03_13:05:11 FL_Heizung_S_Weather measured-temp: 21.7
+2015-06-03_13:05:11 FL_Heizung_S_Weather 21.7
+2015-06-03_13:17:08 FL_Heizung_S measured-temp: 21.8
+2015-06-03_13:17:08 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-03_13:17:08 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-03_13:17:08 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-03_13:17:08 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-03_13:17:08 FL_Heizung_S_Weather 21.8
+2015-06-03_13:40:21 FL_Heizung_S measured-temp: 21.9
+2015-06-03_13:40:21 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-03_13:40:21 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-03_13:40:21 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-03_13:40:21 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-03_13:40:21 FL_Heizung_S_Weather 21.9
+2015-06-03_13:58:56 FL_Heizung_S measured-temp: 22.0
+2015-06-03_13:58:56 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_13:58:56 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-03_13:58:56 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-03_13:58:57 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_13:58:57 FL_Heizung_S_Weather 22.0
+2015-06-03_14:13:25 FL_Heizung_S measured-temp: 22.1
+2015-06-03_14:13:25 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_14:13:25 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-03_14:13:25 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-03_14:13:25 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_14:13:25 FL_Heizung_S_Weather 22.1
+2015-06-03_14:32:36 FL_Heizung_S measured-temp: 22.2
+2015-06-03_14:32:36 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-03_14:32:36 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-03_14:32:36 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-03_14:32:36 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-03_14:32:36 FL_Heizung_S_Weather 22.2
+2015-06-03_14:52:34 FL_Heizung_S measured-temp: 22.3
+2015-06-03_14:52:34 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-03_14:52:34 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-03_14:52:34 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-03_14:52:34 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-03_14:52:34 FL_Heizung_S_Weather 22.3
+2015-06-03_15:20:06 FL_Heizung_S measured-temp: 22.4
+2015-06-03_15:20:06 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-03_15:20:06 FL_Heizung_S_Clima T: 22.4 desired: 17.0 valve: 0
+2015-06-03_15:20:06 FL_Heizung_S_Clima TempDiff: 5.4
+2015-06-03_15:20:07 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-03_15:20:07 FL_Heizung_S_Weather 22.4
+2015-06-03_16:10:54 FL_Heizung_S measured-temp: 22.5
+2015-06-03_16:10:54 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-03_16:10:54 FL_Heizung_S_Clima T: 22.5 desired: 17.0 valve: 0
+2015-06-03_16:10:54 FL_Heizung_S_Clima TempDiff: 5.5
+2015-06-03_16:10:54 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-03_16:10:54 FL_Heizung_S_Weather 22.5
+2015-06-03_16:13:16 FL_Heizung_S measured-temp: 22.6
+2015-06-03_16:13:16 FL_Heizung_S_Clima measured-temp: 22.6
+2015-06-03_16:13:16 FL_Heizung_S_Clima T: 22.6 desired: 17.0 valve: 0
+2015-06-03_16:13:16 FL_Heizung_S_Clima TempDiff: 5.6
+2015-06-03_16:13:16 FL_Heizung_S_Weather measured-temp: 22.6
+2015-06-03_16:13:16 FL_Heizung_S_Weather 22.6
+2015-06-03_16:18:20 FL_Heizung_S measured-temp: 22.7
+2015-06-03_16:18:20 FL_Heizung_S_Clima measured-temp: 22.7
+2015-06-03_16:18:20 FL_Heizung_S_Clima T: 22.7 desired: 17.0 valve: 0
+2015-06-03_16:18:20 FL_Heizung_S_Clima TempDiff: 5.7
+2015-06-03_16:18:20 FL_Heizung_S_Weather measured-temp: 22.7
+2015-06-03_16:18:20 FL_Heizung_S_Weather 22.7
+2015-06-03_16:21:03 FL_Heizung_S measured-temp: 22.8
+2015-06-03_16:21:03 FL_Heizung_S_Clima measured-temp: 22.8
+2015-06-03_16:21:03 FL_Heizung_S_Clima T: 22.8 desired: 17.0 valve: 0
+2015-06-03_16:21:03 FL_Heizung_S_Clima TempDiff: 5.8
+2015-06-03_16:21:03 FL_Heizung_S_Weather measured-temp: 22.8
+2015-06-03_16:21:03 FL_Heizung_S_Weather 22.8
+2015-06-03_16:23:31 FL_Heizung_S measured-temp: 22.7
+2015-06-03_16:23:31 FL_Heizung_S_Clima measured-temp: 22.7
+2015-06-03_16:23:31 FL_Heizung_S_Clima T: 22.7 desired: 17.0 valve: 0
+2015-06-03_16:23:31 FL_Heizung_S_Clima TempDiff: 5.7
+2015-06-03_16:23:31 FL_Heizung_S_Weather measured-temp: 22.7
+2015-06-03_16:23:31 FL_Heizung_S_Weather 22.7
+2015-06-03_16:48:50 FL_Heizung_S measured-temp: 22.8
+2015-06-03_16:48:50 FL_Heizung_S_Clima measured-temp: 22.8
+2015-06-03_16:48:50 FL_Heizung_S_Clima T: 22.8 desired: 17.0 valve: 0
+2015-06-03_16:48:50 FL_Heizung_S_Clima TempDiff: 5.8
+2015-06-03_16:48:50 FL_Heizung_S_Weather measured-temp: 22.8
+2015-06-03_16:48:50 FL_Heizung_S_Weather 22.8
+2015-06-03_16:57:11 FL_Heizung_S measured-temp: 22.7
+2015-06-03_16:57:11 FL_Heizung_S_Clima measured-temp: 22.7
+2015-06-03_16:57:11 FL_Heizung_S_Clima T: 22.7 desired: 17.0 valve: 0
+2015-06-03_16:57:11 FL_Heizung_S_Clima TempDiff: 5.7
+2015-06-03_16:57:11 FL_Heizung_S_Weather measured-temp: 22.7
+2015-06-03_16:57:11 FL_Heizung_S_Weather 22.7
+2015-06-03_17:01:32 FL_Heizung_S actuator: 51
+2015-06-03_17:01:32 FL_Heizung_S desired-temp: 21.0
+2015-06-03_17:01:32 FL_Heizung_S_Clima ValvePosition: 51
+2015-06-03_17:01:32 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-03_17:01:32 FL_Heizung_S_Clima T: 22.7 desired: 21.0 valve: 51
+2015-06-03_17:01:32 FL_Heizung_S_Clima TempDiff: 1.7
+2015-06-03_18:25:07 FL_Heizung_S measured-temp: 22.6
+2015-06-03_18:25:07 FL_Heizung_S_Clima measured-temp: 22.6
+2015-06-03_18:25:07 FL_Heizung_S_Clima T: 22.6 desired: 21.0 valve: 51
+2015-06-03_18:25:07 FL_Heizung_S_Clima TempDiff: 1.6
+2015-06-03_18:25:07 FL_Heizung_S_Weather measured-temp: 22.6
+2015-06-03_18:25:07 FL_Heizung_S_Weather 22.6
+2015-06-03_18:43:35 FL_Heizung_S measured-temp: 22.5
+2015-06-03_18:43:35 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-03_18:43:35 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 51
+2015-06-03_18:43:35 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-03_18:43:36 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-03_18:43:36 FL_Heizung_S_Weather 22.5
+2015-06-03_19:06:23 FL_Heizung_S measured-temp: 22.4
+2015-06-03_19:06:23 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-03_19:06:23 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 51
+2015-06-03_19:06:23 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-03_19:06:23 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-03_19:06:23 FL_Heizung_S_Weather 22.4
+2015-06-03_19:51:09 FL_Heizung_S measured-temp: 22.3
+2015-06-03_19:51:09 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-03_19:51:09 FL_Heizung_S_Clima T: 22.3 desired: 21.0 valve: 51
+2015-06-03_19:51:09 FL_Heizung_S_Clima TempDiff: 1.3
+2015-06-03_19:51:10 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-03_19:51:10 FL_Heizung_S_Weather 22.3
+2015-06-03_20:11:32 FL_Heizung_S measured-temp: 22.2
+2015-06-03_20:11:32 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-03_20:11:32 FL_Heizung_S_Clima T: 22.2 desired: 21.0 valve: 51
+2015-06-03_20:11:32 FL_Heizung_S_Clima TempDiff: 1.2
+2015-06-03_20:11:33 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-03_20:11:33 FL_Heizung_S_Weather 22.2
+2015-06-03_20:16:36 FL_Heizung_S measured-temp: 22.3
+2015-06-03_20:16:36 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-03_20:16:36 FL_Heizung_S_Clima T: 22.3 desired: 21.0 valve: 51
+2015-06-03_20:16:36 FL_Heizung_S_Clima TempDiff: 1.3
+2015-06-03_20:16:36 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-03_20:16:36 FL_Heizung_S_Weather 22.3
+2015-06-03_20:18:47 FL_Heizung_S measured-temp: 22.2
+2015-06-03_20:18:47 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-03_20:18:47 FL_Heizung_S_Clima T: 22.2 desired: 21.0 valve: 51
+2015-06-03_20:18:47 FL_Heizung_S_Clima TempDiff: 1.2
+2015-06-03_20:18:47 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-03_20:18:47 FL_Heizung_S_Weather 22.2
+2015-06-03_20:41:30 FL_Heizung_S measured-temp: 22.1
+2015-06-03_20:41:30 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_20:41:30 FL_Heizung_S_Clima T: 22.1 desired: 21.0 valve: 51
+2015-06-03_20:41:30 FL_Heizung_S_Clima TempDiff: 1.1
+2015-06-03_20:41:30 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_20:41:30 FL_Heizung_S_Weather 22.1
+2015-06-03_20:44:28 FL_Heizung_S measured-temp: 22.2
+2015-06-03_20:44:29 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-03_20:44:29 FL_Heizung_S_Clima T: 22.2 desired: 21.0 valve: 51
+2015-06-03_20:44:29 FL_Heizung_S_Clima TempDiff: 1.2
+2015-06-03_20:44:29 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-03_20:44:29 FL_Heizung_S_Weather 22.2
+2015-06-03_20:47:13 FL_Heizung_S measured-temp: 22.1
+2015-06-03_20:47:13 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_20:47:13 FL_Heizung_S_Clima T: 22.1 desired: 21.0 valve: 51
+2015-06-03_20:47:13 FL_Heizung_S_Clima TempDiff: 1.1
+2015-06-03_20:47:13 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_20:47:13 FL_Heizung_S_Weather 22.1
+2015-06-03_20:49:43 FL_Heizung_S actuator: 61
+2015-06-03_20:49:43 FL_Heizung_S_Clima ValvePosition: 61
+2015-06-03_20:49:43 FL_Heizung_S_Clima T: 22.1 desired: 21.0 valve: 61
+2015-06-03_21:20:10 FL_Heizung_S measured-temp: 22.0
+2015-06-03_21:20:10 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_21:20:10 FL_Heizung_S_Clima T: 22.0 desired: 21.0 valve: 61
+2015-06-03_21:20:10 FL_Heizung_S_Clima TempDiff: 1.0
+2015-06-03_21:20:10 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_21:20:10 FL_Heizung_S_Weather 22.0
+2015-06-03_21:22:44 FL_Heizung_S measured-temp: 22.1
+2015-06-03_21:22:44 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_21:22:44 FL_Heizung_S_Clima T: 22.1 desired: 21.0 valve: 61
+2015-06-03_21:22:44 FL_Heizung_S_Clima TempDiff: 1.1
+2015-06-03_21:22:44 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_21:22:44 FL_Heizung_S_Weather 22.1
+2015-06-03_21:25:04 FL_Heizung_S measured-temp: 22.0
+2015-06-03_21:25:04 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_21:25:04 FL_Heizung_S_Clima T: 22.0 desired: 21.0 valve: 61
+2015-06-03_21:25:04 FL_Heizung_S_Clima TempDiff: 1.0
+2015-06-03_21:25:05 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_21:25:05 FL_Heizung_S_Weather 22.0
+2015-06-03_22:00:15 FL_Heizung_S desired-temp: 17.0
+2015-06-03_22:00:15 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-03_22:00:15 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 61
+2015-06-03_22:00:15 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-03_22:03:14 FL_Heizung_S actuator: 0
+2015-06-03_22:03:14 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-03_22:03:14 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-03_23:06:07 FL_Heizung_S measured-temp: 22.1
+2015-06-03_23:06:07 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_23:06:07 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-03_23:06:07 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-03_23:06:07 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_23:06:07 FL_Heizung_S_Weather 22.1
+2015-06-03_23:08:12 FL_Heizung_S measured-temp: 22.0
+2015-06-03_23:08:12 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_23:08:12 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-03_23:08:12 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-03_23:08:12 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_23:08:12 FL_Heizung_S_Weather 22.0
+2015-06-03_23:11:06 FL_Heizung_S measured-temp: 22.1
+2015-06-03_23:11:06 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_23:11:06 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-03_23:11:06 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-03_23:11:06 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_23:11:06 FL_Heizung_S_Weather 22.1
+2015-06-03_23:28:58 FL_Heizung_S measured-temp: 22.0
+2015-06-03_23:28:58 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_23:28:58 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-03_23:28:58 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-03_23:28:58 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_23:28:58 FL_Heizung_S_Weather 22.0
+2015-06-03_23:31:01 FL_Heizung_S measured-temp: 22.1
+2015-06-03_23:31:01 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_23:31:01 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-03_23:31:01 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-03_23:31:01 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_23:31:01 FL_Heizung_S_Weather 22.1
+2015-06-03_23:36:32 FL_Heizung_S measured-temp: 22.0
+2015-06-03_23:36:32 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_23:36:32 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-03_23:36:32 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-03_23:36:32 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_23:36:32 FL_Heizung_S_Weather 22.0
+2015-06-03_23:38:55 FL_Heizung_S measured-temp: 22.1
+2015-06-03_23:38:55 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_23:38:55 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-03_23:38:55 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-03_23:38:55 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_23:38:55 FL_Heizung_S_Weather 22.1
+2015-06-03_23:41:04 FL_Heizung_S measured-temp: 22.0
+2015-06-03_23:41:04 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_23:41:04 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-03_23:41:04 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-03_23:41:04 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_23:41:04 FL_Heizung_S_Weather 22.0
+2015-06-03_23:50:00 FL_Heizung_S measured-temp: 22.1
+2015-06-03_23:50:00 FL_Heizung_S CMDs_pending
+2015-06-03_23:50:00 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_23:50:00 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-03_23:50:00 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-03_23:50:01 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_23:50:01 FL_Heizung_S_Weather 22.1
+2015-06-03_23:51:33 FL_Heizung_S CMDs_pending
+2015-06-03_23:53:34 FL_Heizung_S CMDs_pending
+2015-06-03_23:56:25 FL_Heizung_S measured-temp: 22.0
+2015-06-03_23:56:25 FL_Heizung_S CMDs_pending
+2015-06-03_23:56:25 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-03_23:56:25 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-03_23:56:25 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-03_23:56:25 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-03_23:56:25 FL_Heizung_S_Weather 22.0
+2015-06-03_23:59:01 FL_Heizung_S measured-temp: 22.1
+2015-06-03_23:59:01 FL_Heizung_S CMDs_pending
+2015-06-03_23:59:01 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-03_23:59:01 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-03_23:59:01 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-03_23:59:01 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-03_23:59:01 FL_Heizung_S_Weather 22.1
+2015-06-04_00:01:23 FL_Heizung_S CMDs_pending
+2015-06-04_00:03:30 FL_Heizung_S measured-temp: 22.0
+2015-06-04_00:03:30 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_00:03:30 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_00:03:30 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_00:03:30 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_00:03:30 FL_Heizung_S_Weather 22.0
+2015-06-04_00:03:32 FL_Heizung_S CMDs_pending
+2015-06-04_00:06:27 FL_Heizung_S measured-temp: 22.1
+2015-06-04_00:06:27 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-04_00:06:27 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-04_00:06:27 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-04_00:06:27 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-04_00:06:27 FL_Heizung_S_Weather 22.1
+2015-06-04_00:06:32 FL_Heizung_S CMDs_pending
+2015-06-04_00:09:17 FL_Heizung_S_Clima R_0_tempListSat:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_00:09:17 FL_Heizung_S_Clima R_1_tempListSun:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_00:09:17 FL_Heizung_S_Clima R_2_tempListMon:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_00:09:17 FL_Heizung_S_Clima R_3_tempListTue:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_00:09:17 FL_Heizung_S_Clima R_4_tempListWed:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_00:09:17 FL_Heizung_S_Clima R_5_tempListThu:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_00:09:17 FL_Heizung_S_Clima R_6_tempListFri:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_00:09:18 FL_Heizung_S CMDs_done
+2015-06-04_00:22:18 FL_Heizung_S measured-temp: 22.0
+2015-06-04_00:22:18 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_00:22:18 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_00:22:18 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_00:22:18 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_00:22:18 FL_Heizung_S_Weather 22.0
+2015-06-04_00:24:38 FL_Heizung_S measured-temp: 22.1
+2015-06-04_00:24:38 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-04_00:24:38 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-04_00:24:38 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-04_00:24:38 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-04_00:24:38 FL_Heizung_S_Weather 22.1
+2015-06-04_00:32:19 FL_Heizung_S measured-temp: 22.0
+2015-06-04_00:32:19 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_00:32:19 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_00:32:19 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_00:32:20 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_00:32:20 FL_Heizung_S_Weather 22.0
+2015-06-04_00:34:46 FL_Heizung_S measured-temp: 22.1
+2015-06-04_00:34:46 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-04_00:34:46 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-04_00:34:46 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-04_00:34:46 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-04_00:34:46 FL_Heizung_S_Weather 22.1
+2015-06-04_00:36:57 FL_Heizung_S measured-temp: 22.0
+2015-06-04_00:36:57 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_00:36:57 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_00:36:57 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_00:36:58 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_00:36:58 FL_Heizung_S_Weather 22.0
+2015-06-04_00:42:46 FL_Heizung_S measured-temp: 22.1
+2015-06-04_00:42:46 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-04_00:42:46 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-04_00:42:46 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-04_00:42:46 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-04_00:42:46 FL_Heizung_S_Weather 22.1
+2015-06-04_00:47:37 FL_Heizung_S measured-temp: 22.0
+2015-06-04_00:47:37 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_00:47:37 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_00:47:37 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_00:47:37 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_00:47:37 FL_Heizung_S_Weather 22.0
+2015-06-04_02:15:42 FL_Heizung_S measured-temp: 21.9
+2015-06-04_02:15:42 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-04_02:15:42 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-04_02:15:42 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-04_02:15:42 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-04_02:15:42 FL_Heizung_S_Weather 21.9
+2015-06-04_02:17:53 FL_Heizung_S measured-temp: 22.0
+2015-06-04_02:17:53 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_02:17:53 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_02:17:53 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_02:17:53 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_02:17:53 FL_Heizung_S_Weather 22.0
+2015-06-04_02:20:54 FL_Heizung_S measured-temp: 21.9
+2015-06-04_02:20:54 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-04_02:20:54 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-04_02:20:54 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-04_02:20:54 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-04_02:20:54 FL_Heizung_S_Weather 21.9
+2015-06-04_02:23:40 FL_Heizung_S measured-temp: 22.0
+2015-06-04_02:23:40 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_02:23:40 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_02:23:40 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_02:23:40 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_02:23:40 FL_Heizung_S_Weather 22.0
+2015-06-04_02:30:32 FL_Heizung_S measured-temp: 21.9
+2015-06-04_02:30:32 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-04_02:30:32 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-04_02:30:32 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-04_02:30:32 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-04_02:30:32 FL_Heizung_S_Weather 21.9
+2015-06-04_04:17:18 FL_Heizung_S measured-temp: 21.8
+2015-06-04_04:17:18 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-04_04:17:18 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-04_04:17:18 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-04_04:17:18 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-04_04:17:18 FL_Heizung_S_Weather 21.8
+2015-06-04_05:23:12 FL_Heizung_S measured-temp: 21.7
+2015-06-04_05:23:12 FL_Heizung_S_Clima measured-temp: 21.7
+2015-06-04_05:23:12 FL_Heizung_S_Clima T: 21.7 desired: 17.0 valve: 0
+2015-06-04_05:23:12 FL_Heizung_S_Clima TempDiff: 4.7
+2015-06-04_05:23:12 FL_Heizung_S_Weather measured-temp: 21.7
+2015-06-04_05:23:12 FL_Heizung_S_Weather 21.7
+2015-06-04_06:00:49 FL_Heizung_S desired-temp: 21.0
+2015-06-04_06:00:49 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-04_06:00:49 FL_Heizung_S_Clima T: 21.7 desired: 21.0 valve: 0
+2015-06-04_06:00:49 FL_Heizung_S_Clima TempDiff: 0.7
+2015-06-04_06:03:40 FL_Heizung_S actuator: 69
+2015-06-04_06:03:40 FL_Heizung_S_Clima ValvePosition: 69
+2015-06-04_06:03:40 FL_Heizung_S_Clima T: 21.7 desired: 21.0 valve: 69
+2015-06-04_07:34:50 FL_Heizung_S measured-temp: 21.8
+2015-06-04_07:34:50 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-04_07:34:50 FL_Heizung_S_Clima T: 21.8 desired: 21.0 valve: 69
+2015-06-04_07:34:50 FL_Heizung_S_Clima TempDiff: 0.8
+2015-06-04_07:34:50 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-04_07:34:50 FL_Heizung_S_Weather 21.8
+2015-06-04_09:00:25 FL_Heizung_S desired-temp: 17.0
+2015-06-04_09:00:25 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-04_09:00:25 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 69
+2015-06-04_09:00:25 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-04_09:03:17 FL_Heizung_S actuator: 0
+2015-06-04_09:03:17 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-04_09:03:17 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-04_10:59:14 FL_Heizung_S measured-temp: 21.9
+2015-06-04_10:59:14 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-04_10:59:14 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-04_10:59:14 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-04_10:59:14 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-04_10:59:14 FL_Heizung_S_Weather 21.9
+2015-06-04_11:42:49 FL_Heizung_S measured-temp: 22.0
+2015-06-04_11:42:49 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-04_11:42:49 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-04_11:42:49 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-04_11:42:49 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-04_11:42:49 FL_Heizung_S_Weather 22.0
+2015-06-04_12:20:22 FL_Heizung_S measured-temp: 22.1
+2015-06-04_12:20:22 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-04_12:20:22 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-04_12:20:22 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-04_12:20:22 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-04_12:20:22 FL_Heizung_S_Weather 22.1
+2015-06-04_12:45:34 FL_Heizung_S measured-temp: 22.2
+2015-06-04_12:45:34 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_12:45:34 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_12:45:34 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_12:45:34 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_12:45:34 FL_Heizung_S_Weather 22.2
+2015-06-04_12:48:23 FL_Heizung_S measured-temp: 22.1
+2015-06-04_12:48:23 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-04_12:48:23 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-04_12:48:23 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-04_12:48:23 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-04_12:48:23 FL_Heizung_S_Weather 22.1
+2015-06-04_12:50:56 FL_Heizung_S measured-temp: 22.2
+2015-06-04_12:50:56 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_12:50:56 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_12:50:56 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_12:50:56 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_12:50:56 FL_Heizung_S_Weather 22.2
+2015-06-04_13:03:19 FL_Heizung_S measured-temp: 22.3
+2015-06-04_13:03:19 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_13:03:19 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_13:03:19 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_13:03:19 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_13:03:19 FL_Heizung_S_Weather 22.3
+2015-06-04_13:20:30 FL_Heizung_S measured-temp: 22.4
+2015-06-04_13:20:30 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_13:20:30 FL_Heizung_S_Clima T: 22.4 desired: 17.0 valve: 0
+2015-06-04_13:20:30 FL_Heizung_S_Clima TempDiff: 5.4
+2015-06-04_13:20:30 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_13:20:30 FL_Heizung_S_Weather 22.4
+2015-06-04_13:38:08 FL_Heizung_S measured-temp: 22.3
+2015-06-04_13:38:08 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_13:38:08 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_13:38:08 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_13:38:08 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_13:38:08 FL_Heizung_S_Weather 22.3
+2015-06-04_14:31:53 FL_Heizung_S measured-temp: 22.2
+2015-06-04_14:31:53 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_14:31:53 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_14:31:53 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_14:31:53 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_14:31:53 FL_Heizung_S_Weather 22.2
+2015-06-04_14:34:11 FL_Heizung_S measured-temp: 22.3
+2015-06-04_14:34:11 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_14:34:11 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_14:34:11 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_14:34:11 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_14:34:11 FL_Heizung_S_Weather 22.3
+2015-06-04_14:36:15 FL_Heizung_S measured-temp: 22.2
+2015-06-04_14:36:15 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_14:36:15 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_14:36:15 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_14:36:15 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_14:36:15 FL_Heizung_S_Weather 22.2
+2015-06-04_14:56:53 FL_Heizung_S measured-temp: 22.3
+2015-06-04_14:56:53 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_14:56:53 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_14:56:53 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_14:56:53 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_14:56:53 FL_Heizung_S_Weather 22.3
+2015-06-04_14:58:55 FL_Heizung_S measured-temp: 22.2
+2015-06-04_14:58:55 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_14:58:55 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_14:58:55 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_14:58:55 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_14:58:55 FL_Heizung_S_Weather 22.2
+2015-06-04_16:23:08 FL_Heizung_S measured-temp: 22.3
+2015-06-04_16:23:09 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_16:23:09 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_16:23:09 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_16:23:09 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_16:23:09 FL_Heizung_S_Weather 22.3
+2015-06-04_16:25:13 FL_Heizung_S measured-temp: 22.2
+2015-06-04_16:25:13 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_16:25:13 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_16:25:13 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_16:25:13 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_16:25:13 FL_Heizung_S_Weather 22.2
+2015-06-04_16:33:09 FL_Heizung_S measured-temp: 22.3
+2015-06-04_16:33:10 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_16:33:10 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_16:33:10 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_16:33:10 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_16:33:10 FL_Heizung_S_Weather 22.3
+2015-06-04_16:35:20 FL_Heizung_S measured-temp: 22.2
+2015-06-04_16:35:20 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_16:35:20 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_16:35:20 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_16:35:20 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_16:35:20 FL_Heizung_S_Weather 22.2
+2015-06-04_16:41:05 FL_Heizung_S measured-temp: 22.3
+2015-06-04_16:41:05 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_16:41:05 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_16:41:05 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_16:41:05 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_16:41:05 FL_Heizung_S_Weather 22.3
+2015-06-04_16:43:36 FL_Heizung_S measured-temp: 22.2
+2015-06-04_16:43:36 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_16:43:36 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_16:43:36 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_16:43:36 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_16:43:36 FL_Heizung_S_Weather 22.2
+2015-06-04_16:45:52 FL_Heizung_S measured-temp: 22.3
+2015-06-04_16:45:52 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_16:45:52 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_16:45:52 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_16:45:52 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_16:45:52 FL_Heizung_S_Weather 22.3
+2015-06-04_16:47:54 FL_Heizung_S measured-temp: 22.2
+2015-06-04_16:47:54 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_16:47:54 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_16:47:54 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_16:47:54 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_16:47:54 FL_Heizung_S_Weather 22.2
+2015-06-04_16:50:46 FL_Heizung_S measured-temp: 22.3
+2015-06-04_16:50:46 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_16:50:46 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_16:50:46 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_16:50:46 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_16:50:46 FL_Heizung_S_Weather 22.3
+2015-06-04_16:53:24 FL_Heizung_S measured-temp: 22.2
+2015-06-04_16:53:24 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_16:53:24 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_16:53:24 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_16:53:24 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_16:53:24 FL_Heizung_S_Weather 22.2
+2015-06-04_16:55:46 FL_Heizung_S measured-temp: 22.3
+2015-06-04_16:55:46 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_16:55:46 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_16:55:46 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_16:55:46 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_16:55:46 FL_Heizung_S_Weather 22.3
+2015-06-04_17:00:52 FL_Heizung_S desired-temp: 21.0
+2015-06-04_17:00:52 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-04_17:00:52 FL_Heizung_S_Clima T: 22.3 desired: 21.0 valve: 0
+2015-06-04_17:00:52 FL_Heizung_S_Clima TempDiff: 1.3
+2015-06-04_17:03:36 FL_Heizung_S actuator: 60
+2015-06-04_17:03:36 FL_Heizung_S_Clima ValvePosition: 60
+2015-06-04_17:03:36 FL_Heizung_S_Clima T: 22.3 desired: 21.0 valve: 60
+2015-06-04_19:04:47 FL_Heizung_S measured-temp: 22.4
+2015-06-04_19:04:47 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_19:04:47 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 60
+2015-06-04_19:04:47 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-04_19:04:47 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_19:04:47 FL_Heizung_S_Weather 22.4
+2015-06-04_19:34:57 FL_Heizung_S measured-temp: 22.5
+2015-06-04_19:34:57 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-04_19:34:57 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 60
+2015-06-04_19:34:57 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-04_19:34:57 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-04_19:34:57 FL_Heizung_S_Weather 22.5
+2015-06-04_19:40:42 FL_Heizung_S measured-temp: 22.4
+2015-06-04_19:40:42 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_19:40:42 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 60
+2015-06-04_19:40:42 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-04_19:40:42 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_19:40:42 FL_Heizung_S_Weather 22.4
+2015-06-04_19:45:29 FL_Heizung_S measured-temp: 22.5
+2015-06-04_19:45:29 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-04_19:45:29 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 60
+2015-06-04_19:45:29 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-04_19:45:29 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-04_19:45:29 FL_Heizung_S_Weather 22.5
+2015-06-04_19:47:31 FL_Heizung_S measured-temp: 22.4
+2015-06-04_19:47:31 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_19:47:31 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 60
+2015-06-04_19:47:31 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-04_19:47:31 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_19:47:31 FL_Heizung_S_Weather 22.4
+2015-06-04_20:00:29 FL_Heizung_S measured-temp: 22.5
+2015-06-04_20:00:29 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-04_20:00:29 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 60
+2015-06-04_20:00:29 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-04_20:00:29 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-04_20:00:29 FL_Heizung_S_Weather 22.5
+2015-06-04_20:07:56 FL_Heizung_S measured-temp: 22.4
+2015-06-04_20:07:56 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_20:07:56 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 60
+2015-06-04_20:07:56 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-04_20:07:56 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_20:07:56 FL_Heizung_S_Weather 22.4
+2015-06-04_20:09:56 FL_Heizung_S measured-temp: 22.5
+2015-06-04_20:09:56 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-04_20:09:56 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 60
+2015-06-04_20:09:56 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-04_20:09:56 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-04_20:09:56 FL_Heizung_S_Weather 22.5
+2015-06-04_20:22:44 FL_Heizung_S measured-temp: 22.4
+2015-06-04_20:22:44 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_20:22:44 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 60
+2015-06-04_20:22:44 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-04_20:22:45 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_20:22:45 FL_Heizung_S_Weather 22.4
+2015-06-04_20:27:53 FL_Heizung_S measured-temp: 22.5
+2015-06-04_20:27:53 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-04_20:27:53 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 60
+2015-06-04_20:27:53 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-04_20:27:54 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-04_20:27:54 FL_Heizung_S_Weather 22.5
+2015-06-04_20:30:06 FL_Heizung_S measured-temp: 22.4
+2015-06-04_20:30:06 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_20:30:06 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 60
+2015-06-04_20:30:06 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-04_20:30:06 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_20:30:06 FL_Heizung_S_Weather 22.4
+2015-06-04_20:33:09 FL_Heizung_S measured-temp: 22.5
+2015-06-04_20:33:09 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-04_20:33:09 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 60
+2015-06-04_20:33:09 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-04_20:33:09 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-04_20:33:09 FL_Heizung_S_Weather 22.5
+2015-06-04_20:35:57 FL_Heizung_S measured-temp: 22.4
+2015-06-04_20:35:57 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_20:35:57 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 60
+2015-06-04_20:35:57 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-04_20:35:57 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_20:35:57 FL_Heizung_S_Weather 22.4
+2015-06-04_21:28:18 FL_Heizung_S CMDs_pending
+2015-06-04_21:31:07 FL_Heizung_S CMDs_pending
+2015-06-04_21:33:43 FL_Heizung_S CMDs_pending
+2015-06-04_21:36:05 FL_Heizung_S CMDs_pending
+2015-06-04_21:38:12 FL_Heizung_S CMDs_pending
+2015-06-04_21:41:09 FL_Heizung_S CMDs_pending
+2015-06-04_21:43:58 FL_Heizung_S CMDs_pending
+2015-06-04_21:46:24 FL_Heizung_S_Clima R_0_tempListSat:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_21:46:24 FL_Heizung_S_Clima R_1_tempListSun:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_21:46:24 FL_Heizung_S_Clima R_2_tempListMon:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_21:46:24 FL_Heizung_S_Clima R_3_tempListTue:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_21:46:24 FL_Heizung_S_Clima R_4_tempListWed:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_21:46:24 FL_Heizung_S_Clima R_5_tempListThu:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_21:46:24 FL_Heizung_S_Clima R_6_tempListFri:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-04_21:46:25 FL_Heizung_S CMDs_done
+2015-06-04_22:01:25 FL_Heizung_S actuator: 0
+2015-06-04_22:01:25 FL_Heizung_S desired-temp: 17.0
+2015-06-04_22:01:26 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-04_22:01:26 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-04_22:01:26 FL_Heizung_S_Clima T: 22.4 desired: 17.0 valve: 0
+2015-06-04_22:01:26 FL_Heizung_S_Clima TempDiff: 5.4
+2015-06-04_22:17:28 FL_Heizung_S measured-temp: 22.3
+2015-06-04_22:17:28 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_22:17:28 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_22:17:28 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_22:17:28 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_22:17:28 FL_Heizung_S_Weather 22.3
+2015-06-04_22:24:23 FL_Heizung_S measured-temp: 22.4
+2015-06-04_22:24:23 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-04_22:24:23 FL_Heizung_S_Clima T: 22.4 desired: 17.0 valve: 0
+2015-06-04_22:24:23 FL_Heizung_S_Clima TempDiff: 5.4
+2015-06-04_22:24:23 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-04_22:24:23 FL_Heizung_S_Weather 22.4
+2015-06-04_22:27:16 FL_Heizung_S measured-temp: 22.3
+2015-06-04_22:27:16 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_22:27:16 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_22:27:16 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_22:27:16 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_22:27:16 FL_Heizung_S_Weather 22.3
+2015-06-04_23:19:20 FL_Heizung_S measured-temp: 22.2
+2015-06-04_23:19:20 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_23:19:20 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_23:19:20 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_23:19:20 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_23:19:20 FL_Heizung_S_Weather 22.2
+2015-06-04_23:22:16 FL_Heizung_S measured-temp: 22.3
+2015-06-04_23:22:16 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_23:22:16 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_23:22:16 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_23:22:16 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_23:22:16 FL_Heizung_S_Weather 22.3
+2015-06-04_23:24:58 FL_Heizung_S measured-temp: 22.2
+2015-06-04_23:24:58 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_23:24:58 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_23:24:58 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_23:24:58 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_23:24:58 FL_Heizung_S_Weather 22.2
+2015-06-04_23:29:38 FL_Heizung_S measured-temp: 22.3
+2015-06-04_23:29:38 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-04_23:29:38 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-04_23:29:38 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-04_23:29:38 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-04_23:29:38 FL_Heizung_S_Weather 22.3
+2015-06-04_23:32:40 FL_Heizung_S measured-temp: 22.2
+2015-06-04_23:32:40 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-04_23:32:40 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-04_23:32:40 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-04_23:32:40 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-04_23:32:40 FL_Heizung_S_Weather 22.2
+2015-06-05_00:23:29 FL_Heizung_S measured-temp: 22.3
+2015-06-05_00:23:29 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-05_00:23:29 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-05_00:23:29 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-05_00:23:29 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-05_00:23:29 FL_Heizung_S_Weather 22.3
+2015-06-05_00:53:55 FL_Heizung_S measured-temp: 22.2
+2015-06-05_00:53:55 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-05_00:53:55 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-05_00:53:55 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-05_00:53:55 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-05_00:53:55 FL_Heizung_S_Weather 22.2
+2015-06-05_02:04:40 FL_Heizung_S measured-temp: 22.1
+2015-06-05_02:04:40 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_02:04:40 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-05_02:04:40 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-05_02:04:41 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_02:04:41 FL_Heizung_S_Weather 22.1
+2015-06-05_03:22:57 FL_Heizung_S measured-temp: 22.0
+2015-06-05_03:22:57 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-05_03:22:57 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-05_03:22:57 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-05_03:22:57 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-05_03:22:57 FL_Heizung_S_Weather 22.0
+2015-06-05_03:43:23 FL_Heizung_S measured-temp: 21.9
+2015-06-05_03:43:23 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-05_03:43:23 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-05_03:43:23 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-05_03:43:23 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-05_03:43:23 FL_Heizung_S_Weather 21.9
+2015-06-05_04:28:51 FL_Heizung_S measured-temp: 21.8
+2015-06-05_04:28:51 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-05_04:28:51 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-05_04:28:51 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-05_04:28:51 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-05_04:28:51 FL_Heizung_S_Weather 21.8
+2015-06-05_04:30:55 FL_Heizung_S measured-temp: 21.9
+2015-06-05_04:30:55 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-05_04:30:55 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-05_04:30:55 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-05_04:30:55 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-05_04:30:55 FL_Heizung_S_Weather 21.9
+2015-06-05_04:33:50 FL_Heizung_S measured-temp: 21.8
+2015-06-05_04:33:50 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-05_04:33:50 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-05_04:33:50 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-05_04:33:50 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-05_04:33:50 FL_Heizung_S_Weather 21.8
+2015-06-05_04:49:25 FL_Heizung_S measured-temp: 21.9
+2015-06-05_04:49:25 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-05_04:49:25 FL_Heizung_S_Clima T: 21.9 desired: 17.0 valve: 0
+2015-06-05_04:49:25 FL_Heizung_S_Clima TempDiff: 4.9
+2015-06-05_04:49:25 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-05_04:49:25 FL_Heizung_S_Weather 21.9
+2015-06-05_05:01:39 FL_Heizung_S measured-temp: 21.8
+2015-06-05_05:01:39 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-05_05:01:39 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-05_05:01:39 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-05_05:01:39 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-05_05:01:39 FL_Heizung_S_Weather 21.8
+2015-06-05_05:29:12 FL_Heizung_S measured-temp: 21.7
+2015-06-05_05:29:12 FL_Heizung_S_Clima measured-temp: 21.7
+2015-06-05_05:29:12 FL_Heizung_S_Clima T: 21.7 desired: 17.0 valve: 0
+2015-06-05_05:29:12 FL_Heizung_S_Clima TempDiff: 4.7
+2015-06-05_05:29:12 FL_Heizung_S_Weather measured-temp: 21.7
+2015-06-05_05:29:12 FL_Heizung_S_Weather 21.7
+2015-06-05_05:31:54 FL_Heizung_S measured-temp: 21.8
+2015-06-05_05:31:55 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-05_05:31:55 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-05_05:31:55 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-05_05:31:55 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-05_05:31:55 FL_Heizung_S_Weather 21.8
+2015-06-05_05:34:22 FL_Heizung_S measured-temp: 21.7
+2015-06-05_05:34:22 FL_Heizung_S_Clima measured-temp: 21.7
+2015-06-05_05:34:22 FL_Heizung_S_Clima T: 21.7 desired: 17.0 valve: 0
+2015-06-05_05:34:22 FL_Heizung_S_Clima TempDiff: 4.7
+2015-06-05_05:34:22 FL_Heizung_S_Weather measured-temp: 21.7
+2015-06-05_05:34:22 FL_Heizung_S_Weather 21.7
+2015-06-05_05:39:39 FL_Heizung_S measured-temp: 21.8
+2015-06-05_05:39:39 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-05_05:39:39 FL_Heizung_S_Clima T: 21.8 desired: 17.0 valve: 0
+2015-06-05_05:39:39 FL_Heizung_S_Clima TempDiff: 4.8
+2015-06-05_05:39:39 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-05_05:39:39 FL_Heizung_S_Weather 21.8
+2015-06-05_05:55:05 FL_Heizung_S measured-temp: 21.7
+2015-06-05_05:55:05 FL_Heizung_S_Clima measured-temp: 21.7
+2015-06-05_05:55:05 FL_Heizung_S_Clima T: 21.7 desired: 17.0 valve: 0
+2015-06-05_05:55:05 FL_Heizung_S_Clima TempDiff: 4.7
+2015-06-05_05:55:05 FL_Heizung_S_Weather measured-temp: 21.7
+2015-06-05_05:55:05 FL_Heizung_S_Weather 21.7
+2015-06-05_06:02:44 FL_Heizung_S actuator: 71
+2015-06-05_06:02:44 FL_Heizung_S desired-temp: 21.0
+2015-06-05_06:02:44 FL_Heizung_S_Clima ValvePosition: 71
+2015-06-05_06:02:44 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-05_06:02:44 FL_Heizung_S_Clima T: 21.7 desired: 21.0 valve: 71
+2015-06-05_06:02:44 FL_Heizung_S_Clima TempDiff: 0.7
+2015-06-05_06:12:26 FL_Heizung_S measured-temp: 21.8
+2015-06-05_06:12:26 FL_Heizung_S_Clima measured-temp: 21.8
+2015-06-05_06:12:26 FL_Heizung_S_Clima T: 21.8 desired: 21.0 valve: 71
+2015-06-05_06:12:26 FL_Heizung_S_Clima TempDiff: 0.8
+2015-06-05_06:12:26 FL_Heizung_S_Weather measured-temp: 21.8
+2015-06-05_06:12:26 FL_Heizung_S_Weather 21.8
+2015-06-05_06:15:20 FL_Heizung_S measured-temp: 21.9
+2015-06-05_06:15:20 FL_Heizung_S_Clima measured-temp: 21.9
+2015-06-05_06:15:20 FL_Heizung_S_Clima T: 21.9 desired: 21.0 valve: 71
+2015-06-05_06:15:20 FL_Heizung_S_Clima TempDiff: 0.9
+2015-06-05_06:15:20 FL_Heizung_S_Weather measured-temp: 21.9
+2015-06-05_06:15:20 FL_Heizung_S_Weather 21.9
+2015-06-05_06:48:05 FL_Heizung_S measured-temp: 22.0
+2015-06-05_06:48:05 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-05_06:48:05 FL_Heizung_S_Clima T: 22.0 desired: 21.0 valve: 71
+2015-06-05_06:48:05 FL_Heizung_S_Clima TempDiff: 1.0
+2015-06-05_06:48:05 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-05_06:48:05 FL_Heizung_S_Weather 22.0
+2015-06-05_06:50:49 FL_Heizung_S measured-temp: 22.1
+2015-06-05_06:50:49 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_06:50:49 FL_Heizung_S_Clima T: 22.1 desired: 21.0 valve: 71
+2015-06-05_06:50:49 FL_Heizung_S_Clima TempDiff: 1.1
+2015-06-05_06:50:49 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_06:50:49 FL_Heizung_S_Weather 22.1
+2015-06-05_06:53:18 FL_Heizung_S measured-temp: 22.2
+2015-06-05_06:53:18 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-05_06:53:18 FL_Heizung_S_Clima T: 22.2 desired: 21.0 valve: 71
+2015-06-05_06:53:18 FL_Heizung_S_Clima TempDiff: 1.2
+2015-06-05_06:53:18 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-05_06:53:18 FL_Heizung_S_Weather 22.2
+2015-06-05_06:57:32 FL_Heizung_S measured-temp: 22.3
+2015-06-05_06:57:32 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-05_06:57:32 FL_Heizung_S_Clima T: 22.3 desired: 21.0 valve: 71
+2015-06-05_06:57:32 FL_Heizung_S_Clima TempDiff: 1.3
+2015-06-05_06:57:33 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-05_06:57:33 FL_Heizung_S_Weather 22.3
+2015-06-05_07:02:58 FL_Heizung_S actuator: 61
+2015-06-05_07:02:58 FL_Heizung_S measured-temp: 22.4
+2015-06-05_07:02:58 FL_Heizung_S_Clima ValvePosition: 61
+2015-06-05_07:02:58 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-05_07:02:58 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 61
+2015-06-05_07:02:58 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-05_07:02:58 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-05_07:02:58 FL_Heizung_S_Weather 22.4
+2015-06-05_07:13:03 FL_Heizung_S measured-temp: 22.5
+2015-06-05_07:13:03 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-05_07:13:03 FL_Heizung_S_Clima T: 22.5 desired: 21.0 valve: 61
+2015-06-05_07:13:03 FL_Heizung_S_Clima TempDiff: 1.5
+2015-06-05_07:13:03 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-05_07:13:03 FL_Heizung_S_Weather 22.5
+2015-06-05_07:38:30 FL_Heizung_S measured-temp: 22.4
+2015-06-05_07:38:30 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-05_07:38:30 FL_Heizung_S_Clima T: 22.4 desired: 21.0 valve: 61
+2015-06-05_07:38:30 FL_Heizung_S_Clima TempDiff: 1.4
+2015-06-05_07:38:30 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-05_07:38:30 FL_Heizung_S_Weather 22.4
+2015-06-05_07:40:41 FL_Heizung_S measured-temp: 22.3
+2015-06-05_07:40:41 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-05_07:40:41 FL_Heizung_S_Clima T: 22.3 desired: 21.0 valve: 61
+2015-06-05_07:40:41 FL_Heizung_S_Clima TempDiff: 1.3
+2015-06-05_07:40:41 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-05_07:40:41 FL_Heizung_S_Weather 22.3
+2015-06-05_07:43:41 FL_Heizung_S measured-temp: 22.2
+2015-06-05_07:43:42 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-05_07:43:42 FL_Heizung_S_Clima T: 22.2 desired: 21.0 valve: 61
+2015-06-05_07:43:42 FL_Heizung_S_Clima TempDiff: 1.2
+2015-06-05_07:43:42 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-05_07:43:42 FL_Heizung_S_Weather 22.2
+2015-06-05_07:48:59 FL_Heizung_S measured-temp: 22.1
+2015-06-05_07:49:00 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_07:49:00 FL_Heizung_S_Clima T: 22.1 desired: 21.0 valve: 61
+2015-06-05_07:49:00 FL_Heizung_S_Clima TempDiff: 1.1
+2015-06-05_07:49:00 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_07:49:00 FL_Heizung_S_Weather 22.1
+2015-06-05_07:53:20 FL_Heizung_S measured-temp: 22.0
+2015-06-05_07:53:20 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-05_07:53:20 FL_Heizung_S_Clima T: 22.0 desired: 21.0 valve: 61
+2015-06-05_07:53:20 FL_Heizung_S_Clima TempDiff: 1.0
+2015-06-05_07:53:20 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-05_07:53:20 FL_Heizung_S_Weather 22.0
+2015-06-05_08:33:57 FL_Heizung_S measured-temp: 22.1
+2015-06-05_08:33:57 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_08:33:57 FL_Heizung_S_Clima T: 22.1 desired: 21.0 valve: 61
+2015-06-05_08:33:57 FL_Heizung_S_Clima TempDiff: 1.1
+2015-06-05_08:33:57 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_08:33:57 FL_Heizung_S_Weather 22.1
+2015-06-05_08:57:04 FL_Heizung_S measured-temp: 22.0
+2015-06-05_08:57:04 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-05_08:57:04 FL_Heizung_S_Clima T: 22.0 desired: 21.0 valve: 61
+2015-06-05_08:57:04 FL_Heizung_S_Clima TempDiff: 1.0
+2015-06-05_08:57:04 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-05_08:57:04 FL_Heizung_S_Weather 22.0
+2015-06-05_09:02:18 FL_Heizung_S actuator: 0
+2015-06-05_09:02:18 FL_Heizung_S desired-temp: 17.0
+2015-06-05_09:02:18 FL_Heizung_S measured-temp: 22.1
+2015-06-05_09:02:18 FL_Heizung_S_Clima ValvePosition: 0
+2015-06-05_09:02:18 FL_Heizung_S_Clima desired-temp: 17.0
+2015-06-05_09:02:18 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_09:02:18 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-05_09:02:18 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-05_09:02:18 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_09:02:18 FL_Heizung_S_Weather 22.1
+2015-06-05_09:05:05 FL_Heizung_S measured-temp: 22.0
+2015-06-05_09:05:05 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-05_09:05:05 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-05_09:05:05 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-05_09:05:05 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-05_09:05:05 FL_Heizung_S_Weather 22.0
+2015-06-05_09:25:06 FL_Heizung_S measured-temp: 22.1
+2015-06-05_09:25:06 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_09:25:06 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-05_09:25:06 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-05_09:25:06 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_09:25:06 FL_Heizung_S_Weather 22.1
+2015-06-05_09:32:38 FL_Heizung_S measured-temp: 22.0
+2015-06-05_09:32:38 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-05_09:32:38 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-05_09:32:38 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-05_09:32:38 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-05_09:32:38 FL_Heizung_S_Weather 22.0
+2015-06-05_09:34:40 FL_Heizung_S measured-temp: 22.1
+2015-06-05_09:34:40 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_09:34:40 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-05_09:34:40 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-05_09:34:40 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_09:34:40 FL_Heizung_S_Weather 22.1
+2015-06-05_09:37:31 FL_Heizung_S measured-temp: 22.0
+2015-06-05_09:37:31 FL_Heizung_S_Clima measured-temp: 22.0
+2015-06-05_09:37:31 FL_Heizung_S_Clima T: 22.0 desired: 17.0 valve: 0
+2015-06-05_09:37:31 FL_Heizung_S_Clima TempDiff: 5.0
+2015-06-05_09:37:31 FL_Heizung_S_Weather measured-temp: 22.0
+2015-06-05_09:37:31 FL_Heizung_S_Weather 22.0
+2015-06-05_09:50:21 FL_Heizung_S measured-temp: 22.1
+2015-06-05_09:50:21 FL_Heizung_S_Clima measured-temp: 22.1
+2015-06-05_09:50:21 FL_Heizung_S_Clima T: 22.1 desired: 17.0 valve: 0
+2015-06-05_09:50:21 FL_Heizung_S_Clima TempDiff: 5.1
+2015-06-05_09:50:21 FL_Heizung_S_Weather measured-temp: 22.1
+2015-06-05_09:50:21 FL_Heizung_S_Weather 22.1
+2015-06-05_10:02:29 FL_Heizung_S measured-temp: 22.2
+2015-06-05_10:02:29 FL_Heizung_S_Clima measured-temp: 22.2
+2015-06-05_10:02:29 FL_Heizung_S_Clima T: 22.2 desired: 17.0 valve: 0
+2015-06-05_10:02:29 FL_Heizung_S_Clima TempDiff: 5.2
+2015-06-05_10:02:29 FL_Heizung_S_Weather measured-temp: 22.2
+2015-06-05_10:02:29 FL_Heizung_S_Weather 22.2
+2015-06-05_11:08:36 FL_Heizung_S measured-temp: 22.3
+2015-06-05_11:08:36 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-05_11:08:36 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-05_11:08:36 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-05_11:08:36 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-05_11:08:36 FL_Heizung_S_Weather 22.3
+2015-06-05_11:18:15 FL_Heizung_S CMDs_pending
+2015-06-05_11:20:49 FL_Heizung_S CMDs_pending
+2015-06-05_11:23:11 FL_Heizung_S measured-temp: 22.4
+2015-06-05_11:23:11 FL_Heizung_S CMDs_pending
+2015-06-05_11:23:11 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-05_11:23:11 FL_Heizung_S_Clima T: 22.4 desired: 17.0 valve: 0
+2015-06-05_11:23:11 FL_Heizung_S_Clima TempDiff: 5.4
+2015-06-05_11:23:11 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-05_11:23:11 FL_Heizung_S_Weather 22.4
+2015-06-05_11:25:18 FL_Heizung_S measured-temp: 22.3
+2015-06-05_11:25:18 FL_Heizung_S CMDs_pending
+2015-06-05_11:25:18 FL_Heizung_S_Clima measured-temp: 22.3
+2015-06-05_11:25:18 FL_Heizung_S_Clima T: 22.3 desired: 17.0 valve: 0
+2015-06-05_11:25:18 FL_Heizung_S_Clima TempDiff: 5.3
+2015-06-05_11:25:18 FL_Heizung_S_Weather measured-temp: 22.3
+2015-06-05_11:25:18 FL_Heizung_S_Weather 22.3
+2015-06-05_11:28:15 FL_Heizung_S measured-temp: 22.4
+2015-06-05_11:28:15 FL_Heizung_S CMDs_pending
+2015-06-05_11:28:15 FL_Heizung_S_Clima measured-temp: 22.4
+2015-06-05_11:28:15 FL_Heizung_S_Clima T: 22.4 desired: 17.0 valve: 0
+2015-06-05_11:28:15 FL_Heizung_S_Clima TempDiff: 5.4
+2015-06-05_11:28:15 FL_Heizung_S_Weather measured-temp: 22.4
+2015-06-05_11:28:15 FL_Heizung_S_Weather 22.4
+2015-06-05_11:30:58 FL_Heizung_S CMDs_pending
+2015-06-05_11:33:32 FL_Heizung_S_Clima R_0_tempListSat:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-05_11:33:32 FL_Heizung_S_Clima R_1_tempListSun:  06:00 17.0 22:00 21.0 24:00 17.0
+2015-06-05_11:33:32 FL_Heizung_S_Clima R_2_tempListMon:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-05_11:33:32 FL_Heizung_S_Clima R_3_tempListTue:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-05_11:33:32 FL_Heizung_S_Clima R_4_tempListWed:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-05_11:33:32 FL_Heizung_S_Clima R_5_tempListThu:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-05_11:33:32 FL_Heizung_S_Clima R_6_tempListFri:  06:00 17.0 09:00 21.0 17:00 17.0 22:00 21.0 24:00 17.0
+2015-06-05_11:33:33 FL_Heizung_S CMDs_done
+2015-06-05_11:54:07 FL_Heizung_S measured-temp: 22.5
+2015-06-05_11:54:07 FL_Heizung_S_Clima measured-temp: 22.5
+2015-06-05_11:54:07 FL_Heizung_S_Clima T: 22.5 desired: 17.0 valve: 0
+2015-06-05_11:54:07 FL_Heizung_S_Clima TempDiff: 5.5
+2015-06-05_11:54:07 FL_Heizung_S_Weather measured-temp: 22.5
+2015-06-05_11:54:07 FL_Heizung_S_Weather 22.5
+2015-06-05_12:00:55 FL_Heizung_S measured-temp: 22.6
+2015-06-05_12:00:55 FL_Heizung_S_Clima measured-temp: 22.6
+2015-06-05_12:00:55 FL_Heizung_S_Clima T: 22.6 desired: 17.0 valve: 0
+2015-06-05_12:00:55 FL_Heizung_S_Clima TempDiff: 5.6
+2015-06-05_12:00:56 FL_Heizung_S_Weather measured-temp: 22.6
+2015-06-05_12:00:56 FL_Heizung_S_Weather 22.6
+2015-06-05_12:26:28 FL_Heizung_S measured-temp: 22.7
+2015-06-05_12:26:28 FL_Heizung_S_Clima measured-temp: 22.7
+2015-06-05_12:26:28 FL_Heizung_S_Clima T: 22.7 desired: 17.0 valve: 0
+2015-06-05_12:26:28 FL_Heizung_S_Clima TempDiff: 5.7
+2015-06-05_12:26:28 FL_Heizung_S_Weather measured-temp: 22.7
+2015-06-05_12:26:28 FL_Heizung_S_Weather 22.7
+2015-06-05_12:41:09 FL_Heizung_S measured-temp: 22.8
+2015-06-05_12:41:09 FL_Heizung_S_Clima measured-temp: 22.8
+2015-06-05_12:41:09 FL_Heizung_S_Clima T: 22.8 desired: 17.0 valve: 0
+2015-06-05_12:41:09 FL_Heizung_S_Clima TempDiff: 5.8
+2015-06-05_12:41:09 FL_Heizung_S_Weather measured-temp: 22.8
+2015-06-05_12:41:09 FL_Heizung_S_Weather 22.8
+2015-06-05_12:43:16 FL_Heizung_S measured-temp: 22.7
+2015-06-05_12:43:16 FL_Heizung_S_Clima measured-temp: 22.7
+2015-06-05_12:43:16 FL_Heizung_S_Clima T: 22.7 desired: 17.0 valve: 0
+2015-06-05_12:43:16 FL_Heizung_S_Clima TempDiff: 5.7
+2015-06-05_12:43:16 FL_Heizung_S_Weather measured-temp: 22.7
+2015-06-05_12:43:16 FL_Heizung_S_Weather 22.7
+2015-06-05_12:48:57 FL_Heizung_S measured-temp: 22.8
+2015-06-05_12:48:57 FL_Heizung_S_Clima measured-temp: 22.8
+2015-06-05_12:48:57 FL_Heizung_S_Clima T: 22.8 desired: 17.0 valve: 0
+2015-06-05_12:48:57 FL_Heizung_S_Clima TempDiff: 5.8
+2015-06-05_12:48:57 FL_Heizung_S_Weather measured-temp: 22.8
+2015-06-05_12:48:57 FL_Heizung_S_Weather 22.8
+2015-06-05_12:51:26 FL_Heizung_S measured-temp: 22.7
+2015-06-05_12:51:26 FL_Heizung_S_Clima measured-temp: 22.7
+2015-06-05_12:51:26 FL_Heizung_S_Clima T: 22.7 desired: 17.0 valve: 0
+2015-06-05_12:51:26 FL_Heizung_S_Clima TempDiff: 5.7
+2015-06-05_12:51:26 FL_Heizung_S_Weather measured-temp: 22.7
+2015-06-05_12:51:26 FL_Heizung_S_Weather 22.7
+2015-06-05_12:53:41 FL_Heizung_S measured-temp: 22.8
+2015-06-05_12:53:41 FL_Heizung_S_Clima measured-temp: 22.8
+2015-06-05_12:53:41 FL_Heizung_S_Clima T: 22.8 desired: 17.0 valve: 0
+2015-06-05_12:53:41 FL_Heizung_S_Clima TempDiff: 5.8
+2015-06-05_12:53:41 FL_Heizung_S_Weather measured-temp: 22.8
+2015-06-05_12:53:41 FL_Heizung_S_Weather 22.8
+2015-06-05_12:55:41 FL_Heizung_S measured-temp: 22.7
+2015-06-05_12:55:41 FL_Heizung_S_Clima measured-temp: 22.7
+2015-06-05_12:55:41 FL_Heizung_S_Clima T: 22.7 desired: 17.0 valve: 0
+2015-06-05_12:55:41 FL_Heizung_S_Clima TempDiff: 5.7
+2015-06-05_12:55:41 FL_Heizung_S_Weather measured-temp: 22.7
+2015-06-05_12:55:41 FL_Heizung_S_Weather 22.7
+2015-06-05_12:58:30 FL_Heizung_S measured-temp: 22.8
+2015-06-05_12:58:31 FL_Heizung_S_Clima measured-temp: 22.8
+2015-06-05_12:58:31 FL_Heizung_S_Clima T: 22.8 desired: 17.0 valve: 0
+2015-06-05_12:58:31 FL_Heizung_S_Clima TempDiff: 5.8
+2015-06-05_12:58:31 FL_Heizung_S_Weather measured-temp: 22.8
+2015-06-05_12:58:31 FL_Heizung_S_Weather 22.8
+2015-06-05_13:03:27 FL_Heizung_S measured-temp: 22.9
+2015-06-05_13:03:27 FL_Heizung_S_Clima measured-temp: 22.9
+2015-06-05_13:03:27 FL_Heizung_S_Clima T: 22.9 desired: 17.0 valve: 0
+2015-06-05_13:03:27 FL_Heizung_S_Clima TempDiff: 5.9
+2015-06-05_13:03:27 FL_Heizung_S_Weather measured-temp: 22.9
+2015-06-05_13:03:27 FL_Heizung_S_Weather 22.9
+2015-06-05_13:08:29 FL_Heizung_S measured-temp: 23.0
+2015-06-05_13:08:29 FL_Heizung_S_Clima measured-temp: 23.0
+2015-06-05_13:08:29 FL_Heizung_S_Clima T: 23.0 desired: 17.0 valve: 0
+2015-06-05_13:08:29 FL_Heizung_S_Clima TempDiff: 6.0
+2015-06-05_13:08:29 FL_Heizung_S_Weather measured-temp: 23.0
+2015-06-05_13:08:29 FL_Heizung_S_Weather 23.0
+2015-06-05_13:13:38 FL_Heizung_S measured-temp: 23.1
+2015-06-05_13:13:38 FL_Heizung_S_Clima measured-temp: 23.1
+2015-06-05_13:13:38 FL_Heizung_S_Clima T: 23.1 desired: 17.0 valve: 0
+2015-06-05_13:13:38 FL_Heizung_S_Clima TempDiff: 6.1
+2015-06-05_13:13:38 FL_Heizung_S_Weather measured-temp: 23.1
+2015-06-05_13:13:38 FL_Heizung_S_Weather 23.1
+2015-06-05_13:18:53 FL_Heizung_S measured-temp: 23.2
+2015-06-05_13:18:53 FL_Heizung_S_Clima measured-temp: 23.2
+2015-06-05_13:18:53 FL_Heizung_S_Clima T: 23.2 desired: 17.0 valve: 0
+2015-06-05_13:18:53 FL_Heizung_S_Clima TempDiff: 6.2
+2015-06-05_13:18:53 FL_Heizung_S_Weather measured-temp: 23.2
+2015-06-05_13:18:53 FL_Heizung_S_Weather 23.2
+2015-06-05_13:28:37 FL_Heizung_S measured-temp: 23.3
+2015-06-05_13:28:37 FL_Heizung_S_Clima measured-temp: 23.3
+2015-06-05_13:28:37 FL_Heizung_S_Clima T: 23.3 desired: 17.0 valve: 0
+2015-06-05_13:28:37 FL_Heizung_S_Clima TempDiff: 6.3
+2015-06-05_13:28:37 FL_Heizung_S_Weather measured-temp: 23.3
+2015-06-05_13:28:37 FL_Heizung_S_Weather 23.3
+2015-06-05_13:36:37 FL_Heizung_S measured-temp: 23.4
+2015-06-05_13:36:37 FL_Heizung_S_Clima measured-temp: 23.4
+2015-06-05_13:36:37 FL_Heizung_S_Clima T: 23.4 desired: 17.0 valve: 0
+2015-06-05_13:36:37 FL_Heizung_S_Clima TempDiff: 6.4
+2015-06-05_13:36:37 FL_Heizung_S_Weather measured-temp: 23.4
+2015-06-05_13:36:37 FL_Heizung_S_Weather 23.4
+2015-06-05_13:46:51 FL_Heizung_S measured-temp: 23.5
+2015-06-05_13:46:51 FL_Heizung_S_Clima measured-temp: 23.5
+2015-06-05_13:46:51 FL_Heizung_S_Clima T: 23.5 desired: 17.0 valve: 0
+2015-06-05_13:46:51 FL_Heizung_S_Clima TempDiff: 6.5
+2015-06-05_13:46:51 FL_Heizung_S_Weather measured-temp: 23.5
+2015-06-05_13:46:51 FL_Heizung_S_Weather 23.5
+2015-06-05_13:59:35 FL_Heizung_S measured-temp: 23.6
+2015-06-05_13:59:35 FL_Heizung_S_Clima measured-temp: 23.6
+2015-06-05_13:59:35 FL_Heizung_S_Clima T: 23.6 desired: 17.0 valve: 0
+2015-06-05_13:59:35 FL_Heizung_S_Clima TempDiff: 6.6
+2015-06-05_13:59:35 FL_Heizung_S_Weather measured-temp: 23.6
+2015-06-05_13:59:35 FL_Heizung_S_Weather 23.6
+2015-06-05_14:20:15 FL_Heizung_S measured-temp: 23.5
+2015-06-05_14:20:15 FL_Heizung_S_Clima measured-temp: 23.5
+2015-06-05_14:20:15 FL_Heizung_S_Clima T: 23.5 desired: 17.0 valve: 0
+2015-06-05_14:20:15 FL_Heizung_S_Clima TempDiff: 6.5
+2015-06-05_14:20:15 FL_Heizung_S_Weather measured-temp: 23.5
+2015-06-05_14:20:15 FL_Heizung_S_Weather 23.5
+2015-06-05_14:30:08 FL_Heizung_S measured-temp: 23.4
+2015-06-05_14:30:08 FL_Heizung_S_Clima measured-temp: 23.4
+2015-06-05_14:30:08 FL_Heizung_S_Clima T: 23.4 desired: 17.0 valve: 0
+2015-06-05_14:30:08 FL_Heizung_S_Clima TempDiff: 6.4
+2015-06-05_14:30:08 FL_Heizung_S_Weather measured-temp: 23.4
+2015-06-05_14:30:08 FL_Heizung_S_Weather 23.4
+2015-06-05_14:32:17 FL_Heizung_S measured-temp: 23.5
+2015-06-05_14:32:17 FL_Heizung_S_Clima measured-temp: 23.5
+2015-06-05_14:32:17 FL_Heizung_S_Clima T: 23.5 desired: 17.0 valve: 0
+2015-06-05_14:32:17 FL_Heizung_S_Clima TempDiff: 6.5
+2015-06-05_14:32:17 FL_Heizung_S_Weather measured-temp: 23.5
+2015-06-05_14:32:17 FL_Heizung_S_Weather 23.5
+2015-06-05_14:35:15 FL_Heizung_S measured-temp: 23.4
+2015-06-05_14:35:15 FL_Heizung_S_Clima measured-temp: 23.4
+2015-06-05_14:35:15 FL_Heizung_S_Clima T: 23.4 desired: 17.0 valve: 0
+2015-06-05_14:35:15 FL_Heizung_S_Clima TempDiff: 6.4
+2015-06-05_14:35:15 FL_Heizung_S_Weather measured-temp: 23.4
+2015-06-05_14:35:15 FL_Heizung_S_Weather 23.4
+2015-06-05_14:52:29 FL_Heizung_S measured-temp: 23.3
+2015-06-05_14:52:29 FL_Heizung_S_Clima measured-temp: 23.3
+2015-06-05_14:52:29 FL_Heizung_S_Clima T: 23.3 desired: 17.0 valve: 0
+2015-06-05_14:52:29 FL_Heizung_S_Clima TempDiff: 6.3
+2015-06-05_14:52:29 FL_Heizung_S_Weather measured-temp: 23.3
+2015-06-05_14:52:29 FL_Heizung_S_Weather 23.3
+2015-06-05_14:54:35 FL_Heizung_S measured-temp: 23.4
+2015-06-05_14:54:35 FL_Heizung_S_Clima measured-temp: 23.4
+2015-06-05_14:54:35 FL_Heizung_S_Clima T: 23.4 desired: 17.0 valve: 0
+2015-06-05_14:54:35 FL_Heizung_S_Clima TempDiff: 6.4
+2015-06-05_14:54:35 FL_Heizung_S_Weather measured-temp: 23.4
+2015-06-05_14:54:35 FL_Heizung_S_Weather 23.4
+2015-06-05_15:10:43 FL_Heizung_S measured-temp: 23.5
+2015-06-05_15:10:43 FL_Heizung_S_Clima measured-temp: 23.5
+2015-06-05_15:10:43 FL_Heizung_S_Clima T: 23.5 desired: 17.0 valve: 0
+2015-06-05_15:10:43 FL_Heizung_S_Clima TempDiff: 6.5
+2015-06-05_15:10:43 FL_Heizung_S_Weather measured-temp: 23.5
+2015-06-05_15:10:43 FL_Heizung_S_Weather 23.5
+2015-06-05_15:23:15 FL_Heizung_S measured-temp: 23.6
+2015-06-05_15:23:15 FL_Heizung_S_Clima measured-temp: 23.6
+2015-06-05_15:23:15 FL_Heizung_S_Clima T: 23.6 desired: 17.0 valve: 0
+2015-06-05_15:23:15 FL_Heizung_S_Clima TempDiff: 6.6
+2015-06-05_15:23:15 FL_Heizung_S_Weather measured-temp: 23.6
+2015-06-05_15:23:15 FL_Heizung_S_Weather 23.6
+2015-06-05_15:33:39 FL_Heizung_S measured-temp: 23.7
+2015-06-05_15:33:39 FL_Heizung_S_Clima measured-temp: 23.7
+2015-06-05_15:33:39 FL_Heizung_S_Clima T: 23.7 desired: 17.0 valve: 0
+2015-06-05_15:33:39 FL_Heizung_S_Clima TempDiff: 6.7
+2015-06-05_15:33:39 FL_Heizung_S_Weather measured-temp: 23.7
+2015-06-05_15:33:39 FL_Heizung_S_Weather 23.7
+2015-06-05_15:56:17 FL_Heizung_S measured-temp: 23.6
+2015-06-05_15:56:17 FL_Heizung_S_Clima measured-temp: 23.6
+2015-06-05_15:56:17 FL_Heizung_S_Clima T: 23.6 desired: 17.0 valve: 0
+2015-06-05_15:56:17 FL_Heizung_S_Clima TempDiff: 6.6
+2015-06-05_15:56:17 FL_Heizung_S_Weather measured-temp: 23.6
+2015-06-05_15:56:17 FL_Heizung_S_Weather 23.6
+2015-06-05_15:58:47 FL_Heizung_S measured-temp: 23.7
+2015-06-05_15:58:47 FL_Heizung_S_Clima measured-temp: 23.7
+2015-06-05_15:58:47 FL_Heizung_S_Clima T: 23.7 desired: 17.0 valve: 0
+2015-06-05_15:58:47 FL_Heizung_S_Clima TempDiff: 6.7
+2015-06-05_15:58:47 FL_Heizung_S_Weather measured-temp: 23.7
+2015-06-05_15:58:47 FL_Heizung_S_Weather 23.7
+2015-06-05_16:01:03 FL_Heizung_S measured-temp: 23.6
+2015-06-05_16:01:03 FL_Heizung_S_Clima measured-temp: 23.6
+2015-06-05_16:01:03 FL_Heizung_S_Clima T: 23.6 desired: 17.0 valve: 0
+2015-06-05_16:01:03 FL_Heizung_S_Clima TempDiff: 6.6
+2015-06-05_16:01:03 FL_Heizung_S_Weather measured-temp: 23.6
+2015-06-05_16:01:03 FL_Heizung_S_Weather 23.6
+2015-06-05_16:18:40 FL_Heizung_S measured-temp: 23.7
+2015-06-05_16:18:40 FL_Heizung_S_Clima measured-temp: 23.7
+2015-06-05_16:18:40 FL_Heizung_S_Clima T: 23.7 desired: 17.0 valve: 0
+2015-06-05_16:18:40 FL_Heizung_S_Clima TempDiff: 6.7
+2015-06-05_16:18:40 FL_Heizung_S_Weather measured-temp: 23.7
+2015-06-05_16:18:40 FL_Heizung_S_Weather 23.7
+2015-06-05_16:41:50 FL_Heizung_S measured-temp: 23.9
+2015-06-05_16:41:50 FL_Heizung_S_Clima measured-temp: 23.9
+2015-06-05_16:41:50 FL_Heizung_S_Clima T: 23.9 desired: 17.0 valve: 0
+2015-06-05_16:41:50 FL_Heizung_S_Clima TempDiff: 6.9
+2015-06-05_16:41:51 FL_Heizung_S_Weather measured-temp: 23.9
+2015-06-05_16:41:51 FL_Heizung_S_Weather 23.9
+2015-06-05_17:02:05 FL_Heizung_S desired-temp: 21.0
+2015-06-05_17:02:05 FL_Heizung_S_Clima desired-temp: 21.0
+2015-06-05_17:02:05 FL_Heizung_S_Clima T: 23.9 desired: 21.0 valve: 0
+2015-06-05_17:02:05 FL_Heizung_S_Clima TempDiff: 2.9

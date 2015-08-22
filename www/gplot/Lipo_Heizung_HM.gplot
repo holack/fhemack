@@ -1,0 +1,75 @@
+## Anzeige Heizungsthermostat HM
+##
+## Logfile record example:
+## 2013-11-01_00:26:23 HZ_TReg_1 T: 16.2 H: 61
+## 2013-11-01_06:00:02 HZ_TReg_1 desired-temp: 22.0
+## 2013-11-01_00:29:31 HZ_TReg_1 actuator: 82 %
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics
+set y2tics
+set grid xtics y2tics
+
+set yrange  [00:100]
+
+set xlabel  " "
+set y2label "Temperature in C"
+set ylabel  "Actuator (%)"
+
+##get HM_Heizung_FLog ?
+##get HM_Heizung_FLog - - 2014-09-28 2014-09-30 4:HZ_TReg_1.T:				# gemessene Temperatur
+##get HM_Heizung_FLog - - 2014-11-17 2014-11-20 4:HZ_TReg_1.measured-temp:	# gemessene Temperatur
+##get HM_Heizung_FLog - - 2014-11-17 2014-11-20 4:HZ_TReg_1_Clime.measured-temp:	# gemessene Temperatur
+##get HM_Heizung_FLog - - 2014-09-28 2014-09-30 4:HZ_TReg_1.desired-temp:	# Ziel-Temperatur
+##get HM_Heizung_FLog - - 2014-09-28 2014-09-30 6:HZ_TReg_1.T:				# gemessene Luftfeuchtigkeit
+##get HM_Heizung_FLog - - 2014-09-28 2014-09-30 4:HZ_TReg_1.actuator:		# Ventilstellung
+##get HM_Heizung_FLog - - 2014-09-28 2014-09-30 4:HZ_TReg_1.Taupunkt:		# Taupunkt
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 4:<SPEC1>.measured-temp:
+#FileLog 4:<SPEC1>.desired-temp:
+#FileLog 4:<SPEC1>.actuator:
+#FileLog 6:<SPEC1>.T:
+#FileLog 4:<SPEC1>.Taupunkt:
+
+##	Plotten der Datenreihen
+plot \
+     title 'gemessene Temperatur' ls l0     lw 3 axes x1y2 with lines,\
+	 title 'Ziel-Temperatur'      ls l1     lw 3 axes x1y2 with steps,\
+	 title 'Ventilstellung %'     ls l6     lw 2 axes x1y1 with steps,\
+	 title 'Luftfeuchtigkeit'     ls l2fill lw 1 axes x1y1 with lines,\
+	 title 'Taupunkt'             ls l9     lw 2 axes x1y2 with lines,\
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> black		ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

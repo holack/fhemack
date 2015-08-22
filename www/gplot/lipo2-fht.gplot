@@ -1,0 +1,27 @@
+############################
+# Display the measured temp and the actuator.
+# Corresponding FileLog definition:
+# define <filelogname> FileLog /var/log/fhem/actuator_name-%Y.log <actuator_name>:(measured-temp|actuator).*
+
+set terminal png transparent size <SIZE> crop
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+set xlabel " "
+set ytics nomirror
+set y2tics
+#set ytics
+set title '<L1>'
+set grid xtics y2tics
+
+set y2label "Temperatur in C"
+set ylabel "Ventil (%)"
+
+#FileLog 4:measured:10:
+#FileLog 4:actuator:50:
+
+plot \
+  "< egrep 'temperature' <IN>"\
+         using 1:4 axes x1y2 title 'Temperaturm in C' with lines,\
+  "< egrep 'actuator' <IN>"\
+        using 1:4 axes x1y1 title 'Ventil (%)' with lines\

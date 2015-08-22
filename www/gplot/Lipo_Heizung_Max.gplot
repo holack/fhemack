@@ -1,0 +1,63 @@
+############################
+## Display the measured temp and the actuator.
+## Corresponding FileLog definition: 
+## define <filelogname> FileLog /var/log/fhem/HM_CC_TC-%Y.log <HM_CC_TC-name>
+
+set terminal png transparent size <SIZE> crop
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+set xlabel " "
+set ytics nomirror
+#set y2tics
+#set ytics
+set title '<TL>'
+set grid xtics y2tics
+
+set y2label "Temperatur in C"
+set ylabel  "Ventil (%)"
+
+#set y2range [15:24]
+set yrange [0:100]
+
+##get MAX_Heizung_FLog ?
+##get MAX_Heizung_FLog - - 2013-12-26 2013-12-27 4:GB_Heizkoerper.desiredTemperature:
+##get MAX_Heizung_FLog - - 2013-12-26 2013-12-27 4:temperature:
+##get MAX_Heizung_FLog - - 2013-12-26 2013-12-27 4:valveposition:
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 4:<SPEC1>.temperature:
+#FileLog 4:<SPEC1>.desiredTemperature:
+#FileLog 4:<SPEC1>.valveposition::int
+
+##	Plotten der Datenreihen
+plot \
+	 title 'gemessene Temperatur'  ls l0 lw 3 axes x1y2 with lines,\
+     title 'Ziel-Temperatur'       ls l1 lw 3 axes x1y2 with steps,\
+	 title 'Ventilstellung %'      ls l6 lw 2 axes x1y1 with steps,\
+
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3

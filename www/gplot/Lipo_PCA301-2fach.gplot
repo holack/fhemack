@@ -1,0 +1,61 @@
+## Anzeige Verbrauchswerte der PCA301 Steckdosen
+##
+## Logfile record example:
+## 2013-11-13_21:59:02 HZ_PCA301_2 power: 0.5
+## 2013-11-13_21:59:15 HZ_PCA301_1 power: 70.7
+
+set terminal png transparent truecolor rounded medium size <SIZE> enhanced
+
+set output '<OUT>.png'
+set xdata time
+set timefmt "%Y-%m-%d_%H:%M:%S"
+
+set title <TL>
+
+set ytics nomirror
+set ytics
+set y2tics
+set grid xtics y2tics
+
+set xlabel  " "
+set ylabel  "Verbrauch in W"
+set y2label "Verbrauch in W"
+
+##get HA_PCA301_FLog ?
+##get HA_PCA301_FLog - - 2013-11-28 2013-11-29 4:HZ_PCA301_1\x20power\x3a::
+##get HA_PCA301_FLog - - 2013-11-28 2013-11-29 4:HZ_PCA301_2\x20power\x3a::
+
+
+##	Auswahl Datenreihen zum Plotten
+#FileLog 4:<SPEC1>\x20power\x3a::
+#FileLog 4:<SPEC2>\x20power\x3a::
+
+##	Plotten der Datenreihen
+plot \
+     title '<L1>' ls l0 lw 2 axes x1y2 with lines,\
+	 title '<L2>' ls l2 lw 1 axes x1y2 with lines
+
+##	Farben
+## ls l0 -> red			ls l0fill
+## ls l1 -> green		ls l1fill
+## ls l2 -> blue		ls l2fill
+## ls l3 -> magenta		ls l3fill
+## ls l4 -> brown		ls l4fill
+## ls l5 -> black		ls l5fill
+## ls l6 -> olive		ls l6fill
+## ls l7 -> gray		ls l7fill
+## ls l8 -> yellow		ls l8fill
+## ls l9 -> ?			ls l9fill
+
+##	Darstellung Datenreihe
+## with lines
+## with points
+## with steps
+## with histeps
+## with impulses
+## with fsteps
+
+##	Linienstaerke
+## lw 1
+## lw 2
+## lw 3
