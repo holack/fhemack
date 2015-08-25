@@ -1,0 +1,186 @@
+# Wiki
+# http://www.fhemwiki.de/wiki/HomeMatic_Firmware_Update
+
+# neuer Firme-Ware von eQ3
+# http://www.eq-3.de/downloads.html
+# entpacken bis *.eq3 File
+
+#########################################################################
+#		Vorbereitung Firmware Update ueber Linux
+#########################################################################
+sudo apt-get install libusb-1.0-0-dev git build-essential
+cd /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware
+git clone git://git.zerfleddert.de/hmcfgusb
+cd /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb
+make
+
+
+#########################################################################
+#########################################################################
+#		Firmware Update ueber Linux
+#########################################################################
+#########################################################################
+
+#########################################################################
+#		Linux Firmware Update fuer Wand-Thermostat: HM-TC-IT-WM-W-EU
+#########################################################################
+# FHEM-MAX herunterfahren
+ha max stop
+# CULs abziehen und neu stecken
+
+# FW 1.2 Wand-Thermostat: SZ_WTemp_1	12_Schlafzimmer
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ1215896
+
+# FW 1.2 Wand-Thermostat: SB_WTemp_2	14_Spitzboden
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ0004619
+
+# FW 1.2 Wand-Thermostat: FZ_WTemp_3		# 13_Fine
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ0003200
+
+# FW 1.1 Wand-Thermostat: GB_WTemp_4	05_Gaeste_Bad-Bad
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_1_000_140314.eq3 -s LEQ0595283
+# FW 1.2 Wand-Thermostat: GB_WTemp_4	05_Gaeste_Bad-Bad
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ0595283
+
+# FW 1.2 Wand-Thermostat: WZ_WTemp_5	01_Wohnzimmer
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ0998646
+
+# FW 1.2 Wand-Thermostat: FL_WTemp_6	04_Flur
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ1283643
+
+# FW 1.2 Wand-Thermostat: KZ_WTemp_7	11_Katrin
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ1283043
+
+# FW 1.2 Wand-Thermostat: KE_WTemp_8	21_Keller
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_tc_it_wm_w_eu_update_V1_2_001_141020.eq3 -s LEQ1283850
+
+# Batterie raus
+# Tasten rechts+links druecken
+# Batterie rein
+
+# CULs abziehen und neu stecken
+# FHEM-MAX wieder starten
+ha max start
+
+# Knopf Mitte >3s drucken
+list SB_Temp_2 firmware
+
+
+#########################################################################
+#		Linux Firmware Update fuer Heizungs-Thermostat: HM-CC-RT-DN
+#########################################################################
+# FHEM-MAX herunterfahren
+ha max stop
+# CULs abziehen und neu stecken
+
+# FW 1.3 Heizung: Gaeste Bad
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_3_001_140314.eq3 -s LEQ0400108
+# FW 1.4 Heizung: Gaeste Bad
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_4_001_141020.eq3 -s LEQ0400108
+
+# FW 1.4 Heizung: Lesezimmer
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_4_001_141020.eq3 -s LEQ0401085
+
+# FW 1.4 Heizung: Fine
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_4_001_141020.eq3 -s LEQ0401064
+
+# FW 1.4 Heizung: Katrin
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_4_001_141020.eq3 -s LEQ0848651
+
+# FW 1.4 Heizung: Wohnzimmer Ost
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_4_001_141020.eq3 -s LEQ0847373
+
+# FW 1.4 Heizung: Wohnzimmer West
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_4_001_141020.eq3 -s MEQ0008241
+
+# Batterie raus
+# Tasten rechts+links druecken
+# Batterie rein
+
+# CULs abziehen und neu stecken
+# FHEM-MAX wieder starten
+ha max start
+
+# Knopf Mitte >3s drucken
+list GB_Heizung_W firmware
+
+
+#########################################################################
+#		Linux Firmware Update fuer Regensensor: HM-Sen-RD-O
+#########################################################################
+# FHEM-MAX herunterfahren
+ha max stop
+# CULs abziehen und neu stecken
+
+# Resegsensor: aussen
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hm_cc_rt_dn_update_V1_4_001_141020.eq3 -s KEQ0116994
+
+# Um den HomeMatic Regensensor in den Update-Mode zu versetzen, trennen sie das Gerät zunaechst von der Spannungsversorgung. 
+# Anschliessend ist die Spannungsversorgung bei gleichzeitigem Druecken des Anlerntasters wieder herzustellen.
+
+# CULs abziehen und neu stecken
+# FHEM-MAX wieder starten
+ha max start
+
+
+#########################################################################
+#		Linux Firmware Update fuer Steckdose mit Leistungsmessung: HM-ES-PMSw1-Pl 
+#########################################################################
+# FHEM-MAX herunterfahren
+ha max stop
+# CULs abziehen und neu stecken
+
+# Leistungsmesser: 1
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/HM-ES-PMSw1-Pl_update_V1_6_001_140417.eq3 -s KEQ0971034
+
+# Leistungsmesser: 2
+/mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/hmcfgusb/flash-ota -c /dev/ttyACM0 -f /mnt/sd-card/usr/lipo/fhem/lipo/HM/Firmware/HM-ES-PMSw1-Pl_update_V1_6_001_140417.eq3 -s KEQ0970859
+
+# 1. Gerät von Netzspannung trennen (aus der Steckdose nehmen),
+# 2. den Bedientaster des Gerätes drücken und festhalten,
+# 3. bei immer noch gedrückt gehaltener Taste den Aktor wieder mit Netzspannung versorgen.
+# 4. Sobald die LED schnell blinkt, kann die Taste losgelassen werden. Das Update wird jetzt durchgeführt.
+
+# CULs abziehen und neu stecken
+# FHEM-MAX wieder starten
+ha max start
+
+
+
+
+#########################################################################
+#########################################################################
+#		Firmware Update ueber FHEM
+#########################################################################
+#########################################################################
+
+#########################################################################
+#		FHEM Firmware Update fuer Wand-Thermostat: HM-TC-IT-WM-W-EU
+#########################################################################
+cd /usr/lipo/fhem/lipo
+/usr/lipo/fhem/fhem.pl /usr/lipo/fhem/lipo/Test/test_fhem.cfg
+
+
+#delete	FZ_Temp_3
+define	FZ_Temp_3 CUL_HM			26240C
+attr	FZ_Temp_3 IODev				CUL_0
+attr	FZ_Temp_3 subType			thermostat
+attr	FZ_Temp_3 model				HM-TC-IT-WM-W-EU
+attr	FZ_Temp_3 firmware			1.0
+attr	FZ_Temp_3 serialNr			LEQ0003200
+attr	FZ_Temp_3 group				06_Temperatur
+attr	FZ_Temp_3 room				13_Fine,4A_SonneWetter
+attr	FZ_Temp_3 alias				Wand Thermostat Fine
+attr	FZ_Temp_3 peerIDs		
+attr	FZ_Temp_3 webCmd			getConfig:clear msgEvents
+#list	FZ_Temp_3
+
+attr	global	verbose 5		# verbosity (min 1, max 5)
+inform		timer FZ_Temp_3.*|CUL_.*
+set FZ_Temp_3 fwUpdate ./HM/Firmware/hm_tc_it_wm_w_eu_update_V1_1_000_140314.eq3 60
+attr	global	verbose 3		# verbosity (min 1, max 5)
+
+#########################################################################
+#		Firmware Update fuer Heizungs-Thermostat: HM-CC-RT-DN
+#########################################################################
+set LZ_Heizung_S fwUpdate ./HM/Firmware/hm_cc_rt_dn_update_V1_3_001_140314.tgz 60
